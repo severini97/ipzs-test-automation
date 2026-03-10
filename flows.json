@@ -300,7 +300,8 @@
         "z": "beb74de4721fafb3",
         "name": "Assert PAR ",
         "style": {
-            "label": true
+            "label": true,
+            "fill": "#ffff7f"
         },
         "nodes": [
             "86a5d1c8dce8d4cb",
@@ -333,8 +334,8 @@
             "9591d25c4429beaf",
             "a56a1e4681c518fc"
         ],
-        "x": 364,
-        "y": 59,
+        "x": 104,
+        "y": 79,
         "w": 1382,
         "h": 1062
     },
@@ -622,7 +623,7 @@
             "assert_ci_070",
             "0acc5acdbf296bab"
         ],
-        "x": 4664,
+        "x": 2984,
         "y": 99,
         "w": 1382,
         "h": 262
@@ -808,8 +809,8 @@
             "6cbb3fb98f08910d",
             "3f4222c19ac5bd51"
         ],
-        "x": 1904,
-        "y": 79,
+        "x": 1644,
+        "y": 99,
         "w": 1142,
         "h": 382
     },
@@ -863,8 +864,8 @@
             "68882cfa1eb2cc24",
             "226b4b687c66bab5"
         ],
-        "x": 3174,
-        "y": 79,
+        "x": 1634,
+        "y": 639,
         "w": 1372,
         "h": 382
     },
@@ -1091,8 +1092,8 @@
             "assert_notif_debug_001",
             "assert_notif_link_out_001"
         ],
-        "x": 6124,
-        "y": 99,
+        "x": 1624,
+        "y": 1179,
         "w": 1422,
         "h": 262
     },
@@ -1112,8 +1113,8 @@
             "gen_pre_notif_junc2_001",
             "gen_pre_notif_link_out_001"
         ],
-        "x": 144,
-        "y": 1719,
+        "x": 114,
+        "y": 2079,
         "w": 802,
         "h": 227
     },
@@ -1134,9 +1135,9 @@
             "gen_post_notif_junc2_001",
             "gen_post_notif_link_out_001"
         ],
-        "x": 1034,
-        "y": 1719,
-        "w": 832,
+        "x": 1014,
+        "y": 2079,
+        "w": 822,
         "h": 227
     },
     {
@@ -1160,27 +1161,6 @@
         "h": 142
     },
     {
-        "id": "7e1d8361bf33a27c",
-        "type": "group",
-        "z": "beb74de4721fafb3",
-        "name": "Assert Credential ",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "423df8e740960843",
-            "c5b84c3dc61e16e4",
-            "95bd11842d39f1a6",
-            "24b9fcbdd6fc7dd0",
-            "76e98a993ffce478",
-            "52bbc87cc108024a"
-        ],
-        "x": 364,
-        "y": 1239,
-        "w": 912,
-        "h": 362
-    },
-    {
         "id": "b89e8c1fe0477a20",
         "type": "group",
         "z": "1111a98978c668d9",
@@ -1196,26 +1176,6 @@
         "x": 144,
         "y": 1499,
         "w": 732,
-        "h": 82
-    },
-    {
-        "id": "5cf99e9328eb55e5",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "name": "Post Credential Request Generation",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fd669d8614d0c9eb",
-            "53e256fe88b70bba",
-            "2f0f133fb016e61a",
-            "b73d6c5292d8a01f",
-            "40edf8523922fe53"
-        ],
-        "x": 1074,
-        "y": 1499,
-        "w": 502,
         "h": 82
     },
     {
@@ -1275,12 +1235,74 @@
         "h": 142
     },
     {
+        "id": "5cf99e9328eb55e5",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "name": "Post Credential Request Generation",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fd669d8614d0c9eb",
+            "53e256fe88b70bba",
+            "2f0f133fb016e61a",
+            "b73d6c5292d8a01f",
+            "40edf8523922fe53",
+            "gen_sdjwt_set_ci120_001",
+            "gen_sdjwt_set_ci121_001",
+            "gen_sdjwt_set_ci122_001",
+            "gen_sdjwt_set_ci123_001",
+            "gen_sdjwt_set_ci124_001",
+            "gen_sdjwt_set_ci125_001",
+            "gen_sdjwt_set_ci126_001",
+            "gen_sdjwt_set_ci127_001",
+            "gen_sdjwt_set_ci128_001",
+            "gen_sdjwt_set_ci129_001"
+        ],
+        "x": 1004,
+        "y": 1499,
+        "w": 952,
+        "h": 527
+    },
+    {
+        "id": "assert_sdjwt_group_001",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "name": "Assert Credential SD-JWT",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "assert_sdjwt_switch_001",
+            "assert_sdjwt_ci120_001",
+            "assert_sdjwt_ci121_001",
+            "assert_sdjwt_ci122_001",
+            "assert_sdjwt_ci123_001",
+            "assert_sdjwt_ci124_001",
+            "assert_sdjwt_ci125_001",
+            "assert_sdjwt_ci126_001",
+            "assert_sdjwt_ci127_001",
+            "assert_sdjwt_ci128_001",
+            "assert_sdjwt_ci129_001",
+            "assert_sdjwt_ci130_001",
+            "assert_sdjwt_change_001",
+            "assert_sdjwt_httpresp_001",
+            "assert_sdjwt_debug_001",
+            "95bd11842d39f1a6",
+            "c5b84c3dc61e16e4"
+        ],
+        "x": 3294,
+        "y": 619,
+        "w": 1552,
+        "h": 542
+    },
+    {
         "id": "d4d34ff748522565",
         "type": "junction",
         "z": "beb74de4721fafb3",
         "g": "2d1f60d9ca331fbc",
-        "x": 1140,
-        "y": 520,
+        "x": 880,
+        "y": 540,
         "wires": [
             [
                 "b0c424fdc51089b0"
@@ -1292,8 +1314,8 @@
         "type": "junction",
         "z": "beb74de4721fafb3",
         "g": "aba8e6c5f45fc788",
-        "x": 3920,
-        "y": 240,
+        "x": 2380,
+        "y": 800,
         "wires": [
             [
                 "e6409cbbdc5fcadc"
@@ -1461,7 +1483,7 @@
         "type": "junction",
         "z": "beb74de4721fafb3",
         "g": "3a0f69ca72c832a2",
-        "x": 5450,
+        "x": 3770,
         "y": 200,
         "wires": [
             [
@@ -1474,8 +1496,8 @@
         "type": "junction",
         "z": "beb74de4721fafb3",
         "g": "b99896375c7df15c",
-        "x": 2520,
-        "y": 220,
+        "x": 2260,
+        "y": 240,
         "wires": [
             [
                 "dad8a7fb54d7a4e0"
@@ -1513,8 +1535,8 @@
         "type": "junction",
         "z": "beb74de4721fafb3",
         "g": "assert_notif_group_001",
-        "x": 6910,
-        "y": 200,
+        "x": 2410,
+        "y": 1280,
         "wires": [
             [
                 "assert_notif_change_001"
@@ -1526,8 +1548,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_pre_notif_group_001",
-        "x": 520,
-        "y": 1920,
+        "x": 490,
+        "y": 2280,
         "wires": [
             [
                 "gen_pre_notif_junc2_001"
@@ -1539,8 +1561,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_pre_notif_group_001",
-        "x": 660,
-        "y": 1920,
+        "x": 630,
+        "y": 2280,
         "wires": [
             [
                 "gen_pre_notif_link_out_001"
@@ -1552,8 +1574,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_post_notif_group_001",
-        "x": 1440,
-        "y": 1920,
+        "x": 1410,
+        "y": 2280,
         "wires": [
             [
                 "gen_post_notif_junc2_001"
@@ -1565,8 +1587,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_post_notif_group_001",
-        "x": 1600,
-        "y": 1920,
+        "x": 1570,
+        "y": 2280,
         "wires": [
             [
                 "gen_post_notif_link_out_001"
@@ -1578,8 +1600,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1320,
-        "y": 1540,
+        "x": 1380,
+        "y": 2000,
         "wires": [
             [
                 "40edf8523922fe53"
@@ -1591,8 +1613,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1400,
-        "y": 1540,
+        "x": 1660,
+        "y": 2000,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -2269,7 +2291,6 @@
             "e3cda74bda7b83fe",
             "802bc36b04d8dc78",
             "ebbb4c92538893c1",
-            "n06a2b3c4d5e6f7a8",
             "n06a7b9c6c0a20600",
             "05516c20a0290d7a"
         ],
@@ -4726,8 +4747,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 100,
+        "x": 720,
+        "y": 120,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -4744,8 +4765,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 1580,
-        "y": 500,
+        "x": 1320,
+        "y": 520,
         "wires": []
     },
     {
@@ -4762,8 +4783,8 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 1600,
-        "y": 540,
+        "x": 1340,
+        "y": 560,
         "wires": []
     },
     {
@@ -4887,8 +4908,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 22,
-        "x": 730,
-        "y": 480,
+        "x": 470,
+        "y": 500,
         "wires": [
             [
                 "86a5d1c8dce8d4cb"
@@ -4971,8 +4992,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 220,
+        "x": 720,
+        "y": 240,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -4999,8 +5020,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1320,
-        "y": 520,
+        "x": 1060,
+        "y": 540,
         "wires": [
             [
                 "2b6af54b9c9d7b23",
@@ -5015,8 +5036,8 @@
         "g": "2d1f60d9ca331fbc",
         "name": "test_c015-cI044",
         "links": [],
-        "x": 405,
-        "y": 480,
+        "x": 145,
+        "y": 500,
         "wires": [
             [
                 "a3c36f307861cdd6",
@@ -5032,11 +5053,10 @@
         "name": "link out 24",
         "mode": "link",
         "links": [
-            "471432fd2a417f07",
             "87b917347d90024f"
         ],
-        "x": 915,
-        "y": 1080,
+        "x": 655,
+        "y": 1100,
         "wires": []
     },
     {
@@ -5052,8 +5072,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 380,
+        "x": 720,
+        "y": 400,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5073,8 +5093,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 420,
+        "x": 720,
+        "y": 440,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5094,8 +5114,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 300,
+        "x": 720,
+        "y": 320,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5116,8 +5136,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 580,
-        "y": 420,
+        "x": 320,
+        "y": 440,
         "wires": []
     },
     {
@@ -5133,8 +5153,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 500,
+        "x": 720,
+        "y": 520,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5154,8 +5174,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 580,
+        "x": 720,
+        "y": 600,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5176,8 +5196,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 540,
+        "x": 720,
+        "y": 560,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5197,8 +5217,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 340,
+        "x": 720,
+        "y": 360,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5218,8 +5238,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 140,
+        "x": 720,
+        "y": 160,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5239,8 +5259,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 180,
+        "x": 720,
+        "y": 200,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5261,8 +5281,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 260,
+        "x": 720,
+        "y": 280,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5283,8 +5303,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 460,
+        "x": 720,
+        "y": 480,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5305,8 +5325,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 900,
+        "x": 720,
+        "y": 920,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5326,8 +5346,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 860,
+        "x": 720,
+        "y": 880,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5348,8 +5368,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 820,
+        "x": 720,
+        "y": 840,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5370,8 +5390,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 780,
+        "x": 720,
+        "y": 800,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5392,8 +5412,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 740,
+        "x": 720,
+        "y": 760,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5414,8 +5434,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 700,
+        "x": 720,
+        "y": 720,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5436,8 +5456,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 660,
+        "x": 720,
+        "y": 680,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5458,8 +5478,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 620,
+        "x": 720,
+        "y": 640,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5476,7 +5496,7 @@
         "links": [
             "a45767d1b5f66cce"
         ],
-        "x": 4705,
+        "x": 3025,
         "y": 200,
         "wires": [
             [
@@ -5515,7 +5535,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 5030,
+        "x": 3350,
         "y": 200,
         "wires": [
             [
@@ -5552,7 +5572,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 5620,
+        "x": 3940,
         "y": 200,
         "wires": [
             [
@@ -5571,7 +5591,7 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 5880,
+        "x": 4200,
         "y": 180,
         "wires": []
     },
@@ -5589,7 +5609,7 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 5900,
+        "x": 4220,
         "y": 220,
         "wires": []
     },
@@ -5603,7 +5623,7 @@
         "links": [
             "0d61756d38d37032"
         ],
-        "x": 5225,
+        "x": 3545,
         "y": 320,
         "wires": []
     },
@@ -5620,7 +5640,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 5300,
+        "x": 3620,
         "y": 140,
         "wires": [
             [
@@ -5642,7 +5662,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 5300,
+        "x": 3620,
         "y": 200,
         "wires": [
             [
@@ -5664,7 +5684,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 5300,
+        "x": 3620,
         "y": 260,
         "wires": [
             [
@@ -5685,8 +5705,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3700,
-        "y": 240,
+        "x": 2160,
+        "y": 800,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -5707,8 +5727,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2360,
-        "y": 320,
+        "x": 2100,
+        "y": 340,
         "wires": [
             [
                 "3f4222c19ac5bd51"
@@ -5729,8 +5749,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2360,
-        "y": 360,
+        "x": 2100,
+        "y": 380,
         "wires": [
             [
                 "3f4222c19ac5bd51"
@@ -5789,8 +5809,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 8,
-        "x": 2080,
-        "y": 220,
+        "x": 1820,
+        "y": 240,
         "wires": [
             [
                 "7fd9a6ef8eab4eba"
@@ -5828,8 +5848,8 @@
         "links": [
             "2dea9e565c2c5de6"
         ],
-        "x": 2295,
-        "y": 420,
+        "x": 2035,
+        "y": 440,
         "wires": []
     },
     {
@@ -5841,8 +5861,8 @@
         "links": [
             "2ff06975a55cc4a2"
         ],
-        "x": 1945,
-        "y": 220,
+        "x": 1685,
+        "y": 240,
         "wires": [
             [
                 "75707295f22bcac4"
@@ -5869,8 +5889,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2660,
-        "y": 220,
+        "x": 2400,
+        "y": 240,
         "wires": [
             [
                 "af321a9ffd825f00",
@@ -5892,8 +5912,8 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 2900,
-        "y": 180,
+        "x": 2640,
+        "y": 200,
         "wires": []
     },
     {
@@ -5906,8 +5926,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 2880,
-        "y": 260,
+        "x": 2620,
+        "y": 280,
         "wires": []
     },
     {
@@ -5923,8 +5943,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2360,
-        "y": 160,
+        "x": 2100,
+        "y": 180,
         "wires": [
             [
                 "3f4222c19ac5bd51"
@@ -5945,8 +5965,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2360,
-        "y": 120,
+        "x": 2100,
+        "y": 140,
         "wires": [
             [
                 "3f4222c19ac5bd51"
@@ -5967,8 +5987,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2360,
-        "y": 200,
+        "x": 2100,
+        "y": 220,
         "wires": [
             [
                 "3f4222c19ac5bd51"
@@ -5989,8 +6009,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2360,
-        "y": 240,
+        "x": 2100,
+        "y": 260,
         "wires": [
             [
                 "3f4222c19ac5bd51"
@@ -6011,8 +6031,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2360,
-        "y": 280,
+        "x": 2100,
+        "y": 300,
         "wires": [
             [
                 "3f4222c19ac5bd51"
@@ -6033,8 +6053,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3700,
-        "y": 160,
+        "x": 2160,
+        "y": 720,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6055,8 +6075,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3700,
-        "y": 280,
+        "x": 2160,
+        "y": 840,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6077,8 +6097,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3700,
-        "y": 360,
+        "x": 2160,
+        "y": 920,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6096,8 +6116,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 4340,
-        "y": 240,
+        "x": 2800,
+        "y": 800,
         "wires": []
     },
     {
@@ -6114,8 +6134,8 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 4380,
-        "y": 180,
+        "x": 2840,
+        "y": 740,
         "wires": []
     },
     {
@@ -6138,8 +6158,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 4080,
-        "y": 240,
+        "x": 2540,
+        "y": 800,
         "wires": [
             [
                 "966f7af055a56a94",
@@ -6156,8 +6176,8 @@
         "links": [
             "5873f83f6f76d491"
         ],
-        "x": 3215,
-        "y": 220,
+        "x": 1675,
+        "y": 780,
         "wires": [
             [
                 "8e81c51c5af59447"
@@ -6215,8 +6235,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 8,
-        "x": 3380,
-        "y": 220,
+        "x": 1840,
+        "y": 780,
         "wires": [
             [
                 "226b4b687c66bab5"
@@ -6252,11 +6272,10 @@
         "name": "link out 9",
         "mode": "link",
         "links": [
-            "e847bba3fb770ea9",
-            "6a8320524063083e"
+            "e847bba3fb770ea9"
         ],
-        "x": 3635,
-        "y": 420,
+        "x": 2095,
+        "y": 980,
         "wires": []
     },
     {
@@ -6272,8 +6291,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3700,
-        "y": 200,
+        "x": 2160,
+        "y": 760,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6299,8 +6318,8 @@
                 "module": "jose"
             }
         ],
-        "x": 3700,
-        "y": 320,
+        "x": 2160,
+        "y": 880,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6321,8 +6340,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3700,
-        "y": 120,
+        "x": 2160,
+        "y": 680,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6339,8 +6358,8 @@
         "links": [
             "f3a1b2c3d4e5f60d"
         ],
-        "x": 6165,
-        "y": 200,
+        "x": 1665,
+        "y": 1280,
         "wires": [
             [
                 "assert_notif_switch_001"
@@ -6368,8 +6387,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 6490,
-        "y": 200,
+        "x": 1990,
+        "y": 1280,
         "wires": [
             [
                 "assert_ci_087_001"
@@ -6392,8 +6411,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 6760,
-        "y": 140,
+        "x": 2260,
+        "y": 1220,
         "wires": [
             [
                 "assert_notif_junction_001"
@@ -6421,8 +6440,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 7080,
-        "y": 200,
+        "x": 2580,
+        "y": 1280,
         "wires": [
             [
                 "assert_notif_http_resp_001",
@@ -6440,8 +6459,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 7340,
-        "y": 180,
+        "x": 2840,
+        "y": 1260,
         "wires": []
     },
     {
@@ -6458,8 +6477,8 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 7370,
-        "y": 220,
+        "x": 2870,
+        "y": 1300,
         "wires": []
     },
     {
@@ -6472,102 +6491,369 @@
         "links": [
             "ec88064589be8b91"
         ],
-        "x": 6685,
-        "y": 320,
+        "x": 2185,
+        "y": 1400,
         "wires": []
     },
     {
-        "id": "423df8e740960843",
+        "id": "assert_sdjwt_switch_001",
         "type": "switch",
         "z": "beb74de4721fafb3",
-        "g": "7e1d8361bf33a27c",
-        "name": "",
+        "g": "assert_sdjwt_group_001",
+        "name": "Switch Assert SD-JWT CI_120-CI_130",
         "property": "testId",
         "propertyType": "msg",
         "rules": [
+            {
+                "t": "eq",
+                "v": "CI_120",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_121",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_122",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_123",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_124",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_125",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_126",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_127",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_128",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_129",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_130",
+                "vt": "str"
+            },
             {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
-        "x": 530,
-        "y": 1360,
+        "outputs": 12,
+        "x": 3570,
+        "y": 880,
         "wires": [
+            [
+                "assert_sdjwt_ci120_001"
+            ],
+            [
+                "assert_sdjwt_ci121_001"
+            ],
+            [
+                "assert_sdjwt_ci122_001"
+            ],
+            [
+                "assert_sdjwt_ci123_001"
+            ],
+            [
+                "assert_sdjwt_ci124_001"
+            ],
+            [
+                "assert_sdjwt_ci125_001"
+            ],
+            [
+                "assert_sdjwt_ci126_001"
+            ],
+            [
+                "assert_sdjwt_ci127_001"
+            ],
+            [
+                "assert_sdjwt_ci128_001"
+            ],
+            [
+                "assert_sdjwt_ci129_001"
+            ],
+            [
+                "assert_sdjwt_ci130_001"
+            ],
             [
                 "c5b84c3dc61e16e4"
             ]
         ]
     },
     {
-        "id": "c5b84c3dc61e16e4",
-        "type": "link out",
+        "id": "assert_sdjwt_ci120_001",
+        "type": "function",
         "z": "beb74de4721fafb3",
-        "g": "7e1d8361bf33a27c",
-        "name": "link out Assert Credential resp",
-        "mode": "link",
-        "links": [
-            "gen_pre_notif_link_in_001"
-        ],
-        "x": 685,
-        "y": 1560,
-        "wires": []
-    },
-    {
-        "id": "95bd11842d39f1a6",
-        "type": "link in",
-        "z": "beb74de4721fafb3",
-        "g": "7e1d8361bf33a27c",
-        "name": "link in Assert Credential resp",
-        "links": [
-            "027db99a7e30acfe"
-        ],
-        "x": 405,
-        "y": 1360,
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_120",
+        "func": "/**\n * CI_120 – Signature of SD-JWT credential\n *\n * Verifies that the credential in SD-JWT format is signed with the Issuer's private key.\n * Checks: alg header present, signature component non-empty, typ header identifies credential type.\n * If the Issuer JWKS is available on msg.ci_metadata.jwks, full cryptographic verification is attempted.\n */\nconst ci = global.get('ciCommon');\nconst jose = global.get('jose');\n\n// Helper: parse SD-JWT Combined Format into { jwt, header, payload, disclosures }\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jwt = parts[0];\n    const jp = jwt.split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure: expected 3 dot-separated parts');\n    return {\n        jwt: jwt,\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\n// Session management: collect all split messages before evaluating\nconst contextKey = 'sessionsCi_120';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) {\n    delete msg.subTestCase;\n    return msg;\n}\n\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\n// Evaluate all buffered entries\nfor (const entry of sessions[id].buffer) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n\n    if (!credential) {\n        ci.addAssert(msg.test, 'SD-JWT credential present in response', false,\n            'No \"credential\" field found in Credential Endpoint response (statusCode=' + entry.statusCode + ')');\n        continue;\n    }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, 'Parse error: ' + e.message); continue; }\n\n    // Check the alg header declares a signing algorithm\n    ci.addAssert(msg.test, 'SD-JWT alg header declares signing algorithm', !!parsed.header.alg,\n        parsed.header.alg ? 'alg=' + parsed.header.alg : 'alg header MISSING');\n\n    // Check the signature component (3rd JWT part) is present and non-empty\n    const sigPart = parsed.jwt.split('.')[2];\n    ci.addAssert(msg.test, 'SD-JWT signature component present and non-empty',\n        !!(sigPart && sigPart.length > 10),\n        sigPart ? 'Signature: ' + sigPart.substring(0, 20) + '... (' + sigPart.length + ' chars)' : 'Signature EMPTY or missing');\n\n    // Check typ header identifies the credential type\n    ci.addAssert(msg.test, 'SD-JWT typ header present', !!parsed.header.typ,\n        parsed.header.typ ? 'typ=' + parsed.header.typ : 'typ header MISSING');\n\n    // Attempt full cryptographic verification using Issuer JWKS if available\n    const issuerJwks = (msg.ci_metadata && msg.ci_metadata.jwks) || (msg.oauth_as_metadata && msg.oauth_as_metadata.jwks);\n    if (issuerJwks && issuerJwks.keys && issuerJwks.keys.length > 0) {\n        try {\n            const JWKS = jose.createLocalJWKSet(issuerJwks);\n            await jose.jwtVerify(parsed.jwt, JWKS);\n            ci.addAssert(msg.test, 'SD-JWT signature cryptographically valid against Issuer JWKS', true,\n                'Signature verified successfully using Issuer JWKS; alg=' + parsed.header.alg);\n        } catch(e) {\n            ci.addAssert(msg.test, 'SD-JWT signature cryptographically valid against Issuer JWKS', false,\n                'Verification failed: ' + e.message);\n        }\n    }\n}\n\nmsg.test.suite = 'CI_120_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Security – Signature of the SD-JWT credential';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 660,
         "wires": [
             [
-                "423df8e740960843"
+                "assert_sdjwt_change_001"
             ]
-        ]
+        ],
+        "info": "**CI_120 – Signature of SD-JWT credential**\r\n\r\nObjective\r\n\r\nTo verify that the SD-JWT credential is signed using the Issuer's private key, ensuring the authenticity and integrity of the issued credential.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Selective Disclosure for JWTs (Section 5)\r\n   •\tSD-JWT-VC – SD-JWT Verifiable Credentials\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tIssue credentials as SD-JWTs signed with the Issuer's private key\r\n   •\tInclude the alg header identifying the signing algorithm\r\n   •\tInclude a non-empty signature component in the JWT structure\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_120_OK\r\n\r\n   •\tThe full issuance flow is executed (PAR → Auth → Nonce → Token → Credential)\r\n   •\tThe credential response from the Credential Endpoint is received\r\n   •\tThe SD-JWT structure is inspected: alg header, signature component, typ header\r\n   •\tIf Issuer JWKS is available, full cryptographic signature verification is performed\r\n\r\n   Expected Result:\r\n   •\tAlg header present and identifies a signing algorithm\r\n   •\tSignature component is present and non-empty\r\n   •\tSignature validates against the Issuer public key (if JWKS available)\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if the SD-JWT credential contains a valid, non-empty signature created with a declared signing algorithm."
     },
     {
-        "id": "24b9fcbdd6fc7dd0",
-        "type": "http response",
+        "id": "assert_sdjwt_ci121_001",
+        "type": "function",
         "z": "beb74de4721fafb3",
-        "g": "7e1d8361bf33a27c",
-        "name": "HTTP Response",
-        "statusCode": "",
-        "headers": {
-            "content-type": "application/json"
-        },
-        "x": 1130,
-        "y": 1280,
-        "wires": []
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_121",
+        "func": "/**\n * CI_121 – SD-JWT Type Metadata Provision\n *\n * Verifies that the SD-JWT credential includes complete Type Metadata via the vct claim,\n * conforming to Sections 6 and 6.3 of the SD-JWT-VC specification.\n * Checks: vct claim present, vct is a valid URI.\n */\nconst ci = global.get('ciCommon');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\nconst contextKey = 'sessionsCi_121';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    // Verify the vct claim is present (mandatory SD-JWT VC type identifier per SD-JWT-VC Section 6)\n    const vct = parsed.payload.vct;\n    ci.addAssert(msg.test, 'SD-JWT vct claim present (type metadata identifier per SD-JWT-VC Sec.6)',\n        !!(vct && typeof vct === 'string' && vct.length > 0),\n        vct ? 'vct=' + vct : 'vct claim MISSING from SD-JWT payload');\n\n    // Verify vct is a URI (URL or URN) as required by SD-JWT-VC Section 6.3\n    if (vct) {\n        const isUri = vct.startsWith('http://') || vct.startsWith('https://') || vct.startsWith('urn:');\n        ci.addAssert(msg.test, 'vct is a valid URI (URL or URN, per SD-JWT-VC Section 6.3)', isUri,\n            isUri ? 'vct is a valid URI: ' + vct : 'vct value is not a URI: ' + vct);\n    }\n});\n\nmsg.test.suite = 'CI_121_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – SD-JWT Type Metadata Provision';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 700,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_121 – SD-JWT Type Metadata Provision**\r\n\r\nObjective\r\n\r\nTo verify that the SD-JWT is successfully provided with complete Type Metadata for the issued Digital Credential, conforming to Sections 6 and 6.3 of the SD-JWT-VC specification.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT-VC – Sections 6 and 6.3 (Type Metadata)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tInclude the vct claim in the SD-JWT payload identifying the credential type\r\n   •\tSet vct to a URI (URL or URN) as required by SD-JWT-VC Section 6.3\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_121_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT payload is inspected for the vct claim\r\n   •\tThe vct value is validated as a URI\r\n\r\n   Expected Result:\r\n   •\tThe vct claim is present in the SD-JWT payload\r\n   •\tThe vct value is a valid URI (URL or URN)\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if the vct claim is present and contains a valid URI identifying the credential type."
     },
     {
-        "id": "76e98a993ffce478",
-        "type": "debug",
+        "id": "assert_sdjwt_ci122_001",
+        "type": "function",
         "z": "beb74de4721fafb3",
-        "g": "7e1d8361bf33a27c",
-        "name": "CI_0*  output (debug)",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": true,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "payload.ok",
-        "statusType": "msg",
-        "x": 1130,
-        "y": 1340,
-        "wires": []
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_122",
+        "func": "/**\n * CI_122 – SD-JWT Payload Structure Validation\n *\n * Verifies the SD-JWT payload contains the required _sd_alg claim and all other mandatory\n * claims as specified, with proper formatting and structure.\n * Mandatory claims checked: _sd_alg, iss, iat, vct.\n */\nconst ci = global.get('ciCommon');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\nconst contextKey = 'sessionsCi_122';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    const p = parsed.payload;\n\n    // Verify _sd_alg claim – required for any SD-JWT that uses selective disclosure\n    ci.addAssert(msg.test, 'SD-JWT payload: _sd_alg claim present', !!p._sd_alg,\n        p._sd_alg ? '_sd_alg=' + p._sd_alg : '_sd_alg MISSING from SD-JWT payload');\n\n    // Verify iss claim – mandatory JWT issuer claim\n    ci.addAssert(msg.test, 'SD-JWT payload: iss claim present', !!p.iss,\n        p.iss ? 'iss=' + p.iss : 'iss MISSING');\n\n    // Verify iat claim – mandatory issued-at timestamp\n    ci.addAssert(msg.test, 'SD-JWT payload: iat claim present', (p.iat !== undefined && p.iat !== null),\n        (p.iat !== undefined) ? 'iat=' + p.iat : 'iat MISSING');\n\n    // Verify vct claim – mandatory SD-JWT VC type identifier\n    ci.addAssert(msg.test, 'SD-JWT payload: vct claim present', !!p.vct,\n        p.vct ? 'vct=' + p.vct : 'vct MISSING');\n});\n\nmsg.test.suite = 'CI_122_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Security – SD-JWT Payload Structure Validation';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 740,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_122 – SD-JWT Payload Structure Validation**\r\n\r\nObjective\r\n\r\nTo verify that the SD-JWT payload contains the required _sd_alg claim and all other mandatory claims as specified, with proper formatting and structure.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Selective Disclosure for JWTs (Section 4)\r\n   •\tSD-JWT-VC – SD-JWT Verifiable Credentials (Mandatory Claims)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tInclude _sd_alg in the SD-JWT payload\r\n   •\tInclude mandatory JWT claims: iss, iat\r\n   •\tInclude the vct claim identifying the credential type\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_122_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT payload is parsed and inspected for mandatory claims\r\n\r\n   Expected Result:\r\n   •\t_sd_alg claim present\r\n   •\tiss, iat, vct claims all present\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if all mandatory payload claims are present with proper values."
     },
     {
-        "id": "52bbc87cc108024a",
+        "id": "assert_sdjwt_ci123_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_123",
+        "func": "/**\n * CI_123 – SD-JWT Hash Algorithm Declaration\n *\n * Verifies the _sd_alg claim is present and set to a supported algorithm as defined in\n * the Cryptographic Algorithms section, indicating the hash algorithm used by the Issuer\n * to generate digests (SD-JWT Section 4.1.1).\n * Supported algorithms: sha-256, sha-384, sha-512.\n */\nconst ci = global.get('ciCommon');\n\n// Supported hash algorithms as defined in SD-JWT Cryptographic Algorithms section\nconst SUPPORTED_HASH_ALGS = ['sha-256', 'sha-384', 'sha-512'];\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\nconst contextKey = 'sessionsCi_123';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    const sdAlg = parsed.payload._sd_alg;\n\n    // Verify _sd_alg claim is present (required whenever selective disclosure is used)\n    ci.addAssert(msg.test, '_sd_alg claim present in SD-JWT payload', !!sdAlg,\n        sdAlg ? '_sd_alg=' + sdAlg : '_sd_alg claim MISSING from payload');\n\n    // Verify _sd_alg value is a supported hash algorithm\n    if (sdAlg) {\n        const isSupported = SUPPORTED_HASH_ALGS.indexOf(sdAlg) !== -1;\n        ci.addAssert(msg.test, '_sd_alg is a supported hash algorithm (sha-256 / sha-384 / sha-512)', isSupported,\n            isSupported\n                ? 'Declared algorithm is supported: ' + sdAlg\n                : 'Unsupported algorithm \"' + sdAlg + '\". Supported values: ' + SUPPORTED_HASH_ALGS.join(', '));\n    }\n});\n\nmsg.test.suite = 'CI_123_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Security – SD-JWT Hash Algorithm Declaration';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 780,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_123 – SD-JWT Hash Algorithm Declaration**\r\n\r\nObjective\r\n\r\nTo verify that the _sd_alg claim is present in the SD-JWT payload and set to a supported algorithm as defined in the Cryptographic Algorithms section, indicating the hash algorithm used by the Issuer to generate digests (SD-JWT Section 4.1.1).\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 4.1.1 (Hash Function Claim)\r\n   •\tSD-JWT – Cryptographic Algorithms section\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tInclude the _sd_alg claim in the SD-JWT payload\r\n   •\tSet _sd_alg to a supported hash algorithm (sha-256, sha-384, or sha-512)\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_123_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT payload is inspected for the _sd_alg claim and its value\r\n\r\n   Expected Result:\r\n   •\t_sd_alg claim is present\r\n   •\t_sd_alg value is one of: sha-256, sha-384, sha-512\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if _sd_alg is present and set to a supported hash algorithm."
+    },
+    {
+        "id": "assert_sdjwt_ci124_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_124",
+        "func": "/**\n * CI_124 – SD-JWT Selective Disclosure Organisation\n *\n * Verifies that non-selectively disclosable claims appear directly in the SD-JWT payload,\n * while selectively disclosable claim digests are properly organised within _sd arrays\n * (SD-JWT Section 4.2.4.1).\n */\nconst ci = global.get('ciCommon');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\nconst contextKey = 'sessionsCi_124';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    const p = parsed.payload;\n    const sdArray = p._sd;\n    const hasSDArray = Array.isArray(sdArray) && sdArray.length > 0;\n\n    // If disclosures are present, _sd array must exist to hold their digests\n    if (parsed.disclosures.length > 0) {\n        ci.addAssert(msg.test, '_sd array present when selectively disclosable claims exist', hasSDArray,\n            hasSDArray\n                ? '_sd contains ' + sdArray.length + ' digest(s); ' + parsed.disclosures.length + ' disclosure(s) present'\n                : '_sd array MISSING but ' + parsed.disclosures.length + ' disclosure(s) are present');\n    } else {\n        ci.addAssert(msg.test, 'No selective disclosures used – _sd array not required', true,\n            'No disclosures and no _sd array: credential uses non-selective claims only');\n    }\n\n    // All entries in the _sd array must be non-empty digest strings\n    if (hasSDArray) {\n        const allValidDigests = sdArray.every(function(d) { return typeof d === 'string' && d.length > 10; });\n        ci.addAssert(msg.test, '_sd array contains only non-empty base64url digest strings', allValidDigests,\n            allValidDigests\n                ? 'All ' + sdArray.length + ' _sd entries are valid digest strings'\n                : 'Some _sd entries are not valid base64url strings');\n    }\n});\n\nmsg.test.suite = 'CI_124_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – SD-JWT Selective Disclosure Organisation';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 820,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_124 – SD-JWT Selective Disclosure Organisation**\r\n\r\nObjective\r\n\r\nTo verify that non-selectively disclosable claims appear directly in the SD-JWT payload as they are, while selectively disclosable claim digests (plus any decoys) are properly organised within _sd arrays as described in SD-JWT Section 4.2.4.1.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 4.2.4.1 (Selective Disclosure for Object Properties)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tPlace selectively disclosable claim digests into _sd arrays\r\n   •\tEnsure _sd array entries are valid base64url digest strings\r\n   •\tPlace non-selectively disclosable claims directly in the payload\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_124_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT payload is inspected for _sd arrays and disclosure correspondence\r\n\r\n   Expected Result:\r\n   •\t_sd array present when disclosures are present\r\n   •\tAll _sd entries are valid digest strings\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if selectively disclosable claims are correctly organised in _sd arrays."
+    },
+    {
+        "id": "assert_sdjwt_ci125_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_125",
+        "func": "/**\n * CI_125 – SD-JWT Disclosure Integrity Verification\n *\n * Verifies each digest value successfully validates against its corresponding disclosure.\n * For each disclosure, the expected digest is computed as hash(base64url(disclosure)) using\n * the algorithm declared in _sd_alg, and the result is looked up in the payload's _sd arrays.\n */\nconst ci = global.get('ciCommon');\nconst crypto = global.get('crypto');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\n// Compute SHA-xxx digest of a base64url-encoded disclosure string\nfunction computeDigest(discB64, sdAlg) {\n    const alg = (sdAlg || 'sha-256').replace('-', '');\n    const hash = crypto.createHash(alg).update(Buffer.from(discB64)).digest();\n    return ci.base64url(hash);\n}\n\n// Recursively collect all digest values from _sd arrays and {\"...\": digest} array elements\nfunction collectAllDigests(obj) {\n    let d = [];\n    if (!obj || typeof obj !== 'object') return d;\n    if (Array.isArray(obj)) {\n        obj.forEach(function(item) {\n            if (item && typeof item === 'object' && '...' in item) d.push(item['...']);\n            d = d.concat(collectAllDigests(item));\n        });\n    } else {\n        if (Array.isArray(obj._sd)) d = d.concat(obj._sd);\n        Object.keys(obj).forEach(function(k) {\n            if (k !== '_sd') d = d.concat(collectAllDigests(obj[k]));\n        });\n    }\n    return d;\n}\n\nconst contextKey = 'sessionsCi_125';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    const sdAlg = parsed.payload._sd_alg || 'sha-256';\n    const allDigests = collectAllDigests(parsed.payload);\n\n    if (parsed.disclosures.length === 0) {\n        // No disclosures present – integrity check is vacuously satisfied\n        ci.addAssert(msg.test, 'Disclosure integrity (no disclosures present)', true,\n            'No disclosures to verify – _sd_alg=' + sdAlg);\n        return;\n    }\n\n    // Verify each disclosure's computed digest appears in the payload's _sd arrays\n    parsed.disclosures.forEach(function(d, i) {\n        const digest = computeDigest(d, sdAlg);\n        const found = allDigests.indexOf(digest) !== -1;\n        ci.addAssert(msg.test, 'Disclosure #' + i + ' digest matches an entry in _sd (algo=' + sdAlg + ')', found,\n            found\n                ? 'Digest ' + digest.substring(0, 16) + '... found in _sd arrays'\n                : 'Computed digest ' + digest.substring(0, 16) + '... NOT found in any _sd array');\n    });\n});\n\nmsg.test.suite = 'CI_125_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – SD-JWT Disclosure Integrity Verification';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 860,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_125 – SD-JWT Disclosure Integrity Verification**\r\n\r\nObjective\r\n\r\nTo verify that each digest value successfully validates against its corresponding disclosure, with disclosures containing the required components: random salt, claim name (for object elements), and claim value.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 4 (Disclosures)\r\n   •\tSD-JWT – Section 4.1.1 (Hash Function Claim)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tFor each disclosure, compute hash(_sd_alg, base64url(disclosure)) and find the result in the payload's _sd arrays\r\n   •\tEach disclosure must have the correct structure: [salt, claim_name, claim_value] for object claims, or [salt, value] for array elements\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_125_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tFor each disclosure in the Combined Format, the digest is computed and matched against the _sd array\r\n\r\n   Expected Result:\r\n   •\tAll disclosure digests match entries in the corresponding _sd arrays\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if every disclosure has a matching digest in the SD-JWT payload's _sd arrays."
+    },
+    {
+        "id": "assert_sdjwt_ci126_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_126",
+        "func": "/**\n * CI_126 – Recommendation on SD-JWT Nested Object Selective Disclosure\n *\n * Verifies that in a nested SD-JWT payload, every claim at each level of the JSON structure\n * is explicitly marked as either selectively disclosable or not. As a consequence, the _sd claim\n * containing digests can legitimately appear multiple times at different levels.\n */\nconst ci = global.get('ciCommon');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\n// Find all nesting levels where a _sd array appears and return their paths\nfunction findSDLevels(obj, path) {\n    if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return [];\n    let levels = [];\n    if (Array.isArray(obj._sd) && obj._sd.length > 0) levels.push(path);\n    Object.keys(obj).forEach(function(k) {\n        if (k !== '_sd' && obj[k] && typeof obj[k] === 'object') {\n            levels = levels.concat(findSDLevels(obj[k], path + '.' + k));\n        }\n    });\n    return levels;\n}\n\nconst contextKey = 'sessionsCi_126';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    // Find all levels in the payload where a _sd array is present\n    const sdLevels = findSDLevels(parsed.payload, 'root');\n\n    // Verify _sd is present at least at the root level when disclosures exist\n    if (parsed.disclosures.length > 0) {\n        ci.addAssert(msg.test, '_sd array present at one or more nesting levels', sdLevels.length > 0,\n            sdLevels.length > 0\n                ? '_sd found at level(s): ' + sdLevels.join(', ')\n                : '_sd array not found despite ' + parsed.disclosures.length + ' disclosure(s) being present');\n    } else {\n        ci.addAssert(msg.test, 'Nested SD structure not required (no disclosures)', true,\n            'No disclosures – _sd at nested levels not applicable');\n    }\n\n    // Inform about multi-level _sd presence (permitted by the specification)\n    ci.addAssert(msg.test, 'SD-JWT specification permits _sd at multiple nesting levels', true,\n        sdLevels.length > 1\n            ? '_sd present at ' + sdLevels.length + ' levels: ' + sdLevels.join(', ')\n            : '_sd present at ' + sdLevels.length + ' level(s) (multi-level is permitted by spec)');\n});\n\nmsg.test.suite = 'CI_126_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – Recommendation on SD-JWT Nested Object Selective Disclosure';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 900,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_126 – Recommendation on SD-JWT Nested Object Selective Disclosure**\r\n\r\nObjective\r\n\r\nTo verify that in a nested SD-JWT payload, every claim at each level of the JSON structure is explicitly marked as either selectively disclosable or not. As a consequence, the _sd claim containing digests can legitimately appear multiple times at different levels within the SD-JWT.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 4.2.4.1 (Selective Disclosure for Nested Objects)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tOrganise selective disclosure at each nesting level independently\r\n   •\tAllow _sd arrays to appear at multiple levels in a nested JSON structure\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_126_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT payload is traversed to identify all nesting levels containing _sd arrays\r\n\r\n   Expected Result:\r\n   •\t_sd array present at one or more nesting levels when disclosures exist\r\n   •\tMulti-level _sd presence is permitted and valid\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if _sd arrays are correctly placed at each level of nesting where selective disclosure is used."
+    },
+    {
+        "id": "assert_sdjwt_ci127_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_127",
+        "func": "/**\n * CI_127 – SD-JWT Disclosure Digests Positioning\n *\n * Verifies that array element disclosures are correctly positioned: digests and decoy digests\n * replace original claim values in their exact array positions using the {\"...\": digest}\n * object format, maintaining structural integrity (SD-JWT Section 4.2.4.2).\n */\nconst ci = global.get('ciCommon');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\nfunction decodeDisclosure(d) {\n    return JSON.parse(Buffer.from(d, 'base64url').toString());\n}\n\n// Recursively search for {\"...\": string} objects inside arrays\nfunction findEllipsisObjects(obj) {\n    if (Array.isArray(obj)) {\n        for (let i = 0; i < obj.length; i++) {\n            const item = obj[i];\n            if (item && typeof item === 'object' && '...' in item && typeof item['...'] === 'string') return true;\n            if (findEllipsisObjects(item)) return true;\n        }\n    } else if (obj && typeof obj === 'object') {\n        for (const k of Object.keys(obj)) {\n            if (findEllipsisObjects(obj[k])) return true;\n        }\n    }\n    return false;\n}\n\nconst contextKey = 'sessionsCi_127';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    // Identify array element disclosures: format is [salt, value] (2 elements, no claim name)\n    const arrayElemDisclosures = parsed.disclosures.filter(function(d) {\n        try { const arr = decodeDisclosure(d); return Array.isArray(arr) && arr.length === 2; } catch(e) { return false; }\n    });\n\n    if (arrayElemDisclosures.length === 0) {\n        // No array element disclosures – positional requirement not applicable\n        ci.addAssert(msg.test, 'Array element SD positioning (no array disclosures found)', true,\n            'No array element disclosures present – {\"...\": digest} positioning requirement not applicable');\n        return;\n    }\n\n    // Verify {\"...\": digest} objects exist in the payload to mark array element positions\n    const hasEllipsis = findEllipsisObjects(parsed.payload);\n    ci.addAssert(msg.test, 'Array element disclosures use {\"...\": digest} positioning in payload arrays', hasEllipsis,\n        hasEllipsis\n            ? '{\"...\": digest} objects found in SD-JWT payload arrays – correct positioning confirmed'\n            : 'No {\"...\": digest} objects found in payload arrays despite ' + arrayElemDisclosures.length + ' array element disclosure(s)');\n});\n\nmsg.test.suite = 'CI_127_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – SD-JWT Disclosure Digests Positioning';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 940,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_127 – SD-JWT Disclosure Digests Positioning**\r\n\r\nObjective\r\n\r\nTo verify that array element disclosures are correctly positioned, with digests and decoy digests replacing original claim values in their exact array positions, maintaining structural integrity as specified in SD-JWT Section 4.2.4.2.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 4.2.4.2 (Selective Disclosure for Array Elements)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tReplace selectively disclosable array element values with {\"...\": digest} objects at their exact positions\r\n   •\tMaintain structural integrity of the array by preserving positions\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_127_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe payload is searched for array element disclosures (2-element [salt, value] format)\r\n   •\tThe payload arrays are inspected for {\"...\": digest} positioning objects\r\n\r\n   Expected Result:\r\n   •\t{\"...\": digest} objects present in payload arrays when array element disclosures exist\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if array element disclosures are correctly represented by {\"...\": digest} objects in their original array positions."
+    },
+    {
+        "id": "assert_sdjwt_ci128_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_128",
+        "func": "/**\n * CI_128 – SD-JWT Array Element Digest Calculation\n *\n * Verifies that array element digest values are calculated using a hash function over\n * the disclosures, containing: a random salt and the array element value.\n * Digest formula: base64url(hash(_sd_alg, base64url([salt, value])))\n */\nconst ci = global.get('ciCommon');\nconst crypto = global.get('crypto');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\nfunction decodeDisclosure(d) { return JSON.parse(Buffer.from(d, 'base64url').toString()); }\n\n// Compute SHA-xxx digest of the raw base64url disclosure string\nfunction computeDigest(discB64, sdAlg) {\n    const alg = (sdAlg || 'sha-256').replace('-', '');\n    const hash = crypto.createHash(alg).update(Buffer.from(discB64)).digest();\n    return ci.base64url(hash);\n}\n\n// Collect all digest strings from _sd arrays and {\"...\": digest} array elements\nfunction collectAllDigests(obj) {\n    let d = [];\n    if (!obj || typeof obj !== 'object') return d;\n    if (Array.isArray(obj)) {\n        obj.forEach(function(item) {\n            if (item && typeof item === 'object' && '...' in item) d.push(item['...']);\n            d = d.concat(collectAllDigests(item));\n        });\n    } else {\n        if (Array.isArray(obj._sd)) d = d.concat(obj._sd);\n        Object.keys(obj).forEach(function(k) { if (k !== '_sd') d = d.concat(collectAllDigests(obj[k])); });\n    }\n    return d;\n}\n\nconst contextKey = 'sessionsCi_128';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    const sdAlg = parsed.payload._sd_alg || 'sha-256';\n\n    // Identify array element disclosures: format [salt, value] (2 elements, no claim name)\n    const arrayElemDisclosures = parsed.disclosures.filter(function(d) {\n        try { const arr = decodeDisclosure(d); return Array.isArray(arr) && arr.length === 2; } catch(e) { return false; }\n    });\n\n    if (arrayElemDisclosures.length === 0) {\n        ci.addAssert(msg.test, 'Array element digest calculation (no array disclosures found)', true,\n            'No array element disclosures present – digest calculation not applicable');\n        return;\n    }\n\n    const allDigestsInPayload = collectAllDigests(parsed.payload);\n\n    // For each array element disclosure, compute its digest and verify it appears in the payload\n    arrayElemDisclosures.forEach(function(d, i) {\n        const digest = computeDigest(d, sdAlg);\n        const found = allDigestsInPayload.indexOf(digest) !== -1;\n        let salt = '?';\n        try { salt = decodeDisclosure(d)[0]; } catch(e) {}\n        ci.addAssert(msg.test, 'Array disclosure #' + i + ' digest correctly calculated with ' + sdAlg, found,\n            found\n                ? 'Digest ' + digest.substring(0, 16) + '... verified in payload (salt=' + String(salt).substring(0, 8) + '...)'\n                : 'Digest ' + digest.substring(0, 16) + '... not found in payload (salt=' + String(salt).substring(0, 8) + '...)');\n    });\n});\n\nmsg.test.suite = 'CI_128_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Security – SD-JWT Array Element Digest Calculation';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 980,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_128 – SD-JWT Array Element Digest Calculation**\r\n\r\nObjective\r\n\r\nTo verify that array elements digest values are calculated using a hash function over the disclosures, containing: a random salt and the array element value.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 4.2.4.2 (Array Element Disclosures)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tFor each array element disclosure [salt, value], compute digest = base64url(hash(_sd_alg, base64url([salt, value])))\r\n   •\tThe computed digest must appear in the payload's {\"...\": digest} array positions\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_128_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tFor each array element disclosure, the digest is computed and matched against payload positions\r\n\r\n   Expected Result:\r\n   •\tAll array element disclosure digests match their corresponding {\"...\": digest} entries in the payload\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if all array element digests are correctly calculated and positioned in the SD-JWT payload."
+    },
+    {
+        "id": "assert_sdjwt_ci129_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_129",
+        "func": "/**\n * CI_129 – SD-JWT Array Disclosures\n *\n * Verifies that array-level selective disclosure operates correctly, allowing Holders to\n * selectively disclose entire arrays or individual entries within arrays,\n * as defined in SD-JWT Section 4.2.6.\n *\n * Object disclosures: [salt, claim_name, claim_value] – 3 elements\n * Array element disclosures: [salt, element_value] – 2 elements\n */\nconst ci = global.get('ciCommon');\n\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jp = parts[0].split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT structure');\n    return {\n        jwt: parts[0],\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\nfunction decodeDisclosure(d) { return JSON.parse(Buffer.from(d, 'base64url').toString()); }\n\nconst contextKey = 'sessionsCi_129';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential) { ci.addAssert(msg.test, 'SD-JWT credential present in response', false, 'No credential field found'); return; }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, e.message); return; }\n\n    // Classify each disclosure by its structure\n    const objectDisclosures = [];\n    const arrayElemDisclosures = [];\n    const invalidDisclosures = [];\n\n    parsed.disclosures.forEach(function(d, i) {\n        try {\n            const decoded = decodeDisclosure(d);\n            if (!Array.isArray(decoded)) { invalidDisclosures.push(i); return; }\n            if (decoded.length === 3) objectDisclosures.push(d);        // [salt, name, value]\n            else if (decoded.length === 2) arrayElemDisclosures.push(d); // [salt, value]\n            else invalidDisclosures.push(i);\n        } catch(e) { invalidDisclosures.push(i); }\n    });\n\n    // All disclosures must have a valid 2 or 3 element array structure\n    ci.addAssert(msg.test, 'All disclosures have valid structure (2 or 3 JSON array elements)',\n        invalidDisclosures.length === 0,\n        invalidDisclosures.length === 0\n            ? 'Valid: ' + objectDisclosures.length + ' object disclosure(s), ' + arrayElemDisclosures.length + ' array disclosure(s)'\n            : invalidDisclosures.length + ' disclosure(s) with invalid structure at index(es): ' + invalidDisclosures.join(', '));\n\n    // Report array element disclosures when present\n    if (arrayElemDisclosures.length > 0) {\n        ci.addAssert(msg.test, 'Array element disclosures present with [salt, value] structure', true,\n            arrayElemDisclosures.length + ' array element disclosure(s) found – selective disclosure of array entries supported');\n    }\n});\n\nmsg.test.suite = 'CI_129_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Privacy – SD-JWT Array Disclosures';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 1020,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_129 – SD-JWT Array Disclosures**\r\n\r\nObjective\r\n\r\nTo verify that array-level selective disclosure operates correctly, allowing Holders to selectively disclose entire arrays or individual entries within arrays, as defined in SD-JWT Section 4.2.6.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 4.2.6 (Array Selective Disclosure)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tSupport selectively disclosable array elements using [salt, value] disclosures\r\n   •\tEnsure all disclosures have a valid 2-element (array element) or 3-element (object claim) structure\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_129_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tEach disclosure is decoded and classified as an object or array element disclosure\r\n   •\tDisclosure structures are verified for correctness\r\n\r\n   Expected Result:\r\n   •\tAll disclosures have valid 2 or 3 element structures\r\n   •\tArray element disclosures (if present) use [salt, value] format\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if all disclosures have the correct structure and array element disclosures enable selective disclosure of array entries."
+    },
+    {
+        "id": "assert_sdjwt_ci130_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_130",
+        "func": "/**\n * CI_130 – SD-JWT Combined Format Disclosure Delivery\n *\n * Verifies that the Disclosures are successfully provided to the Holder together with the\n * SD-JWT in the Combined Format for Issuance, formatted as an ordered series of base64url-encoded\n * values with each value properly separated by a single tilde ('~') character.\n * Combined Format: <Issuer-signed JWT>~<Disclosure 1>~...~<Disclosure N>~\n */\nconst ci = global.get('ciCommon');\n\nconst contextKey = 'sessionsCi_130';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n    if (!credential || typeof credential !== 'string') {\n        ci.addAssert(msg.test, 'SD-JWT credential present in response as a string', false,\n            'No string \"credential\" field found in Credential Endpoint response');\n        return;\n    }\n\n    // The Combined Format must end with a tilde (~) as per the specification\n    const endsWithTilde = credential.endsWith('~');\n    ci.addAssert(msg.test, 'SD-JWT Combined Format ends with tilde (~)', endsWithTilde,\n        endsWithTilde ? 'Correct: credential string ends with ~ as required' : 'ERROR: credential does not end with ~ (Combined Format violation)');\n\n    // Split on tilde to check the JWT and disclosure parts\n    const parts = credential.split('~');\n    const jwtPart = parts[0];\n\n    // The first part must be a valid JWT (3 dot-separated base64url components)\n    const jwtComponents = jwtPart.split('.');\n    ci.addAssert(msg.test, 'Combined Format: JWT part has 3 components (header.payload.signature)', jwtComponents.length === 3,\n        jwtComponents.length === 3\n            ? 'JWT part is structurally valid'\n            : 'JWT part has ' + jwtComponents.length + ' component(s) instead of 3');\n\n    // Each disclosure part must be a valid base64url string (only A-Z a-z 0-9 _ -)\n    const disclosureParts = parts.slice(1).filter(function(d) { return d.length > 0; });\n    const BASE64URL_RE = /^[A-Za-z0-9_-]+$/;\n    const invalidParts = disclosureParts.filter(function(d) { return !BASE64URL_RE.test(d); });\n    ci.addAssert(msg.test, 'All disclosures are valid base64url-encoded values', invalidParts.length === 0,\n        invalidParts.length === 0\n            ? disclosureParts.length + ' disclosure(s) – all valid base64url'\n            : invalidParts.length + ' disclosure(s) contain characters not permitted in base64url');\n\n    // Report the overall Combined Format structure\n    ci.addAssert(msg.test, 'SD-JWT Combined Format: tilde-separated structure valid', true,\n        'Structure: 1 JWT + ' + disclosureParts.length + ' disclosure(s), tilde-separated – total parts=' + parts.length);\n});\n\nmsg.test.suite = 'CI_130_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – SD-JWT Combined Format Disclosure Delivery';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3960,
+        "y": 1060,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_130 – SD-JWT Combined Format Disclosure Delivery**\r\n\r\nObjective\r\n\r\nTo verify that the Disclosures are successfully provided to the Holder together with the SD-JWT in the Combined Format for Issuance, formatted as an ordered series of base64url-encoded values with each value properly separated by a single tilde ('~') character.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 5.3 (Combined Format for Issuance)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tDeliver the credential in Combined Format: <SD-JWT>~<Disclosure 1>~...~<Disclosure N>~\r\n   •\tEnd the Combined Format string with a tilde (~)\r\n   •\tSeparate each disclosure from the others with a single tilde (~)\r\n   •\tEnsure each disclosure is a valid base64url-encoded value\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_130_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe credential string is verified to follow the Combined Format structure\r\n\r\n   Expected Result:\r\n   •\tThe credential field is a string ending with ~\r\n   •\tThe first part is a valid 3-component JWT\r\n   •\tAll disclosure parts are valid base64url strings\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if the credential is delivered in the correct SD-JWT Combined Format for Issuance."
+    },
+    {
+        "id": "assert_sdjwt_change_001",
         "type": "change",
         "z": "beb74de4721fafb3",
-        "g": "7e1d8361bf33a27c",
+        "g": "assert_sdjwt_group_001",
         "name": "",
         "rules": [
             {
@@ -6583,14 +6869,77 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 830,
-        "y": 1320,
+        "x": 4410,
+        "y": 880,
         "wires": [
             [
-                "24b9fcbdd6fc7dd0",
-                "76e98a993ffce478"
+                "assert_sdjwt_httpresp_001",
+                "assert_sdjwt_debug_001"
             ]
         ]
+    },
+    {
+        "id": "assert_sdjwt_httpresp_001",
+        "type": "http response",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "HTTP Response",
+        "statusCode": "",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 4650,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "assert_sdjwt_debug_001",
+        "type": "debug",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "CI_12x SD-JWT output (debug)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload.ok",
+        "statusType": "msg",
+        "x": 4670,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "95bd11842d39f1a6",
+        "type": "link in",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "link in Assert Credential resp",
+        "links": [
+            "027db99a7e30acfe"
+        ],
+        "x": 3335,
+        "y": 880,
+        "wires": [
+            [
+                "assert_sdjwt_switch_001"
+            ]
+        ]
+    },
+    {
+        "id": "c5b84c3dc61e16e4",
+        "type": "link out",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "link out Assert Credential resp",
+        "mode": "link",
+        "links": [
+            "gen_pre_notif_link_in_001"
+        ],
+        "x": 3885,
+        "y": 1120,
+        "wires": []
     },
     {
         "id": "bbae03ec7339181e",
@@ -7709,8 +8058,8 @@
         "links": [
             "c5b84c3dc61e16e4"
         ],
-        "x": 185,
-        "y": 1860,
+        "x": 155,
+        "y": 2220,
         "wires": [
             [
                 "gen_pre_notif_switch_001",
@@ -7734,8 +8083,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 370,
-        "y": 1860,
+        "x": 340,
+        "y": 2220,
         "wires": [
             [
                 "gen_pre_notif_junc1_001"
@@ -7756,8 +8105,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 400,
-        "y": 1760,
+        "x": 370,
+        "y": 2120,
         "wires": []
     },
     {
@@ -7770,8 +8119,8 @@
         "links": [
             "f3a1b2c3d4e5f602"
         ],
-        "x": 905,
-        "y": 1820,
+        "x": 875,
+        "y": 2180,
         "wires": []
     },
     {
@@ -7783,8 +8132,8 @@
         "links": [
             "f3a1b2c3d4e5f605"
         ],
-        "x": 1075,
-        "y": 1820,
+        "x": 1055,
+        "y": 2180,
         "wires": [
             [
                 "gen_post_notif_switch_001",
@@ -7813,8 +8162,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1250,
-        "y": 1840,
+        "x": 1230,
+        "y": 2200,
         "wires": [
             [
                 "gen_set_ci_087_001"
@@ -7838,8 +8187,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1290,
-        "y": 1760,
+        "x": 1270,
+        "y": 2120,
         "wires": []
     },
     {
@@ -7855,8 +8204,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1480,
-        "y": 1800,
+        "x": 1450,
+        "y": 2160,
         "wires": [
             [
                 "gen_post_notif_link_out_001"
@@ -7874,8 +8223,8 @@
         "links": [
             "f3a1b2c3d4e5f608"
         ],
-        "x": 1825,
-        "y": 1840,
+        "x": 1795,
+        "y": 2200,
         "wires": []
     },
     {
@@ -7884,8 +8233,8 @@
         "z": "1111a98978c668d9",
         "name": "NOTIFICATION GENERATION",
         "info": "",
-        "x": 990,
-        "y": 1660,
+        "x": 970,
+        "y": 2040,
         "wires": []
     },
     {
@@ -7953,8 +8302,8 @@
         "links": [
             "184988ac31193b07"
         ],
-        "x": 1535,
-        "y": 1540,
+        "x": 1915,
+        "y": 1700,
         "wires": []
     },
     {
@@ -7966,8 +8315,8 @@
         "links": [
             "cb183192e173e83b"
         ],
-        "x": 1115,
-        "y": 1540,
+        "x": 1045,
+        "y": 1720,
         "wires": [
             [
                 "2f0f133fb016e61a"
@@ -7984,15 +8333,103 @@
         "propertyType": "msg",
         "rules": [
             {
+                "t": "eq",
+                "v": "CI_120",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_121",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_122",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_123",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_124",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_125",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_126",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_127",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_128",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_129",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "CI_130",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
-        "x": 1210,
-        "y": 1540,
+        "outputs": 12,
+        "x": 1140,
+        "y": 1720,
         "wires": [
+            [
+                "gen_sdjwt_set_ci120_001"
+            ],
+            [
+                "gen_sdjwt_set_ci121_001"
+            ],
+            [
+                "gen_sdjwt_set_ci122_001"
+            ],
+            [
+                "gen_sdjwt_set_ci123_001"
+            ],
+            [
+                "gen_sdjwt_set_ci124_001"
+            ],
+            [
+                "gen_sdjwt_set_ci125_001"
+            ],
+            [
+                "gen_sdjwt_set_ci126_001"
+            ],
+            [
+                "gen_sdjwt_set_ci127_001"
+            ],
+            [
+                "gen_sdjwt_set_ci128_001"
+            ],
+            [
+                "gen_sdjwt_set_ci129_001"
+            ],
+            [
+                "gen_sdjwt_set_ci130_001"
+            ],
             [
                 "b73d6c5292d8a01f"
             ]
@@ -8007,6 +8444,237 @@
         "x": 980,
         "y": 1420,
         "wires": []
+    },
+    {
+        "id": "gen_sdjwt_set_ci120_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_120",
+        "func": "/**\n * CI_120 – Signature of SD-JWT credential\n * Forwards the credential response to Assert CI_120 for signature structure verification.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '120verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1540,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci121_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_121",
+        "func": "/**\n * CI_121 – SD-JWT Type Metadata Provision\n * Forwards the credential response to Assert CI_121 to verify the vct claim and type metadata.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '121verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1580,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci122_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_122",
+        "func": "/**\n * CI_122 – SD-JWT Payload Structure Validation\n * Forwards the credential response to Assert CI_122 to verify mandatory payload claims.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '122verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1620,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci123_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_123",
+        "func": "/**\n * CI_123 – SD-JWT Hash Algorithm Declaration\n * Forwards the credential response to Assert CI_123 to verify _sd_alg claim and value.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '123verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1660,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci124_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_124",
+        "func": "/**\n * CI_124 – SD-JWT Selective Disclosure Organization\n * Forwards the credential response to Assert CI_124 to verify _sd array organisation.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '124verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1700,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci125_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_125",
+        "func": "/**\n * CI_125 – SD-JWT Disclosure Integrity Verification\n * Forwards the credential response to Assert CI_125 to verify each disclosure's digest.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '125verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1740,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci126_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_126",
+        "func": "/**\n * CI_126 – Recommendation on SD-JWT Nested Object Selective Disclosure\n * Forwards the credential response to Assert CI_126 to inspect nested _sd structure.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '126verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1780,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci127_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_127",
+        "func": "/**\n * CI_127 – SD-JWT Disclosure Digests Positioning\n * Forwards the credential response to Assert CI_127 to verify {\"...\": digest} positioning.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '127verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1820,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci128_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_128",
+        "func": "/**\n * CI_128 – SD-JWT Array Element Digest Calculation\n * Forwards the credential response to Assert CI_128 to verify array element digest values.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '128verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1860,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci129_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_129",
+        "func": "/**\n * CI_129 – SD-JWT Array Disclosures\n * Forwards the credential response to Assert CI_129 to verify array-level selective disclosure.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '129verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1900,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci130_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_130",
+        "func": "/**\n * CI_130 – SD-JWT Combined Format Disclosure Delivery\n * Forwards the credential response to Assert CI_130 to verify Combined Format structure.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '130verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1940,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
     },
     {
         "id": "7b0b09157e4d665e",
