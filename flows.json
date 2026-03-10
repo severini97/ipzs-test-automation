@@ -295,54 +295,6 @@
         "color": "#DDAA99"
     },
     {
-        "id": "2d1f60d9ca331fbc",
-        "type": "group",
-        "z": "beb74de4721fafb3",
-        "g": "a8d667ca227c656e",
-        "name": "Assert PAR ",
-        "style": {
-            "label": true,
-            "fill": "#ffffbf",
-            "stroke": "#000000",
-            "color": "#000000"
-        },
-        "nodes": [
-            "86a5d1c8dce8d4cb",
-            "2b6af54b9c9d7b23",
-            "4b4921b3461841a0",
-            "a3c36f307861cdd6",
-            "19c872294e0ded90",
-            "b0c424fdc51089b0",
-            "89e3fa68838d73d3",
-            "c0cdea178ad8d572",
-            "78ef58f32dea8968",
-            "2930b701231bcb10",
-            "66670c5e79d40758",
-            "cedc6a2474dcaf77",
-            "f0255bb850a19d5d",
-            "346b7481d86fc1a0",
-            "40ba6d6c485f9cbc",
-            "2dfa2094e78b32bb",
-            "2d22d72095ff60cf",
-            "90cebbacb9d8f09f",
-            "6b9f16160b926fe8",
-            "5d207c239b691dca",
-            "d4d34ff748522565",
-            "99a4adec4c562b1c",
-            "1a77aed5e911f187",
-            "9ac668fe429e3893",
-            "f9e2d440da4e68e6",
-            "446a5a2f60186f22",
-            "ef518307dda6488b",
-            "9591d25c4429beaf",
-            "a56a1e4681c518fc"
-        ],
-        "x": 104,
-        "y": 99,
-        "w": 1382,
-        "h": 1062
-    },
-    {
         "id": "c8d4b5835be2ce55",
         "type": "group",
         "z": "4e24dbc0c8d74192",
@@ -386,28 +338,6 @@
         "h": 82
     },
     {
-        "id": "aee94a9bbf456eaa",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "c10204d2b17502d7",
-        "name": "CONFIGURATION",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "label-position": "n"
-        },
-        "nodes": [
-            "ac49ca84115e276b",
-            "5d5f1e9a57115752",
-            "721eb8e58dcbc987",
-            "f872fa98017ca329"
-        ],
-        "x": 2014,
-        "y": 299,
-        "w": 412,
-        "h": 142
-    },
-    {
         "id": "8e1a5b4b6d0c2a10",
         "type": "group",
         "z": "4e24dbc0c8d74192",
@@ -428,178 +358,6 @@
         "h": 142
     },
     {
-        "id": "e81d10542f2b9697",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "f99d81f907a516e2",
-        "name": "PAR REQUEST",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "978d3619b1315835",
-            "0e7249f5532825cf",
-            "e172ae7f3c24626c",
-            "c690b1a7e8470906",
-            "9388be84baaf171e"
-        ],
-        "x": 414,
-        "y": 779,
-        "w": 712,
-        "h": 182
-    },
-    {
-        "id": "4a95c3c27ec3621d",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "f99d81f907a516e2",
-        "name": "PAR RESPONSE",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "5589d0562140c4c9",
-            "b8c5a200fe9dcdb8",
-            "82a7927431e5f455",
-            "c24876597823ddfd",
-            "8ec89c4b517a8320",
-            "8c6c838ad96ef989",
-            "aabb706d863c5549",
-            "9e188d93191fccbd"
-        ],
-        "x": 1274,
-        "y": 779,
-        "w": 1132,
-        "h": 182
-    },
-    {
-        "id": "8166e8a841903086",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "c10204d2b17502d7",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "a36abb2e993d3f89",
-            "3e126167c730376c",
-            "b060a58197c2f810",
-            "ca8be0bb84d04b38",
-            "c04e4cb0ce337f45",
-            "9baf43b3abd48276",
-            "d6e90687c83da43a",
-            "b52f78a4f0ab21e3",
-            "ee6dda6d8a6c1113",
-            "cb84c1c76ef9af46",
-            "8ed6200e306276b5",
-            "cdfb4814cdae366f",
-            "62196496eec7eeba",
-            "746353cf751028b1",
-            "b855375c9823685e",
-            "d5c17d29488d93b5",
-            "68c41f9748217980"
-        ],
-        "x": 734,
-        "y": 139,
-        "w": 1212,
-        "h": 502
-    },
-    {
-        "id": "051ab4eacdac6c09",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "8ddb4c6bb6ebec5b",
-        "name": "NONCE REQUEST",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "0b8af6028e794e95",
-            "a9cf5d6dd5bcf707",
-            "152dbc598ef4f659",
-            "ad356b52771bce86",
-            "1bca0f031f332d9d"
-        ],
-        "x": 714,
-        "y": 1599,
-        "w": 592,
-        "h": 182
-    },
-    {
-        "id": "3158ecf5ce06a25c",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "8ddb4c6bb6ebec5b",
-        "name": "NONCE RESPONSE",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "0f2c67d3038b5a13",
-            "fa9ca141e1ff7ec4",
-            "38ce943671a29c36",
-            "5fdf8ca0f1362a68",
-            "a45767d1b5f66cce",
-            "c7e9a1b2f4d56801"
-        ],
-        "x": 1394,
-        "y": 1599,
-        "w": 692,
-        "h": 182
-    },
-    {
-        "id": "1197a27224793cec",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "c10204d2b17502d7",
-        "name": "Final Step",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "858c851f00589e1c",
-            "98fcb4e75261e4c6",
-            "c2a5efe30e468b47",
-            "ec88064589be8b91",
-            "934975882e5ecef0"
-        ],
-        "x": 1144,
-        "y": 2459,
-        "w": 502,
-        "h": 162
-    },
-    {
-        "id": "feb724c47f77bb79",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "c10204d2b17502d7",
-        "name": "TOKEN REQUEST",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "d6c9919a66c55101",
-            "5873f83f6f76d491",
-            "c67202400dc3a3cc",
-            "9113273c681480ae",
-            "1ea4437f5cf08548",
-            "cbda0b01e83f0dfb",
-            "23ca96ca3bace42f",
-            "5a6603ad790d4004",
-            "f75977d135359658"
-        ],
-        "x": 774,
-        "y": 1359,
-        "w": 1102,
-        "h": 142
-    },
-    {
         "id": "205b63425db8b7d3",
         "type": "group",
         "z": "4e24dbc0c8d74192",
@@ -616,35 +374,6 @@
         "y": 559,
         "w": 742,
         "h": 82
-    },
-    {
-        "id": "3a0f69ca72c832a2",
-        "type": "group",
-        "z": "beb74de4721fafb3",
-        "g": "35e7663c8f44c09b",
-        "name": "Assert NONCE ",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "fill": "#e3f3d3",
-            "color": "#000000"
-        },
-        "nodes": [
-            "8daea0db551be585",
-            "5459ea5c52bb44e6",
-            "d09f8d57ad7adb7d",
-            "cbdde2ce1d8b30bb",
-            "e67ba7adbf058998",
-            "16fa76fef84ee37d",
-            "assert_ci_069",
-            "assert_ci_068",
-            "assert_ci_070",
-            "0acc5acdbf296bab"
-        ],
-        "x": 1644,
-        "y": 899,
-        "w": 1372,
-        "h": 262
     },
     {
         "id": "4695fa63c4cd2b28",
@@ -804,6 +533,391 @@
         "h": 162
     },
     {
+        "id": "n01a7b9c6c0a20100",
+        "type": "group",
+        "z": "4e24dbc0c8d74192",
+        "name": "Credential Issuer - Notification Req",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "n02a7b9c6c0a20200",
+            "n03a7b9c6c0a20300",
+            "n04a7b9c6c0a20400",
+            "n05a7b9c6c0a20500",
+            "n06a7b9c6c0a20600"
+        ],
+        "x": 794,
+        "y": 1119,
+        "w": 792,
+        "h": 142
+    },
+    {
+        "id": "f8444ff08d94c50a",
+        "type": "group",
+        "z": "4e24dbc0c8d74192",
+        "name": "Credential Issuer - Credential Req",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d2e545bb29ccbe79",
+            "a5e9d3898579b62e",
+            "05516c20a0290d7a"
+        ],
+        "x": 794,
+        "y": 939,
+        "w": 652,
+        "h": 82
+    },
+    {
+        "id": "35e7663c8f44c09b",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "name": "AUTHORIZATION PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#c8e7a7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "3a0f69ca72c832a2",
+            "b99896375c7df15c",
+            "aba8e6c5f45fc788"
+        ],
+        "x": 1618,
+        "y": 73,
+        "w": 1424,
+        "h": 1114
+    },
+    {
+        "id": "12e898b230a0b0c7",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "name": "CREDENTIAL PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000",
+            "label-position": "n"
+        },
+        "nodes": [
+            "assert_notif_group_001",
+            "assert_sdjwt_group_001"
+        ],
+        "x": 3158,
+        "y": 73,
+        "w": 1604,
+        "h": 994
+    },
+    {
+        "id": "a8d667ca227c656e",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "name": "PAR PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffff7f",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "2d1f60d9ca331fbc"
+        ],
+        "x": 78,
+        "y": 73,
+        "w": 1434,
+        "h": 1114
+    },
+    {
+        "id": "90e6b6fedc1f623d",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "name": "PAR PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffff7f",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "13ed8190d0427ee1",
+            "1f9425c71c44d0f6"
+        ],
+        "x": 68,
+        "y": 93,
+        "w": 1904,
+        "h": 399
+    },
+    {
+        "id": "45d7aa903fc01ceb",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "name": "AUTHORIZATION PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#c8e7a7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "144ff98c87e076c2",
+            "0afdcbfb0dda622f",
+            "0b3adec60d5471ba"
+        ],
+        "x": 62,
+        "y": 587,
+        "w": 1916,
+        "h": 991
+    },
+    {
+        "id": "4237eddcb7aab01a",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "name": "CREDENTIAL PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000",
+            "label-position": "n"
+        },
+        "nodes": [
+            "gen_pre_notif_group_001",
+            "gen_post_notif_group_001",
+            "b89e8c1fe0477a20",
+            "5cf99e9328eb55e5"
+        ],
+        "x": 58,
+        "y": 1633,
+        "w": 1914,
+        "h": 919
+    },
+    {
+        "id": "c10204d2b17502d7",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "name": "CREDENTIAL TEST AUTOMATION",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000",
+            "fill-opacity": "0.51"
+        },
+        "nodes": [
+            "2d0c0a726b3eec54",
+            "c57d6b585e843004",
+            "c2e88c95dc479d98",
+            "e9df678b3ee57984",
+            "f3a1b2c3d4e5f60e",
+            "52499e345b096027",
+            "8166e8a841903086",
+            "1197a27224793cec",
+            "feb724c47f77bb79",
+            "a894f93e41642681",
+            "f99d81f907a516e2",
+            "8ddb4c6bb6ebec5b",
+            "9b29d0bb3d5ed890",
+            "01919c95ed11fb07",
+            "aee94a9bbf456eaa"
+        ],
+        "x": 362,
+        "y": 113,
+        "w": 2096,
+        "h": 2534
+    },
+    {
+        "id": "2d1f60d9ca331fbc",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "g": "a8d667ca227c656e",
+        "name": "Assert PAR ",
+        "style": {
+            "label": true,
+            "fill": "#ffffbf",
+            "stroke": "#000000",
+            "color": "#000000"
+        },
+        "nodes": [
+            "86a5d1c8dce8d4cb",
+            "2b6af54b9c9d7b23",
+            "4b4921b3461841a0",
+            "a3c36f307861cdd6",
+            "19c872294e0ded90",
+            "b0c424fdc51089b0",
+            "89e3fa68838d73d3",
+            "c0cdea178ad8d572",
+            "78ef58f32dea8968",
+            "2930b701231bcb10",
+            "66670c5e79d40758",
+            "cedc6a2474dcaf77",
+            "f0255bb850a19d5d",
+            "346b7481d86fc1a0",
+            "40ba6d6c485f9cbc",
+            "2dfa2094e78b32bb",
+            "2d22d72095ff60cf",
+            "90cebbacb9d8f09f",
+            "6b9f16160b926fe8",
+            "5d207c239b691dca",
+            "d4d34ff748522565",
+            "99a4adec4c562b1c",
+            "1a77aed5e911f187",
+            "9ac668fe429e3893",
+            "f9e2d440da4e68e6",
+            "446a5a2f60186f22",
+            "ef518307dda6488b",
+            "9591d25c4429beaf",
+            "a56a1e4681c518fc"
+        ],
+        "x": 104,
+        "y": 99,
+        "w": 1382,
+        "h": 1062
+    },
+    {
+        "id": "aee94a9bbf456eaa",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "name": "CONFIGURATION",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "label-position": "n"
+        },
+        "nodes": [
+            "ac49ca84115e276b",
+            "5d5f1e9a57115752",
+            "721eb8e58dcbc987",
+            "f872fa98017ca329"
+        ],
+        "x": 2014,
+        "y": 299,
+        "w": 412,
+        "h": 142
+    },
+    {
+        "id": "8166e8a841903086",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a36abb2e993d3f89",
+            "3e126167c730376c",
+            "b060a58197c2f810",
+            "ca8be0bb84d04b38",
+            "c04e4cb0ce337f45",
+            "9baf43b3abd48276",
+            "d6e90687c83da43a",
+            "b52f78a4f0ab21e3",
+            "ee6dda6d8a6c1113",
+            "cb84c1c76ef9af46",
+            "8ed6200e306276b5",
+            "cdfb4814cdae366f",
+            "62196496eec7eeba",
+            "746353cf751028b1",
+            "b855375c9823685e",
+            "d5c17d29488d93b5",
+            "68c41f9748217980"
+        ],
+        "x": 734,
+        "y": 139,
+        "w": 1212,
+        "h": 502
+    },
+    {
+        "id": "1197a27224793cec",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "name": "Final Step",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "858c851f00589e1c",
+            "98fcb4e75261e4c6",
+            "c2a5efe30e468b47",
+            "ec88064589be8b91",
+            "934975882e5ecef0"
+        ],
+        "x": 1144,
+        "y": 2459,
+        "w": 502,
+        "h": 162
+    },
+    {
+        "id": "feb724c47f77bb79",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "name": "TOKEN REQUEST",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d6c9919a66c55101",
+            "5873f83f6f76d491",
+            "c67202400dc3a3cc",
+            "9113273c681480ae",
+            "1ea4437f5cf08548",
+            "cbda0b01e83f0dfb",
+            "23ca96ca3bace42f",
+            "5a6603ad790d4004",
+            "f75977d135359658"
+        ],
+        "x": 774,
+        "y": 1359,
+        "w": 1102,
+        "h": 142
+    },
+    {
+        "id": "3a0f69ca72c832a2",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "g": "35e7663c8f44c09b",
+        "name": "Assert NONCE ",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "8daea0db551be585",
+            "5459ea5c52bb44e6",
+            "d09f8d57ad7adb7d",
+            "cbdde2ce1d8b30bb",
+            "e67ba7adbf058998",
+            "16fa76fef84ee37d",
+            "assert_ci_069",
+            "assert_ci_068",
+            "assert_ci_070",
+            "0acc5acdbf296bab"
+        ],
+        "x": 1644,
+        "y": 899,
+        "w": 1372,
+        "h": 262
+    },
+    {
         "id": "b99896375c7df15c",
         "type": "group",
         "z": "beb74de4721fafb3",
@@ -956,86 +1070,6 @@
         "h": 347
     },
     {
-        "id": "7370bf52b4936e35",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "g": "0b3adec60d5471ba",
-        "name": "Pre NONCE Generation",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "fill": "#e3f3d3",
-            "color": "#000000"
-        },
-        "nodes": [
-            "e847bba3fb770ea9",
-            "f93746bb83f68808",
-            "a35e63dffeffb952",
-            "64261f407870e853",
-            "be51a11af1f4a22d",
-            "86d873af0b5281bf"
-        ],
-        "x": 114,
-        "y": 1299,
-        "w": 802,
-        "h": 227
-    },
-    {
-        "id": "7f8506bb823d2b2e",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "g": "0b3adec60d5471ba",
-        "name": "Post NONCE Generation",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "fill": "#e3f3d3",
-            "color": "#000000"
-        },
-        "nodes": [
-            "a9ef6363dd28fcdf",
-            "1531418d1f4f9d42",
-            "0dd9afc38a6f4699",
-            "cffa8c8409c95bdc",
-            "092b7a02fee4be4d",
-            "a1dd084da1e775ea"
-        ],
-        "x": 1084,
-        "y": 1299,
-        "w": 842,
-        "h": 227
-    },
-    {
-        "id": "361d503327fdf076",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "g": "0afdcbfb0dda622f",
-        "name": "Post Auth Request Generation",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "fill": "#e3f3d3",
-            "color": "#000000"
-        },
-        "nodes": [
-            "f911919b95523216",
-            "d56976eb9f26263d",
-            "b3d4bf0489173061",
-            "06cbea1920e41785",
-            "a545e564c5103ce3",
-            "7d66da55d4c39795",
-            "a3fa77b70bf3ad90",
-            "4c029faefb36a3e5",
-            "059de7540fee4b41",
-            "0164c2317f9993f5",
-            "b0ccac233c23fb1f"
-        ],
-        "x": 114,
-        "y": 639,
-        "w": 802,
-        "h": 307
-    },
-    {
         "id": "144ff98c87e076c2",
         "type": "group",
         "z": "1111a98978c668d9",
@@ -1062,74 +1096,6 @@
         "y": 999,
         "w": 822,
         "h": 247
-    },
-    {
-        "id": "2748e72c7d88771b",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "g": "0afdcbfb0dda622f",
-        "name": "Pre TOKEN Generation",
-        "style": {
-            "label": true,
-            "stroke": "#000000",
-            "fill": "#e3f3d3",
-            "color": "#000000"
-        },
-        "nodes": [
-            "e80118a27f88f38c",
-            "baa16b31772b7f7f",
-            "2dea9e565c2c5de6",
-            "0dab3572aaf18a38",
-            "ffcceaece83d9688",
-            "477f4c45aeae51ce"
-        ],
-        "x": 1064,
-        "y": 679,
-        "w": 862,
-        "h": 167
-    },
-    {
-        "id": "f3a1b2c3d4e5f601",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "01919c95ed11fb07",
-        "name": "NOTIFICATION REQUEST",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f3a1b2c3d4e5f602",
-            "f3a1b2c3d4e5f603",
-            "f3a1b2c3d4e5f604",
-            "f3a1b2c3d4e5f605",
-            "f3a1b2c3d4e5f606"
-        ],
-        "x": 724,
-        "y": 2199,
-        "w": 612,
-        "h": 182
-    },
-    {
-        "id": "f3a1b2c3d4e5f607",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "01919c95ed11fb07",
-        "name": "NOTIFICATION RESPONSE",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "f3a1b2c3d4e5f608",
-            "f3a1b2c3d4e5f609",
-            "f3a1b2c3d4e5f60a",
-            "f3a1b2c3d4e5f60b",
-            "f3a1b2c3d4e5f60c",
-            "f3a1b2c3d4e5f60d"
-        ],
-        "x": 1404,
-        "y": 2199,
-        "w": 702,
-        "h": 182
     },
     {
         "id": "assert_notif_group_001",
@@ -1210,26 +1176,6 @@
         "h": 227
     },
     {
-        "id": "n01a7b9c6c0a20100",
-        "type": "group",
-        "z": "4e24dbc0c8d74192",
-        "name": "Credential Issuer - Notification Req",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "n02a7b9c6c0a20200",
-            "n03a7b9c6c0a20300",
-            "n04a7b9c6c0a20400",
-            "n05a7b9c6c0a20500",
-            "n06a7b9c6c0a20600"
-        ],
-        "x": 794,
-        "y": 1119,
-        "w": 792,
-        "h": 142
-    },
-    {
         "id": "b89e8c1fe0477a20",
         "type": "group",
         "z": "1111a98978c668d9",
@@ -1250,64 +1196,6 @@
         "y": 1699,
         "w": 732,
         "h": 82
-    },
-    {
-        "id": "f8444ff08d94c50a",
-        "type": "group",
-        "z": "4e24dbc0c8d74192",
-        "name": "Credential Issuer - Credential Req",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "d2e545bb29ccbe79",
-            "a5e9d3898579b62e",
-            "05516c20a0290d7a"
-        ],
-        "x": 794,
-        "y": 939,
-        "w": 652,
-        "h": 82
-    },
-    {
-        "id": "100ad993bdd22cb3",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "9b29d0bb3d5ed890",
-        "name": "CREDENTIAL REQUEST",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "663e3c033a8063f0",
-            "3572521967895cff",
-            "4027150598e1f4d6",
-            "cb183192e173e83b"
-        ],
-        "x": 654,
-        "y": 1899,
-        "w": 642,
-        "h": 142
-    },
-    {
-        "id": "b0f62c49e1f8be7a",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "g": "9b29d0bb3d5ed890",
-        "name": "CREDENTIAL RESPONSE",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "027db99a7e30acfe",
-            "8c1d0619e1eb6c23",
-            "80b4a4964bd26e1d",
-            "184988ac31193b07"
-        ],
-        "x": 1424,
-        "y": 1899,
-        "w": 682,
-        "h": 142
     },
     {
         "id": "5cf99e9328eb55e5",
@@ -1338,12 +1226,13 @@
             "gen_sdjwt_set_ci128_001",
             "gen_sdjwt_set_ci129_001",
             "gen_sdjwt_set_ci130_001",
-            "gen_sdjwt_set_ci131_001"
+            "gen_sdjwt_set_ci131_001",
+            "gen_sdjwt_set_ci132_001"
         ],
         "x": 994,
         "y": 1659,
         "w": 952,
-        "h": 547
+        "h": 627
     },
     {
         "id": "assert_sdjwt_group_001",
@@ -1371,6 +1260,7 @@
             "assert_sdjwt_ci129_001",
             "assert_sdjwt_ci130_001",
             "assert_sdjwt_ci131_001",
+            "assert_sdjwt_ci132_001",
             "assert_sdjwt_change_001",
             "assert_sdjwt_httpresp_001",
             "assert_sdjwt_debug_001",
@@ -1380,113 +1270,7 @@
         "x": 3184,
         "y": 99,
         "w": 1552,
-        "h": 562
-    },
-    {
-        "id": "35e7663c8f44c09b",
-        "type": "group",
-        "z": "beb74de4721fafb3",
-        "name": "AUTHORIZATION PHASE",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#c8e7a7",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "3a0f69ca72c832a2",
-            "b99896375c7df15c",
-            "aba8e6c5f45fc788"
-        ],
-        "x": 1618,
-        "y": 73,
-        "w": 1424,
-        "h": 1114
-    },
-    {
-        "id": "12e898b230a0b0c7",
-        "type": "group",
-        "z": "beb74de4721fafb3",
-        "name": "CREDENTIAL PHASE",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000",
-            "label-position": "n"
-        },
-        "nodes": [
-            "assert_notif_group_001",
-            "assert_sdjwt_group_001"
-        ],
-        "x": 3158,
-        "y": 73,
-        "w": 1604,
-        "h": 994
-    },
-    {
-        "id": "a8d667ca227c656e",
-        "type": "group",
-        "z": "beb74de4721fafb3",
-        "name": "PAR PHASE",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#ffff7f",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "2d1f60d9ca331fbc"
-        ],
-        "x": 78,
-        "y": 73,
-        "w": 1434,
-        "h": 1114
-    },
-    {
-        "id": "90e6b6fedc1f623d",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "name": "PAR PHASE",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#ffff7f",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "13ed8190d0427ee1",
-            "1f9425c71c44d0f6"
-        ],
-        "x": 68,
-        "y": 93,
-        "w": 1904,
-        "h": 399
-    },
-    {
-        "id": "45d7aa903fc01ceb",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "name": "AUTHORIZATION PHASE",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#c8e7a7",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000"
-        },
-        "nodes": [
-            "144ff98c87e076c2",
-            "0afdcbfb0dda622f",
-            "0b3adec60d5471ba"
-        ],
-        "x": 62,
-        "y": 587,
-        "w": 1916,
-        "h": 991
+        "h": 642
     },
     {
         "id": "0afdcbfb0dda622f",
@@ -1533,64 +1317,6 @@
         "y": 1273,
         "w": 1864,
         "h": 279
-    },
-    {
-        "id": "4237eddcb7aab01a",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "name": "CREDENTIAL PHASE",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#ff7f7f",
-            "label": true,
-            "color": "#000000",
-            "label-position": "n"
-        },
-        "nodes": [
-            "gen_pre_notif_group_001",
-            "gen_post_notif_group_001",
-            "b89e8c1fe0477a20",
-            "5cf99e9328eb55e5"
-        ],
-        "x": 58,
-        "y": 1633,
-        "w": 1914,
-        "h": 919
-    },
-    {
-        "id": "c10204d2b17502d7",
-        "type": "group",
-        "z": "f21af705a29aab2f",
-        "name": "CREDENTIAL TEST AUTOMATION",
-        "style": {
-            "stroke": "#000000",
-            "fill": "#dbcbe7",
-            "label": true,
-            "label-position": "n",
-            "color": "#000000",
-            "fill-opacity": "0.51"
-        },
-        "nodes": [
-            "2d0c0a726b3eec54",
-            "c57d6b585e843004",
-            "c2e88c95dc479d98",
-            "e9df678b3ee57984",
-            "f3a1b2c3d4e5f60e",
-            "52499e345b096027",
-            "8166e8a841903086",
-            "1197a27224793cec",
-            "feb724c47f77bb79",
-            "a894f93e41642681",
-            "f99d81f907a516e2",
-            "8ddb4c6bb6ebec5b",
-            "9b29d0bb3d5ed890",
-            "01919c95ed11fb07",
-            "aee94a9bbf456eaa"
-        ],
-        "x": 362,
-        "y": 113,
-        "w": 2096,
-        "h": 2534
     },
     {
         "id": "f99d81f907a516e2",
@@ -1683,6 +1409,282 @@
         "y": 2173,
         "w": 1434,
         "h": 234
+    },
+    {
+        "id": "e81d10542f2b9697",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "f99d81f907a516e2",
+        "name": "PAR REQUEST",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "978d3619b1315835",
+            "0e7249f5532825cf",
+            "e172ae7f3c24626c",
+            "c690b1a7e8470906",
+            "9388be84baaf171e"
+        ],
+        "x": 414,
+        "y": 779,
+        "w": 712,
+        "h": 182
+    },
+    {
+        "id": "4a95c3c27ec3621d",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "f99d81f907a516e2",
+        "name": "PAR RESPONSE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5589d0562140c4c9",
+            "b8c5a200fe9dcdb8",
+            "82a7927431e5f455",
+            "c24876597823ddfd",
+            "8ec89c4b517a8320",
+            "8c6c838ad96ef989",
+            "aabb706d863c5549",
+            "9e188d93191fccbd"
+        ],
+        "x": 1274,
+        "y": 779,
+        "w": 1132,
+        "h": 182
+    },
+    {
+        "id": "051ab4eacdac6c09",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "8ddb4c6bb6ebec5b",
+        "name": "NONCE REQUEST",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0b8af6028e794e95",
+            "a9cf5d6dd5bcf707",
+            "152dbc598ef4f659",
+            "ad356b52771bce86",
+            "1bca0f031f332d9d"
+        ],
+        "x": 714,
+        "y": 1599,
+        "w": 592,
+        "h": 182
+    },
+    {
+        "id": "3158ecf5ce06a25c",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "8ddb4c6bb6ebec5b",
+        "name": "NONCE RESPONSE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0f2c67d3038b5a13",
+            "fa9ca141e1ff7ec4",
+            "38ce943671a29c36",
+            "5fdf8ca0f1362a68",
+            "a45767d1b5f66cce",
+            "c7e9a1b2f4d56801"
+        ],
+        "x": 1394,
+        "y": 1599,
+        "w": 692,
+        "h": 182
+    },
+    {
+        "id": "7370bf52b4936e35",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "g": "0b3adec60d5471ba",
+        "name": "Pre NONCE Generation",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "e847bba3fb770ea9",
+            "f93746bb83f68808",
+            "a35e63dffeffb952",
+            "64261f407870e853",
+            "be51a11af1f4a22d",
+            "86d873af0b5281bf"
+        ],
+        "x": 114,
+        "y": 1299,
+        "w": 802,
+        "h": 227
+    },
+    {
+        "id": "7f8506bb823d2b2e",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "g": "0b3adec60d5471ba",
+        "name": "Post NONCE Generation",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "a9ef6363dd28fcdf",
+            "1531418d1f4f9d42",
+            "0dd9afc38a6f4699",
+            "cffa8c8409c95bdc",
+            "092b7a02fee4be4d",
+            "a1dd084da1e775ea"
+        ],
+        "x": 1084,
+        "y": 1299,
+        "w": 842,
+        "h": 227
+    },
+    {
+        "id": "361d503327fdf076",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "g": "0afdcbfb0dda622f",
+        "name": "Post Auth Request Generation",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "f911919b95523216",
+            "d56976eb9f26263d",
+            "b3d4bf0489173061",
+            "06cbea1920e41785",
+            "a545e564c5103ce3",
+            "7d66da55d4c39795",
+            "a3fa77b70bf3ad90",
+            "4c029faefb36a3e5",
+            "059de7540fee4b41",
+            "0164c2317f9993f5",
+            "b0ccac233c23fb1f"
+        ],
+        "x": 114,
+        "y": 639,
+        "w": 802,
+        "h": 307
+    },
+    {
+        "id": "2748e72c7d88771b",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "g": "0afdcbfb0dda622f",
+        "name": "Pre TOKEN Generation",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
+        },
+        "nodes": [
+            "e80118a27f88f38c",
+            "baa16b31772b7f7f",
+            "2dea9e565c2c5de6",
+            "0dab3572aaf18a38",
+            "ffcceaece83d9688",
+            "477f4c45aeae51ce"
+        ],
+        "x": 1064,
+        "y": 679,
+        "w": 862,
+        "h": 167
+    },
+    {
+        "id": "f3a1b2c3d4e5f601",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "01919c95ed11fb07",
+        "name": "NOTIFICATION REQUEST",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f3a1b2c3d4e5f602",
+            "f3a1b2c3d4e5f603",
+            "f3a1b2c3d4e5f604",
+            "f3a1b2c3d4e5f605",
+            "f3a1b2c3d4e5f606"
+        ],
+        "x": 724,
+        "y": 2199,
+        "w": 612,
+        "h": 182
+    },
+    {
+        "id": "f3a1b2c3d4e5f607",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "01919c95ed11fb07",
+        "name": "NOTIFICATION RESPONSE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f3a1b2c3d4e5f608",
+            "f3a1b2c3d4e5f609",
+            "f3a1b2c3d4e5f60a",
+            "f3a1b2c3d4e5f60b",
+            "f3a1b2c3d4e5f60c",
+            "f3a1b2c3d4e5f60d"
+        ],
+        "x": 1404,
+        "y": 2199,
+        "w": 702,
+        "h": 182
+    },
+    {
+        "id": "100ad993bdd22cb3",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "9b29d0bb3d5ed890",
+        "name": "CREDENTIAL REQUEST",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "663e3c033a8063f0",
+            "3572521967895cff",
+            "4027150598e1f4d6",
+            "cb183192e173e83b"
+        ],
+        "x": 654,
+        "y": 1899,
+        "w": 642,
+        "h": 142
+    },
+    {
+        "id": "b0f62c49e1f8be7a",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "9b29d0bb3d5ed890",
+        "name": "CREDENTIAL RESPONSE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "027db99a7e30acfe",
+            "8c1d0619e1eb6c23",
+            "80b4a4964bd26e1d",
+            "184988ac31193b07"
+        ],
+        "x": 1424,
+        "y": 1899,
+        "w": 682,
+        "h": 142
     },
     {
         "id": "d4d34ff748522565",
@@ -1988,8 +1990,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1390,
-        "y": 2180,
+        "x": 1400,
+        "y": 2260,
         "wires": [
             [
                 "40edf8523922fe53"
@@ -2001,8 +2003,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1650,
-        "y": 2180,
+        "x": 1660,
+        "y": 2260,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -6960,12 +6962,17 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "CI_132",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 13,
+        "outputs": 14,
         "x": 3360,
         "y": 360,
         "wires": [
@@ -7004,6 +7011,9 @@
             ],
             [
                 "assert_sdjwt_ci131_001"
+            ],
+            [
+                "assert_sdjwt_ci132_001"
             ],
             [
                 "c5b84c3dc61e16e4"
@@ -7275,6 +7285,28 @@
         "info": "**CI_131 – SD-JWT JOSE Header Parameters**\r\n\r\nObjective\r\n\r\nTo verify that the JOSE header of the Credential SD-JWT contains the parameters defined in the Credential SD-JWT Parameters Table, as required by the SD-JWT-VC specification (Section 4).\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT-VC – Section 4 (Credential SD-JWT Parameters Table)\r\n   •\tSD-JWT-VC – Section 4.1 (JOSE Header)\r\n\r\nVerified Requirements\r\n\r\nThe JOSE header MUST contain:\r\n\r\n   •\ttyp – REQUIRED; value MUST be vc+sd-jwt\r\n   •\talg – REQUIRED; MUST NOT be none\r\n\r\nThe JOSE header SHOULD contain at least one key identification parameter:\r\n\r\n   •\tkid – Key identifier (JWK Set URI)\r\n   •\tx5c – X.509 certificate chain\r\n   •\tjwk – JSON Web Key\r\n   •\tx5t#S256 – X.509 certificate SHA-256 thumbprint\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_131_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT JWT header is decoded and inspected\r\n   •\tPresence and correctness of required parameters is verified\r\n\r\n   Expected Result:\r\n   •\ttyp is present with value vc+sd-jwt\r\n   •\talg is present and is not none\r\n   •\tAt least one key identification parameter (kid, x5c, jwk, or x5t#S256) is present\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if all required JOSE header parameters are present with correct values as defined in the Credential SD-JWT Parameters Table."
     },
     {
+        "id": "assert_sdjwt_ci132_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_132",
+        "func": "/**\n * CI_132 – SD-JWT Payload Claims\n *\n * Verifies that the JWT payload of the Credential SD-JWT contains the claims\n * defined in the Credential SD-JWT Parameters Table (SD-JWT-VC spec, Section 4.2).\n *\n * Required payload claims (MUST):\n *   - iss : Issuer URI – MUST be present and a non-empty string\n *   - iat : Issued At  – MUST be present and a positive integer (NumericDate)\n *   - vct : Verifiable Credential Type – MUST be present and a non-empty string\n * Optional payload claims (informational):\n *   - sub : Subject identifier\n *   - cnf : Confirmation key binding\n *   - exp : Expiration Time\n *   - nbf : Not Before\n */\nconst ci = global.get('ciCommon');\n\n// Parse SD-JWT Combined Format: <JWT>~<Disclosure1>~...~\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jwt = parts[0];\n    const jp = jwt.split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT: expected 3 dot-separated components');\n    return {\n        jwt: jwt,\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\n// Session buffer: collect all split messages before running assertions\nconst contextKey = 'sessionsCi_132';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n\n    if (!credential || typeof credential !== 'string') {\n        ci.addAssert(msg.test, 'SD-JWT credential present in response as a string', false,\n            'No string \"credential\" field in Credential Endpoint response (statusCode=' + entry.statusCode + ')');\n        return;\n    }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, 'Parse error: ' + e.message); return; }\n\n    const p = parsed.payload;\n\n    // --- iss: Issuer – REQUIRED (SD-JWT-VC spec Section 4.2) ---\n    // MUST be present and be a non-empty string identifying the Credential Issuer\n    ci.addAssert(msg.test, 'SD-JWT payload: iss claim present', !!(p.iss && typeof p.iss === 'string'),\n        p.iss ? 'iss=' + p.iss : 'iss MISSING from SD-JWT payload');\n\n    // --- iat: Issued At – REQUIRED ---\n    // MUST be present as a positive NumericDate (integer or float)\n    ci.addAssert(msg.test, 'SD-JWT payload: iat claim present and numeric', typeof p.iat === 'number' && p.iat > 0,\n        typeof p.iat === 'number' ? 'iat=' + p.iat + ' (' + new Date(p.iat * 1000).toISOString() + ')' : 'iat MISSING or not a number');\n\n    // --- vct: Verifiable Credential Type – REQUIRED ---\n    // MUST be a URI or URN identifying the type of the credential\n    ci.addAssert(msg.test, 'SD-JWT payload: vct claim present', !!(p.vct && typeof p.vct === 'string'),\n        p.vct ? 'vct=' + p.vct : 'vct MISSING from SD-JWT payload');\n\n    // --- sub: Subject – OPTIONAL (informational) ---\n    ci.addAssert(msg.test, 'SD-JWT payload: sub claim (informational)', true,\n        p.sub ? 'sub=' + p.sub : 'sub not present (optional per spec)');\n\n    // --- cnf: Confirmation – OPTIONAL (informational) ---\n    // Used for key binding; presence recorded but not required\n    ci.addAssert(msg.test, 'SD-JWT payload: cnf claim (informational)', true,\n        p.cnf ? 'cnf present: ' + JSON.stringify(p.cnf).substring(0, 80) : 'cnf not present (optional per spec)');\n\n    // --- exp: Expiration Time – OPTIONAL (informational) ---\n    ci.addAssert(msg.test, 'SD-JWT payload: exp claim (informational)', true,\n        typeof p.exp === 'number' ? 'exp=' + p.exp + ' (' + new Date(p.exp * 1000).toISOString() + ')' : 'exp not present (optional per spec)');\n});\n\nmsg.test.suite = 'CI_132_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – SD-JWT Payload Claims';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3850,
+        "y": 620,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_132 – SD-JWT Payload Claims**\r\n\r\nObjective\r\n\r\nTo verify that the JWT payload of the Credential SD-JWT contains the required claims defined in the Credential SD-JWT Parameters Table, as specified by the SD-JWT-VC specification (Section 4.2).\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT-VC – Section 4.2 (SD-JWT-VC Payload)\r\n   •\tSD-JWT-VC – Section 4 (Credential SD-JWT Parameters Table)\r\n\r\nVerified Requirements\r\n\r\nThe JWT payload MUST contain:\r\n\r\n   •\tiss – Issuer URI (REQUIRED): non-empty string identifying the Credential Issuer\r\n   •\tiat – Issued At (REQUIRED): positive NumericDate integer\r\n   •\tvct – Verifiable Credential Type (REQUIRED): URI or URN identifying the credential type\r\n\r\nThe JWT payload MAY contain (recorded as informational):\r\n\r\n   •\tsub – Subject identifier\r\n   •\tcnf – Confirmation (key binding)\r\n   •\texp – Expiration Time\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_132_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT JWT payload is decoded and each required claim is inspected\r\n\r\n   Expected Result:\r\n   •\tiss is present and is a non-empty string\r\n   •\tiat is present and is a positive integer\r\n   •\tvct is present and is a non-empty string\r\n   •\tOptional claims (sub, cnf, exp) are recorded but do not affect the result\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if all required payload claims (iss, iat, vct) are present with the correct types as defined in the Credential SD-JWT Parameters Table."
+    },
+    {
         "id": "assert_sdjwt_change_001",
         "type": "change",
         "z": "beb74de4721fafb3",
@@ -7363,7 +7395,7 @@
             "gen_pre_notif_link_in_001"
         ],
         "x": 3775,
-        "y": 620,
+        "y": 700,
         "wires": []
     },
     {
@@ -8768,12 +8800,17 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "CI_132",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 13,
+        "outputs": 14,
         "x": 1130,
         "y": 1880,
         "wires": [
@@ -8812,6 +8849,9 @@
             ],
             [
                 "gen_sdjwt_set_ci131_001"
+            ],
+            [
+                "gen_sdjwt_set_ci132_001"
             ],
             [
                 "b73d6c5292d8a01f"
@@ -9064,6 +9104,27 @@
         "libs": [],
         "x": 1500,
         "y": 2140,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci132_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_132",
+        "func": "/**\n * CI_132 – SD-JWT Payload Claims\n * Forwards the credential response to Assert CI_132 to verify that the JWT payload\n * contains the required claims from the Credential SD-JWT Parameters Table.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '132verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 2180,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -9325,7 +9386,7 @@
         "type": "function",
         "z": "fd0b9d33192f4cec",
         "name": "build openid-federation metadata",
-        "func": "\nconst {generateKeyPairSync} = crypto;\nconst FLOW_KEY =\"my.well-known-key\"\nconst kid = \"my-key-id-123\";\nfunction generateEcP256Pair() {\n    const { privateKey, publicKey } = crypto.generateKeyPairSync('ec', {\n        namedCurve: 'P-256',\n        publicKeyEncoding: { type: 'spki', format: 'pem' },    // SPKI for public\n        privateKeyEncoding: { type: 'pkcs8', format: 'pem' }   // PKCS8 for private\n    });\n    return { privPem: privateKey, pubPem: publicKey };\n}\n\n// Recupera o genera coppia chiavi e salva su flow\nlet keys = flow.get(FLOW_KEY);\nif (!keys) {\n    keys = generateEcP256Pair();\n    flow.set(FLOW_KEY, keys);\n    node.log('Generated new EC P-256 keypair and saved in flow context.');\n} else {\n    // optionally log\n    node.debug('Using existing EC P-256 keypair from flow context.');\n}\n\nconst metadata = {\n    \"issuer\": \"http://localhost:1880\",\n    \"nonce_endpoint\": \"http://localhost:1880/nonce\",\n    \"credential_endpoint\": \"http://localhost:1880/credential\",\n    \"notification_endpoint\": \"http://localhost:1880/notification\",\n    \"status_assertion_endpoint\": \"http://localhost:1880/status\",\n    \"credential_issuer\": \"http://localhost:1880\",\n    \"display\": [\n        {\n            \"name\": \"Mocked Credential Issuer\",\n            \"locale\": \"it-IT\",\n            \"logo\": { \"uri\": \"http://localhost:1880/public/logo.svg\", \"alt_text\": \"logo di questo eID Provider\" }\n        },\n        {\n            \"name\": \"Mocked Credential Issuer\",\n            \"locale\": \"en-US\",\n            \"logo\": { \"uri\": \"http://localhost:1880/public/logo.svg\", \"alt_text\": \"eID Provider's logo\" }\n        }\n    ],\n    \"metadata\": {\n        \"openid_credential_issuer\": {\n            \"credential_hash_alg_supported\": \"sha-256\",\n            \"trust_frameworks_supported\": [\"it_cie\",\"it_spid\",\"it_l2+document_proof\"],\n            \"jwks\": {\n                \"keys\": [\n                    {\n                        \"kty\": \"EC\",\n                        \"crv\": \"P-256\",\n                        \"kid\": \"3912b5df9121a8c4a26a61ff90ea65040fe2bf7906a4d7a4bb0434fe2001bba1\",\n                        \"x\": \"eHaF K7xAc_t6xrOd-Xau...\",\n                        \"y\": \"A_JdzX8h4U2x7-Rm2Pns...\",\n                        \"alg\": \"ES256\"\n                    }\n                ]\n            },\n            \"credential_isssuer\": \"http://localhost:1880\",\n            \"display\": [\n                { \"name\": \"Dati di Identificazione Personale\", \"locale\": \"it-IT\" },\n                { \"name\": \"Person Identification Data\", \"locale\": \"en-US\" }\n            ]\n        }\n    },\n    \"evidence_supported\": [\"vouch\"],\n    \"scopes_supported\": [\"PersonIdentificationData\"],\n    \"claims_supported\": [\"aud\",\"iss\",\"sub\",\"iat\",\"exp\",\"name\",\"family_name\",\"given_name\"],\n    \"response_modes_supported\": [\"query\",\"form_post.jwt\"],\n    \"token_endpoint\": \"http://localhost:1880/token\",\n    \"authorization_endpoint\": \"http://localhost:1880/authorize\",\n    \"jwks_uri\": \"http://localhost:1880/jwks\",\n    \"service_documentation\": \"http://localhost:1880/\",\n    \"oauth_authorization_server\": {\n      \"request_parameter_supported\": true,\n      \"pushed_authorization_request_endpoint\": \"http://localhost:1880/par\"\n    }\n};\n\n// Imposta la response come JSON\nmsg.headers = msg.headers || {};\nmsg.headers['Content-Type'] = 'application/json; charset=utf-8';\n\n\n(async () => {\n\n    const privateKey = await jose.importPKCS8(keys.privPem, \"ES256\");\n    const payload = {\n        iss: \"http://localhost:1880\",\n        sub: \"http://localhost:1880\",\n        iat: Math.floor(Date.now() / 1000),\n        exp: Math.floor(Date.now() / 1000) + 3600,\n        metadata: metadata\n        };\n    const jwt = await new jose.SignJWT(payload)\n        .setProtectedHeader({\n            alg: \"ES256\",\n            kid: kid,\n            typ: \"entity-statement+jwt\"\n        })\n        .sign(privateKey);\n\n    msg.payload = jwt;\n    node.send(msg);\n    return null;\n})();\n\n\n",
+        "func": "\nconst {generateKeyPairSync} = crypto;\nconst FLOW_KEY =\"my.well-known-key\"\nconst kid = \"my-key-id-123\";\nfunction generateEcP256Pair() {\n    const { privateKey, publicKey } = crypto.generateKeyPairSync('ec', {\n        namedCurve: 'P-256',\n        publicKeyEncoding: { type: 'spki', format: 'pem' },    // SPKI for public\n        privateKeyEncoding: { type: 'pkcs8', format: 'pem' }   // PKCS8 for private\n    });\n    return { privPem: privateKey, pubPem: publicKey };\n}\nfunction base64url(buf) {\n    return Buffer.from(buf)\n        .toString('base64')\n        .replace(/\\+/g, '-')\n        .replace(/\\//g, '_')\n        .replace(/=+$/g, '');\n}\n// Recupera o genera coppia chiavi e salva su flow\nlet keys = flow.get(FLOW_KEY);\nif (!keys) {\n    keys = generateEcP256Pair();\n    flow.set(FLOW_KEY, keys);\n    node.log('Generated new EC P-256 keypair and saved in flow context.');\n} else {\n    // optionally log\n    node.debug('Using existing EC P-256 keypair from flow context.');\n}\n\nconst metadata = {\n    \"issuer\": \"http://localhost:1880\",\n    \"nonce_endpoint\": \"http://localhost:1880/nonce\",\n    \"credential_endpoint\": \"http://localhost:1880/credential\",\n    \"notification_endpoint\": \"http://localhost:1880/notification\",\n    \"status_assertion_endpoint\": \"http://localhost:1880/status\",\n    \"credential_issuer\": \"http://localhost:1880\",\n    \"display\": [\n        {\n            \"name\": \"Mocked Credential Issuer\",\n            \"locale\": \"it-IT\",\n            \"logo\": { \"uri\": \"http://localhost:1880/public/logo.svg\", \"alt_text\": \"logo di questo eID Provider\" }\n        },\n        {\n            \"name\": \"Mocked Credential Issuer\",\n            \"locale\": \"en-US\",\n            \"logo\": { \"uri\": \"http://localhost:1880/public/logo.svg\", \"alt_text\": \"eID Provider's logo\" }\n        }\n    ],\n    \"metadata\": {\n        \"openid_credential_issuer\": {\n            \"credential_hash_alg_supported\": \"sha-256\",\n            \"trust_frameworks_supported\": [\"it_cie\",\"it_spid\",\"it_l2+document_proof\"],\n            \"jwks\": {\n                \"keys\": [\n                    {\n                        \"kty\": \"EC\",\n                        \"crv\": \"P-256\",\n                        \"kid\": \"3912b5df9121a8c4a26a61ff90ea65040fe2bf7906a4d7a4bb0434fe2001bba1\",\n                        \"x\": \"eHaF K7xAc_t6xrOd-Xau...\",\n                        \"y\": \"A_JdzX8h4U2x7-Rm2Pns...\",\n                        \"alg\": \"ES256\"\n                    }\n                ]\n            },\n            \"credential_isssuer\": \"http://localhost:1880\",\n            \"display\": [\n                { \"name\": \"Dati di Identificazione Personale\", \"locale\": \"it-IT\" },\n                { \"name\": \"Person Identification Data\", \"locale\": \"en-US\" }\n            ]\n        }\n    },\n    \"evidence_supported\": [\"vouch\"],\n    \"scopes_supported\": [\"PersonIdentificationData\"],\n    \"claims_supported\": [\"aud\",\"iss\",\"sub\",\"iat\",\"exp\",\"name\",\"family_name\",\"given_name\"],\n    \"response_modes_supported\": [\"query\",\"form_post.jwt\"],\n    \"token_endpoint\": \"http://localhost:1880/token\",\n    \"authorization_endpoint\": \"http://localhost:1880/authorize\",\n    \"jwks_uri\": \"http://localhost:1880/jwks\",\n    \"service_documentation\": \"http://localhost:1880/\",\n    \"oauth_authorization_server\": {\n      \"request_parameter_supported\": true,\n      \"pushed_authorization_request_endpoint\": \"http://localhost:1880/par\"\n    }\n};\n\n// Imposta la response come JSON\nmsg.headers = msg.headers || {};\nmsg.headers['Content-Type'] = 'application/json; charset=utf-8';\n\n\n\n(async () => {\n\n    const privateKey = await jose.importPKCS8(keys.privPem, \"ES256\");\n    const payload = {\n        iss: \"http://localhost:1880\",\n        sub: \"http://localhost:1880\",\n        iat: Math.floor(Date.now() / 1000),\n        exp: Math.floor(Date.now() / 1000) + 3600,\n        vat: base64url(crypto.randomBytes(32)),\n        metadata: metadata\n        };\n    const jwt = await new jose.SignJWT(payload)\n        .setProtectedHeader({\n            alg: \"ES256\",\n            kid: kid,\n            typ: \"entity-statement+jwt\"\n        })\n        .sign(privateKey);\n\n    msg.payload = jwt;\n    node.send(msg);\n    return null;\n})();\n\n\n",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,

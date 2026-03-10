@@ -184,14 +184,31 @@ Both require `ANTHROPIC_API_KEY` in repository secrets.
 | CI_001–CI_049 | PAR, metadata | Earlier tests |
 | CI_050–CI_063 | PAR, Auth response | Reference tests (used as doc examples) |
 | CI_064–CI_119 | Nonce, Token, Credential | Mid-range tests |
-| CI_120–CI_130 | Credential (SD-JWT-VC) | Structural SD-JWT verification |
+| CI_120–CI_132 | Credential (SD-JWT-VC) | Structural SD-JWT verification |
 
 CI_999 is a catch-all/smoke test ID visible in the assert switches.
 
 ---
 
-## Adding a New CI Test (e.g., CI_131)
+## Adding a New CI Test (SD-JWT range, CI_120+)
 
-1. **Generation Flow CI** — add an `eq "CI_131"` rule to the appropriate Post-step switch; wire to a new Set node; Set node injects `msg.subTestCase` and `msg.innerSplit`; wire to the shared link-out for that step group.
-2. **Assert Flow CI** — add an `eq "CI_131"` rule to the corresponding assert switch; wire to a new Assert Function node; wire Assert node to the shared Change + HTTP Response nodes for that group.
-3. Deploy (Ctrl+Shift+D) then commit via Git panel.
+Use the Claude skill `/ipzs-create-assert` for guided step-by-step creation.
+
+Manual procedure for the **SD-JWT credential group**:
+
+| What | Node ID | Tab |
+|------|---------|-----|
+| Post-Credential switch | `2f0f133fb016e61a` | Generation Flow CI |
+| Gen group | `5cf99e9328eb55e5` | Generation Flow CI |
+| Link-out Post Credential | `fd669d8614d0c9eb` | Generation Flow CI |
+| Assert switch | `assert_sdjwt_switch_001` | Assert Flow CI |
+| Assert group | `assert_sdjwt_group_001` | Assert Flow CI |
+| Assert change node | `assert_sdjwt_change_001` | Assert Flow CI |
+
+Steps for CI_XXX:
+1. Add `eq "CI_XXX"` rule + output wire in both switches; increment `outputs` by 1.
+2. Add `gen_sdjwt_set_ciXXX_001` to gen group `nodes`; add `assert_sdjwt_ciXXX_001` to assert group `nodes` (before `assert_sdjwt_change_001`).
+3. Insert Set node (wires to `fd669d8614d0c9eb`) after the last Set node in the file.
+4. Insert Assert node (wires to `assert_sdjwt_change_001`) before `assert_sdjwt_change_001` in the file.
+5. Deploy (Ctrl+Shift+D) then test: `POST http://localhost:1880/credential-issuer/tests/CI_XXX?verbose=true`
+6. Commit via Git panel.
