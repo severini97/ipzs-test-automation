@@ -389,19 +389,21 @@
         "id": "aee94a9bbf456eaa",
         "type": "group",
         "z": "f21af705a29aab2f",
-        "name": "Callback",
+        "g": "c10204d2b17502d7",
+        "name": "CONFIGURATION",
         "style": {
             "label": true
         },
         "nodes": [
             "ac49ca84115e276b",
             "5d5f1e9a57115752",
-            "721eb8e58dcbc987"
+            "721eb8e58dcbc987",
+            "f872fa98017ca329"
         ],
-        "x": 914,
-        "y": 2479,
-        "w": 572,
-        "h": 82
+        "x": 1954,
+        "y": 139,
+        "w": 412,
+        "h": 202
     },
     {
         "id": "8e1a5b4b6d0c2a10",
@@ -427,6 +429,7 @@
         "id": "e81d10542f2b9697",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "f99d81f907a516e2",
         "name": "PAR REQUEST",
         "style": {
             "label": true
@@ -438,15 +441,16 @@
             "c690b1a7e8470906",
             "9388be84baaf171e"
         ],
-        "x": 494,
-        "y": 659,
-        "w": 592,
+        "x": 474,
+        "y": 779,
+        "w": 712,
         "h": 182
     },
     {
         "id": "4a95c3c27ec3621d",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "f99d81f907a516e2",
         "name": "PAR RESPONSE",
         "style": {
             "label": true
@@ -461,8 +465,8 @@
             "aabb706d863c5549",
             "9e188d93191fccbd"
         ],
-        "x": 1174,
-        "y": 659,
+        "x": 1214,
+        "y": 779,
         "w": 1132,
         "h": 182
     },
@@ -470,6 +474,7 @@
         "id": "8166e8a841903086",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -498,8 +503,8 @@
             "d5c17d29488d93b5",
             "68c41f9748217980"
         ],
-        "x": 554,
-        "y": 19,
+        "x": 734,
+        "y": 139,
         "w": 1212,
         "h": 502
     },
@@ -507,6 +512,7 @@
         "id": "051ab4eacdac6c09",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "8ddb4c6bb6ebec5b",
         "name": "NONCE REQUEST",
         "style": {
             "label": true
@@ -518,8 +524,8 @@
             "ad356b52771bce86",
             "1bca0f031f332d9d"
         ],
-        "x": 494,
-        "y": 1499,
+        "x": 714,
+        "y": 1599,
         "w": 592,
         "h": 182
     },
@@ -527,6 +533,7 @@
         "id": "3158ecf5ce06a25c",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "8ddb4c6bb6ebec5b",
         "name": "NONCE RESPONSE",
         "style": {
             "label": true
@@ -539,8 +546,8 @@
             "a45767d1b5f66cce",
             "c7e9a1b2f4d56801"
         ],
-        "x": 1174,
-        "y": 1499,
+        "x": 1394,
+        "y": 1599,
         "w": 692,
         "h": 182
     },
@@ -548,6 +555,7 @@
         "id": "1197a27224793cec",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "Final Step",
         "style": {
             "label": true
@@ -559,8 +567,8 @@
             "ec88064589be8b91",
             "934975882e5ecef0"
         ],
-        "x": 944,
-        "y": 2239,
+        "x": 1084,
+        "y": 2439,
         "w": 502,
         "h": 162
     },
@@ -568,6 +576,7 @@
         "id": "feb724c47f77bb79",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "TOKEN REQUEST",
         "style": {
             "label": true
@@ -583,8 +592,8 @@
             "5a6603ad790d4004",
             "f75977d135359658"
         ],
-        "x": 634,
-        "y": 1239,
+        "x": 774,
+        "y": 1359,
         "w": 1102,
         "h": 142
     },
@@ -829,6 +838,7 @@
         "id": "a894f93e41642681",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "AUTH REQUEST",
         "style": {
             "label": true
@@ -846,8 +856,8 @@
             "0f99b3c5cb163c8c",
             "5df4122cd80781a8"
         ],
-        "x": 554,
-        "y": 919,
+        "x": 744,
+        "y": 1059,
         "w": 1392,
         "h": 202
     },
@@ -1080,6 +1090,7 @@
         "id": "f3a1b2c3d4e5f601",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "01919c95ed11fb07",
         "name": "NOTIFICATION REQUEST",
         "style": {
             "label": true
@@ -1091,8 +1102,8 @@
             "f3a1b2c3d4e5f605",
             "f3a1b2c3d4e5f606"
         ],
-        "x": 484,
-        "y": 1999,
+        "x": 724,
+        "y": 2199,
         "w": 612,
         "h": 182
     },
@@ -1100,6 +1111,7 @@
         "id": "f3a1b2c3d4e5f607",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "01919c95ed11fb07",
         "name": "NOTIFICATION RESPONSE",
         "style": {
             "label": true
@@ -1112,8 +1124,8 @@
             "f3a1b2c3d4e5f60c",
             "f3a1b2c3d4e5f60d"
         ],
-        "x": 1164,
-        "y": 1999,
+        "x": 1404,
+        "y": 2199,
         "w": 702,
         "h": 182
     },
@@ -1259,6 +1271,7 @@
         "id": "100ad993bdd22cb3",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "9b29d0bb3d5ed890",
         "name": "CREDENTIAL REQUEST",
         "style": {
             "label": true
@@ -1269,8 +1282,8 @@
             "4027150598e1f4d6",
             "cb183192e173e83b"
         ],
-        "x": 494,
-        "y": 1779,
+        "x": 704,
+        "y": 1899,
         "w": 642,
         "h": 142
     },
@@ -1278,6 +1291,7 @@
         "id": "b0f62c49e1f8be7a",
         "type": "group",
         "z": "f21af705a29aab2f",
+        "g": "9b29d0bb3d5ed890",
         "name": "CREDENTIAL RESPONSE",
         "style": {
             "label": true
@@ -1288,8 +1302,8 @@
             "80b4a4964bd26e1d",
             "184988ac31193b07"
         ],
-        "x": 1184,
-        "y": 1779,
+        "x": 1394,
+        "y": 1899,
         "w": 682,
         "h": 142
     },
@@ -1540,6 +1554,133 @@
         "y": 1633,
         "w": 1914,
         "h": 919
+    },
+    {
+        "id": "c10204d2b17502d7",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000",
+            "fill-opacity": "0.51"
+        },
+        "nodes": [
+            "2d0c0a726b3eec54",
+            "c57d6b585e843004",
+            "c2e88c95dc479d98",
+            "e9df678b3ee57984",
+            "f3a1b2c3d4e5f60e",
+            "52499e345b096027",
+            "8166e8a841903086",
+            "1197a27224793cec",
+            "feb724c47f77bb79",
+            "a894f93e41642681",
+            "f99d81f907a516e2",
+            "8ddb4c6bb6ebec5b",
+            "9b29d0bb3d5ed890",
+            "01919c95ed11fb07",
+            "aee94a9bbf456eaa"
+        ],
+        "x": 422,
+        "y": 113,
+        "w": 1976,
+        "h": 2514
+    },
+    {
+        "id": "f99d81f907a516e2",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4a95c3c27ec3621d",
+            "e81d10542f2b9697"
+        ],
+        "x": 448,
+        "y": 753,
+        "w": 1924,
+        "h": 234
+    },
+    {
+        "id": "8ddb4c6bb6ebec5b",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "051ab4eacdac6c09",
+            "3158ecf5ce06a25c"
+        ],
+        "x": 688,
+        "y": 1573,
+        "w": 1424,
+        "h": 234
+    },
+    {
+        "id": "9b29d0bb3d5ed890",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "100ad993bdd22cb3",
+            "b0f62c49e1f8be7a"
+        ],
+        "x": 678,
+        "y": 1873,
+        "w": 1424,
+        "h": 194
+    },
+    {
+        "id": "01919c95ed11fb07",
+        "type": "group",
+        "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f3a1b2c3d4e5f601",
+            "f3a1b2c3d4e5f607"
+        ],
+        "x": 698,
+        "y": 2173,
+        "w": 1434,
+        "h": 234
     },
     {
         "id": "d4d34ff748522565",
@@ -3323,8 +3464,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 910,
-        "y": 280,
+        "x": 1090,
+        "y": 400,
         "wires": [
             [
                 "3e126167c730376c",
@@ -3345,8 +3486,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1280,
-        "y": 280,
+        "x": 1460,
+        "y": 400,
         "wires": [
             [
                 "9baf43b3abd48276"
@@ -3366,8 +3507,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1190,
-        "y": 380,
+        "x": 1370,
+        "y": 500,
         "wires": [
             [
                 "ca8be0bb84d04b38",
@@ -3388,8 +3529,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1580,
-        "y": 380,
+        "x": 1760,
+        "y": 500,
         "wires": [
             [
                 "d6e90687c83da43a"
@@ -3409,8 +3550,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1100,
-        "y": 480,
+        "x": 1280,
+        "y": 600,
         "wires": [
             [
                 "b855375c9823685e"
@@ -3434,8 +3575,8 @@
         "authType": "",
         "senderr": true,
         "headers": [],
-        "x": 1350,
-        "y": 740,
+        "x": 1390,
+        "y": 860,
         "wires": [
             [
                 "82a7927431e5f455",
@@ -3453,8 +3594,8 @@
             "5589d0562140c4c9"
         ],
         "uncaught": false,
-        "x": 1450,
-        "y": 800,
+        "x": 1490,
+        "y": 920,
         "wires": [
             [
                 "82a7927431e5f455"
@@ -3474,8 +3615,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1760,
-        "y": 740,
+        "x": 1800,
+        "y": 860,
         "wires": [
             [
                 "c24876597823ddfd"
@@ -3495,8 +3636,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2020,
-        "y": 740,
+        "x": 2060,
+        "y": 860,
         "wires": [
             [
                 "8ec89c4b517a8320",
@@ -3510,8 +3651,8 @@
         "z": "f21af705a29aab2f",
         "g": "8166e8a841903086",
         "name": "HTTP GET && CI metadata response",
-        "x": 750,
-        "y": 380,
+        "x": 930,
+        "y": 500,
         "wires": [
             [
                 "b060a58197c2f810"
@@ -3524,8 +3665,8 @@
         "z": "f21af705a29aab2f",
         "g": "8166e8a841903086",
         "name": "",
-        "x": 730,
-        "y": 480,
+        "x": 910,
+        "y": 600,
         "wires": [
             [
                 "c04e4cb0ce337f45"
@@ -3545,8 +3686,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 650,
-        "y": 280,
+        "x": 830,
+        "y": 400,
         "wires": [
             [
                 "a36abb2e993d3f89"
@@ -3566,8 +3707,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 1270,
-        "y": 120,
+        "x": 1450,
+        "y": 240,
         "wires": [
             [
                 "8ed6200e306276b5"
@@ -3594,8 +3735,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1050,
-        "y": 120,
+        "x": 1230,
+        "y": 240,
         "wires": [
             [
                 "ee6dda6d8a6c1113"
@@ -3611,8 +3752,8 @@
         "property": "payload",
         "action": "",
         "pretty": false,
-        "x": 1430,
-        "y": 120,
+        "x": 1610,
+        "y": 240,
         "wires": [
             [
                 "b52f78a4f0ab21e3",
@@ -3634,8 +3775,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 950,
-        "y": 800,
+        "x": 930,
+        "y": 920,
         "wires": []
     },
     {
@@ -3652,8 +3793,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 940,
-        "y": 60,
+        "x": 1120,
+        "y": 180,
         "wires": []
     },
     {
@@ -3670,8 +3811,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1480,
-        "y": 340,
+        "x": 1660,
+        "y": 460,
         "wires": []
     },
     {
@@ -3688,8 +3829,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1210,
-        "y": 240,
+        "x": 1390,
+        "y": 360,
         "wires": []
     },
     {
@@ -3706,8 +3847,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2200,
-        "y": 700,
+        "x": 2240,
+        "y": 820,
         "wires": []
     },
     {
@@ -3716,8 +3857,8 @@
         "z": "f21af705a29aab2f",
         "g": "e81d10542f2b9697",
         "name": "",
-        "x": 700,
-        "y": 760,
+        "x": 680,
+        "y": 880,
         "wires": [
             [
                 "978d3619b1315835",
@@ -3735,8 +3876,8 @@
         "links": [
             "89e3fa68838d73d3"
         ],
-        "x": 2265,
-        "y": 740,
+        "x": 2305,
+        "y": 860,
         "wires": []
     },
     {
@@ -3749,8 +3890,8 @@
         "links": [
             "9b8e295275114fb4"
         ],
-        "x": 1345,
-        "y": 480,
+        "x": 1525,
+        "y": 600,
         "wires": []
     },
     {
@@ -3762,8 +3903,8 @@
         "links": [
             "a69d3e22363ca305"
         ],
-        "x": 535,
-        "y": 760,
+        "x": 515,
+        "y": 880,
         "wires": [
             [
                 "0e7249f5532825cf",
@@ -3784,8 +3925,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1240,
-        "y": 2520,
+        "x": 2060,
+        "y": 240,
         "wires": [
             [
                 "721eb8e58dcbc987"
@@ -3803,8 +3944,8 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 1010,
-        "y": 2520,
+        "x": 2050,
+        "y": 180,
         "wires": [
             [
                 "ac49ca84115e276b"
@@ -3819,8 +3960,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1410,
-        "y": 2520,
+        "x": 2070,
+        "y": 300,
         "wires": []
     },
     {
@@ -3833,8 +3974,8 @@
         "links": [
             "0c29217c9545a780"
         ],
-        "x": 1035,
-        "y": 760,
+        "x": 1145,
+        "y": 880,
         "wires": []
     },
     {
@@ -3846,8 +3987,8 @@
         "links": [
             "520a4262592a47f7"
         ],
-        "x": 1215,
-        "y": 740,
+        "x": 1255,
+        "y": 860,
         "wires": [
             [
                 "5589d0562140c4c9"
@@ -3868,8 +4009,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1680,
-        "y": 700,
+        "x": 1720,
+        "y": 820,
         "wires": []
     },
     {
@@ -3886,8 +4027,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 710,
-        "y": 700,
+        "x": 690,
+        "y": 820,
         "wires": []
     },
     {
@@ -3903,8 +4044,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1560,
-        "y": 80,
+        "x": 1740,
+        "y": 200,
         "wires": []
     },
     {
@@ -3918,8 +4059,8 @@
         "upload": false,
         "skipBodyParsing": false,
         "swaggerDoc": "",
-        "x": 740,
-        "y": 120,
+        "x": 920,
+        "y": 240,
         "wires": [
             [
                 "cb84c1c76ef9af46",
@@ -3931,9 +4072,10 @@
         "id": "f872fa98017ca329",
         "type": "subflow:4e24dbc0c8d74192",
         "z": "f21af705a29aab2f",
+        "g": "aee94a9bbf456eaa",
         "name": "",
-        "x": 1120,
-        "y": 560,
+        "x": 2260,
+        "y": 240,
         "wires": []
     },
     {
@@ -3942,8 +4084,8 @@
         "z": "f21af705a29aab2f",
         "g": "051ab4eacdac6c09",
         "name": "",
-        "x": 700,
-        "y": 1600,
+        "x": 920,
+        "y": 1700,
         "wires": [
             [
                 "ad356b52771bce86",
@@ -3965,8 +4107,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 710,
-        "y": 1540,
+        "x": 930,
+        "y": 1640,
         "wires": []
     },
     {
@@ -3983,8 +4125,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 940,
-        "y": 1640,
+        "x": 1160,
+        "y": 1740,
         "wires": []
     },
     {
@@ -3997,8 +4139,8 @@
         "links": [
             "a9ef6363dd28fcdf"
         ],
-        "x": 1035,
-        "y": 1600,
+        "x": 1255,
+        "y": 1700,
         "wires": []
     },
     {
@@ -4010,8 +4152,8 @@
         "links": [
             "64261f407870e853"
         ],
-        "x": 535,
-        "y": 1600,
+        "x": 755,
+        "y": 1700,
         "wires": [
             [
                 "0b8af6028e794e95",
@@ -4023,20 +4165,22 @@
         "id": "2d0c0a726b3eec54",
         "type": "comment",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte PAR",
         "info": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte PAR",
-        "x": 1170,
-        "y": 620,
+        "x": 1330,
+        "y": 720,
         "wires": []
     },
     {
         "id": "c57d6b585e843004",
         "type": "comment",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte NONCE",
         "info": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte PAR",
-        "x": 1180,
-        "y": 1460,
+        "x": 1340,
+        "y": 1540,
         "wires": []
     },
     {
@@ -4048,8 +4192,8 @@
         "links": [
             "1531418d1f4f9d42"
         ],
-        "x": 1215,
-        "y": 1580,
+        "x": 1435,
+        "y": 1680,
         "wires": [
             [
                 "fa9ca141e1ff7ec4"
@@ -4073,8 +4217,8 @@
         "authType": "",
         "senderr": true,
         "headers": [],
-        "x": 1370,
-        "y": 1580,
+        "x": 1590,
+        "y": 1680,
         "wires": [
             [
                 "38ce943671a29c36",
@@ -4096,8 +4240,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1660,
-        "y": 1540,
+        "x": 1880,
+        "y": 1640,
         "wires": []
     },
     {
@@ -4110,8 +4254,8 @@
             "fa9ca141e1ff7ec4"
         ],
         "uncaught": false,
-        "x": 1480,
-        "y": 1640,
+        "x": 1700,
+        "y": 1740,
         "wires": [
             []
         ]
@@ -4120,10 +4264,11 @@
         "id": "c2e88c95dc479d98",
         "type": "comment",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte AUTH",
         "info": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte PAR",
-        "x": 1180,
-        "y": 880,
+        "x": 1340,
+        "y": 1020,
         "wires": []
     },
     {
@@ -4135,8 +4280,8 @@
         "links": [
             "baa16b31772b7f7f"
         ],
-        "x": 675,
-        "y": 1280,
+        "x": 815,
+        "y": 1400,
         "wires": [
             [
                 "9113273c681480ae"
@@ -4153,8 +4298,8 @@
         "links": [
             "20134a6db08bb17d"
         ],
-        "x": 1695,
-        "y": 1280,
+        "x": 1835,
+        "y": 1400,
         "wires": []
     },
     {
@@ -4174,8 +4319,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1380,
-        "y": 1280,
+        "x": 1520,
+        "y": 1400,
         "wires": [
             [
                 "5a6603ad790d4004",
@@ -4189,8 +4334,8 @@
         "z": "f21af705a29aab2f",
         "g": "feb724c47f77bb79",
         "name": "",
-        "x": 820,
-        "y": 1280,
+        "x": 960,
+        "y": 1400,
         "wires": [
             [
                 "1ea4437f5cf08548",
@@ -4212,8 +4357,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1070,
-        "y": 1340,
+        "x": 1210,
+        "y": 1460,
         "wires": []
     },
     {
@@ -4230,8 +4375,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1330,
-        "y": 2280,
+        "x": 1470,
+        "y": 2480,
         "wires": []
     },
     {
@@ -4242,8 +4387,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1310,
-        "y": 2360,
+        "x": 1450,
+        "y": 2560,
         "wires": []
     },
     {
@@ -4259,8 +4404,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1120,
-        "y": 2360,
+        "x": 1260,
+        "y": 2560,
         "wires": [
             [
                 "98fcb4e75261e4c6",
@@ -4277,8 +4422,8 @@
         "links": [
             "assert_notif_link_out_001"
         ],
-        "x": 985,
-        "y": 2360,
+        "x": 1125,
+        "y": 2560,
         "wires": [
             [
                 "c2a5efe30e468b47",
@@ -4300,18 +4445,19 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1120,
-        "y": 2280,
+        "x": 1260,
+        "y": 2480,
         "wires": []
     },
     {
         "id": "e9df678b3ee57984",
         "type": "comment",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte TOKEN",
         "info": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte PAR",
-        "x": 1180,
-        "y": 1160,
+        "x": 1340,
+        "y": 1300,
         "wires": []
     },
     {
@@ -4324,8 +4470,8 @@
         "links": [
             "8daea0db551be585"
         ],
-        "x": 1825,
-        "y": 1580,
+        "x": 2045,
+        "y": 1680,
         "wires": []
     },
     {
@@ -4341,8 +4487,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1670,
-        "y": 1580,
+        "x": 1890,
+        "y": 1680,
         "wires": [
             [
                 "a45767d1b5f66cce"
@@ -4358,8 +4504,8 @@
         "links": [
             "c0cdea178ad8d572"
         ],
-        "x": 595,
-        "y": 1020,
+        "x": 785,
+        "y": 1160,
         "wires": [
             [
                 "f95ee4a66a7b4c93",
@@ -4380,8 +4526,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 800,
-        "y": 1020,
+        "x": 990,
+        "y": 1160,
         "wires": [
             [
                 "b73ad0a70d71d111",
@@ -4403,8 +4549,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1000,
-        "y": 1080,
+        "x": 1190,
+        "y": 1220,
         "wires": []
     },
     {
@@ -4424,8 +4570,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1260,
-        "y": 1020,
+        "x": 1450,
+        "y": 1160,
         "wires": [
             [
                 "4902532c15f9bed2",
@@ -4447,8 +4593,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 770,
-        "y": 960,
+        "x": 960,
+        "y": 1100,
         "wires": []
     },
     {
@@ -4464,8 +4610,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1020,
+        "x": 1690,
+        "y": 1160,
         "wires": [
             [
                 "2ff06975a55cc4a2",
@@ -4483,8 +4629,8 @@
         "links": [
             "aadfee9d144d1075"
         ],
-        "x": 1655,
-        "y": 1020,
+        "x": 1845,
+        "y": 1160,
         "wires": []
     },
     {
@@ -4497,8 +4643,8 @@
         "links": [
             "d56976eb9f26263d"
         ],
-        "x": 965,
-        "y": 1020,
+        "x": 1155,
+        "y": 1160,
         "wires": []
     },
     {
@@ -4510,8 +4656,8 @@
         "links": [
             "f911919b95523216"
         ],
-        "x": 1085,
-        "y": 1020,
+        "x": 1275,
+        "y": 1160,
         "wires": [
             [
                 "55be894c03ab2c81"
@@ -4532,8 +4678,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 960,
+        "x": 1610,
+        "y": 1100,
         "wires": []
     },
     {
@@ -4550,8 +4696,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1770,
-        "y": 960,
+        "x": 1960,
+        "y": 1100,
         "wires": []
     },
     {
@@ -4563,8 +4709,8 @@
         "links": [
             "e14ca3ec2bf02cde"
         ],
-        "x": 1255,
-        "y": 1280,
+        "x": 1395,
+        "y": 1400,
         "wires": [
             [
                 "c67202400dc3a3cc"
@@ -4581,8 +4727,8 @@
         "links": [
             "915e5e2fcf857955"
         ],
-        "x": 1025,
-        "y": 1280,
+        "x": 1165,
+        "y": 1400,
         "wires": []
     },
     {
@@ -4594,8 +4740,8 @@
         "links": [
             "gen_pre_notif_link_out_001"
         ],
-        "x": 525,
-        "y": 2100,
+        "x": 765,
+        "y": 2300,
         "wires": [
             [
                 "f3a1b2c3d4e5f603",
@@ -4609,8 +4755,8 @@
         "z": "f21af705a29aab2f",
         "g": "f3a1b2c3d4e5f601",
         "name": "",
-        "x": 690,
-        "y": 2100,
+        "x": 930,
+        "y": 2300,
         "wires": [
             [
                 "f3a1b2c3d4e5f605",
@@ -4632,8 +4778,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 700,
-        "y": 2040,
+        "x": 940,
+        "y": 2240,
         "wires": []
     },
     {
@@ -4646,8 +4792,8 @@
         "links": [
             "gen_post_notif_link_in_001"
         ],
-        "x": 1025,
-        "y": 2100,
+        "x": 1265,
+        "y": 2300,
         "wires": []
     },
     {
@@ -4664,8 +4810,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 940,
-        "y": 2140,
+        "x": 1180,
+        "y": 2340,
         "wires": []
     },
     {
@@ -4677,8 +4823,8 @@
         "links": [
             "gen_post_notif_link_out_001"
         ],
-        "x": 1205,
-        "y": 2080,
+        "x": 1445,
+        "y": 2280,
         "wires": [
             [
                 "f3a1b2c3d4e5f609"
@@ -4702,8 +4848,8 @@
         "authType": "",
         "senderr": true,
         "headers": [],
-        "x": 1380,
-        "y": 2080,
+        "x": 1620,
+        "y": 2280,
         "wires": [
             [
                 "f3a1b2c3d4e5f60c",
@@ -4725,8 +4871,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1650,
-        "y": 2040,
+        "x": 1890,
+        "y": 2240,
         "wires": []
     },
     {
@@ -4739,8 +4885,8 @@
             "f3a1b2c3d4e5f609"
         ],
         "uncaught": false,
-        "x": 1450,
-        "y": 2140,
+        "x": 1690,
+        "y": 2340,
         "wires": [
             [
                 "f3a1b2c3d4e5f60c"
@@ -4760,8 +4906,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1670,
-        "y": 2080,
+        "x": 1910,
+        "y": 2280,
         "wires": [
             [
                 "f3a1b2c3d4e5f60d"
@@ -4778,18 +4924,19 @@
         "links": [
             "assert_notif_link_in_001"
         ],
-        "x": 1825,
-        "y": 2080,
+        "x": 2065,
+        "y": 2280,
         "wires": []
     },
     {
         "id": "f3a1b2c3d4e5f60e",
         "type": "comment",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte NOTIFICATION",
         "info": "Step 25-26: Notification Request/Response according to OpenID4VCI Section 11.1-11.2",
-        "x": 1190,
-        "y": 1960,
+        "x": 1370,
+        "y": 2120,
         "wires": []
     },
     {
@@ -4801,8 +4948,8 @@
         "links": [
             "839c1b1457e95a97"
         ],
-        "x": 535,
-        "y": 1820,
+        "x": 745,
+        "y": 1940,
         "wires": [
             [
                 "4027150598e1f4d6"
@@ -4823,8 +4970,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1030,
-        "y": 1880,
+        "x": 1240,
+        "y": 2000,
         "wires": []
     },
     {
@@ -4833,8 +4980,8 @@
         "z": "f21af705a29aab2f",
         "g": "100ad993bdd22cb3",
         "name": "",
-        "x": 780,
-        "y": 1820,
+        "x": 990,
+        "y": 1940,
         "wires": [
             [
                 "3572521967895cff",
@@ -4852,8 +4999,8 @@
         "links": [
             "53e256fe88b70bba"
         ],
-        "x": 995,
-        "y": 1820,
+        "x": 1205,
+        "y": 1940,
         "wires": []
     },
     {
@@ -4866,8 +5013,8 @@
         "links": [
             "95bd11842d39f1a6"
         ],
-        "x": 1825,
-        "y": 1880,
+        "x": 2035,
+        "y": 2000,
         "wires": []
     },
     {
@@ -4887,8 +5034,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 1410,
-        "y": 1880,
+        "x": 1620,
+        "y": 2000,
         "wires": [
             [
                 "027db99a7e30acfe",
@@ -4909,8 +5056,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1580,
-        "y": 1820,
+        "x": 1790,
+        "y": 1940,
         "wires": []
     },
     {
@@ -4922,8 +5069,8 @@
         "links": [
             "fd669d8614d0c9eb"
         ],
-        "x": 1225,
-        "y": 1880,
+        "x": 1435,
+        "y": 2000,
         "wires": [
             [
                 "8c1d0619e1eb6c23"
@@ -4934,10 +5081,11 @@
         "id": "52499e345b096027",
         "type": "comment",
         "z": "f21af705a29aab2f",
+        "g": "c10204d2b17502d7",
         "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte CREDENTIAL",
         "info": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte PAR",
-        "x": 1200,
-        "y": 1720,
+        "x": 1360,
+        "y": 1840,
         "wires": []
     },
     {
@@ -4953,8 +5101,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1570,
-        "y": 1280,
+        "x": 1710,
+        "y": 1400,
         "wires": [
             [
                 "5873f83f6f76d491"
@@ -4975,8 +5123,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1520,
-        "y": 1340,
+        "x": 1660,
+        "y": 1460,
         "wires": []
     },
     {
