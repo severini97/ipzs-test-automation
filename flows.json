@@ -298,10 +298,13 @@
         "id": "2d1f60d9ca331fbc",
         "type": "group",
         "z": "beb74de4721fafb3",
+        "g": "a8d667ca227c656e",
         "name": "Assert PAR ",
         "style": {
             "label": true,
-            "fill": "#ffff7f"
+            "fill": "#ffffbf",
+            "stroke": "#000000",
+            "color": "#000000"
         },
         "nodes": [
             "86a5d1c8dce8d4cb",
@@ -335,7 +338,7 @@
             "a56a1e4681c518fc"
         ],
         "x": 104,
-        "y": 79,
+        "y": 99,
         "w": 1382,
         "h": 1062
     },
@@ -607,9 +610,13 @@
         "id": "3a0f69ca72c832a2",
         "type": "group",
         "z": "beb74de4721fafb3",
+        "g": "35e7663c8f44c09b",
         "name": "Assert NONCE ",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
         },
         "nodes": [
             "8daea0db551be585",
@@ -623,8 +630,8 @@
             "assert_ci_070",
             "0acc5acdbf296bab"
         ],
-        "x": 2994,
-        "y": 99,
+        "x": 1644,
+        "y": 899,
         "w": 1372,
         "h": 262
     },
@@ -789,9 +796,13 @@
         "id": "b99896375c7df15c",
         "type": "group",
         "z": "beb74de4721fafb3",
+        "g": "35e7663c8f44c09b",
         "name": "Assert Auth",
         "style": {
-            "label": true
+            "label": true,
+            "color": "#000000",
+            "stroke": "#000000",
+            "fill": "#e3f3d3"
         },
         "nodes": [
             "fc01613bb01f356a",
@@ -844,9 +855,13 @@
         "id": "aba8e6c5f45fc788",
         "type": "group",
         "z": "beb74de4721fafb3",
+        "g": "35e7663c8f44c09b",
         "name": "Assert Token",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
         },
         "nodes": [
             "966f7af055a56a94",
@@ -864,18 +879,22 @@
             "68882cfa1eb2cc24",
             "226b4b687c66bab5"
         ],
-        "x": 1634,
-        "y": 639,
-        "w": 1372,
+        "x": 1644,
+        "y": 499,
+        "w": 1362,
         "h": 382
     },
     {
         "id": "13ed8190d0427ee1",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "90e6b6fedc1f623d",
         "name": "Pre PAR Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffffbf",
+            "color": "#000000"
         },
         "nodes": [
             "044c51399e70007f",
@@ -891,18 +910,22 @@
             "305e8af077b317f9",
             "f2da760c3312db01"
         ],
-        "x": 124,
+        "x": 94,
         "y": 119,
-        "w": 802,
+        "w": 832,
         "h": 347
     },
     {
         "id": "1f9425c71c44d0f6",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "90e6b6fedc1f623d",
         "name": "Post PAR Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffffbf",
+            "color": "#000000"
         },
         "nodes": [
             "96765df2ae258835",
@@ -917,16 +940,20 @@
         ],
         "x": 1024,
         "y": 119,
-        "w": 822,
+        "w": 922,
         "h": 347
     },
     {
         "id": "7370bf52b4936e35",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "0b3adec60d5471ba",
         "name": "Pre NONCE Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
         },
         "nodes": [
             "e847bba3fb770ea9",
@@ -937,7 +964,7 @@
             "86d873af0b5281bf"
         ],
         "x": 114,
-        "y": 1079,
+        "y": 1299,
         "w": 802,
         "h": 227
     },
@@ -945,9 +972,13 @@
         "id": "7f8506bb823d2b2e",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "0b3adec60d5471ba",
         "name": "Post NONCE Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
         },
         "nodes": [
             "a9ef6363dd28fcdf",
@@ -957,18 +988,22 @@
             "092b7a02fee4be4d",
             "a1dd084da1e775ea"
         ],
-        "x": 1004,
-        "y": 1079,
-        "w": 832,
+        "x": 1084,
+        "y": 1299,
+        "w": 842,
         "h": 227
     },
     {
         "id": "361d503327fdf076",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "0afdcbfb0dda622f",
         "name": "Post Auth Request Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
         },
         "nodes": [
             "f911919b95523216",
@@ -992,9 +1027,13 @@
         "id": "144ff98c87e076c2",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "45d7aa903fc01ceb",
         "name": "Post TOKEN Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
         },
         "nodes": [
             "915e5e2fcf857955",
@@ -1007,8 +1046,8 @@
             "e2462cdda8f66b85",
             "0561927d17c4de49"
         ],
-        "x": 1854,
-        "y": 659,
+        "x": 684,
+        "y": 999,
         "w": 822,
         "h": 247
     },
@@ -1016,9 +1055,13 @@
         "id": "2748e72c7d88771b",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "0afdcbfb0dda622f",
         "name": "Pre TOKEN Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#e3f3d3",
+            "color": "#000000"
         },
         "nodes": [
             "e80118a27f88f38c",
@@ -1028,8 +1071,8 @@
             "ffcceaece83d9688",
             "477f4c45aeae51ce"
         ],
-        "x": 944,
-        "y": 699,
+        "x": 1064,
+        "y": 679,
         "w": 862,
         "h": 167
     },
@@ -1078,9 +1121,13 @@
         "id": "assert_notif_group_001",
         "type": "group",
         "z": "beb74de4721fafb3",
+        "g": "12e898b230a0b0c7",
         "name": "Assert Notification",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "color": "#000000"
         },
         "nodes": [
             "assert_notif_link_in_001",
@@ -1092,8 +1139,8 @@
             "assert_notif_debug_001",
             "assert_notif_link_out_001"
         ],
-        "x": 1624,
-        "y": 1179,
+        "x": 3184,
+        "y": 779,
         "w": 1422,
         "h": 262
     },
@@ -1101,9 +1148,13 @@
         "id": "gen_pre_notif_group_001",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "4237eddcb7aab01a",
         "name": "Pre NOTIFICATION Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "color": "#000000"
         },
         "nodes": [
             "gen_pre_notif_link_in_001",
@@ -1113,8 +1164,8 @@
             "gen_pre_notif_junc2_001",
             "gen_pre_notif_link_out_001"
         ],
-        "x": 114,
-        "y": 2079,
+        "x": 84,
+        "y": 2299,
         "w": 802,
         "h": 227
     },
@@ -1122,9 +1173,13 @@
         "id": "gen_post_notif_group_001",
         "type": "group",
         "z": "1111a98978c668d9",
+        "g": "4237eddcb7aab01a",
         "name": "Post NOTIFICATION Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "color": "#000000"
         },
         "nodes": [
             "gen_post_notif_link_in_001",
@@ -1135,8 +1190,8 @@
             "gen_post_notif_junc2_001",
             "gen_post_notif_link_out_001"
         ],
-        "x": 1014,
-        "y": 2079,
+        "x": 984,
+        "y": 2299,
         "w": 822,
         "h": 227
     },
@@ -1164,17 +1219,21 @@
         "id": "b89e8c1fe0477a20",
         "type": "group",
         "z": "1111a98978c668d9",
-        "name": "Pre Auth Credential Generation",
+        "g": "4237eddcb7aab01a",
+        "name": "Pre CREDENTIAL Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "color": "#000000"
         },
         "nodes": [
             "839c1b1457e95a97",
             "0d61756d38d37032",
             "e62bfc81e3efab18"
         ],
-        "x": 144,
-        "y": 1499,
+        "x": 94,
+        "y": 1699,
         "w": 732,
         "h": 82
     },
@@ -1238,9 +1297,13 @@
         "id": "5cf99e9328eb55e5",
         "type": "group",
         "z": "1111a98978c668d9",
-        "name": "Post Credential Request Generation",
+        "g": "4237eddcb7aab01a",
+        "name": "Post CREDENTIAL Generation",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "color": "#000000"
         },
         "nodes": [
             "fd669d8614d0c9eb",
@@ -1257,20 +1320,26 @@
             "gen_sdjwt_set_ci126_001",
             "gen_sdjwt_set_ci127_001",
             "gen_sdjwt_set_ci128_001",
-            "gen_sdjwt_set_ci129_001"
+            "gen_sdjwt_set_ci129_001",
+            "gen_sdjwt_set_ci130_001",
+            "gen_sdjwt_set_ci131_001"
         ],
-        "x": 1004,
-        "y": 1499,
+        "x": 994,
+        "y": 1659,
         "w": 952,
-        "h": 527
+        "h": 547
     },
     {
         "id": "assert_sdjwt_group_001",
         "type": "group",
         "z": "beb74de4721fafb3",
-        "name": "Assert Credential SD-JWT",
+        "g": "12e898b230a0b0c7",
+        "name": "Assert Credential",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#000000",
+            "fill": "#ffbfbf",
+            "color": "#000000"
         },
         "nodes": [
             "assert_sdjwt_switch_001",
@@ -1285,16 +1354,192 @@
             "assert_sdjwt_ci128_001",
             "assert_sdjwt_ci129_001",
             "assert_sdjwt_ci130_001",
+            "assert_sdjwt_ci131_001",
             "assert_sdjwt_change_001",
             "assert_sdjwt_httpresp_001",
             "assert_sdjwt_debug_001",
             "95bd11842d39f1a6",
             "c5b84c3dc61e16e4"
         ],
-        "x": 3294,
-        "y": 619,
+        "x": 3184,
+        "y": 99,
         "w": 1552,
-        "h": 542
+        "h": 562
+    },
+    {
+        "id": "35e7663c8f44c09b",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "name": "AUTHORIZATION PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#c8e7a7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "3a0f69ca72c832a2",
+            "b99896375c7df15c",
+            "aba8e6c5f45fc788"
+        ],
+        "x": 1618,
+        "y": 73,
+        "w": 1424,
+        "h": 1114
+    },
+    {
+        "id": "12e898b230a0b0c7",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "name": "CREDENTIAL PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000",
+            "label-position": "n"
+        },
+        "nodes": [
+            "assert_notif_group_001",
+            "assert_sdjwt_group_001"
+        ],
+        "x": 3158,
+        "y": 73,
+        "w": 1604,
+        "h": 994
+    },
+    {
+        "id": "a8d667ca227c656e",
+        "type": "group",
+        "z": "beb74de4721fafb3",
+        "name": "PAR PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffff7f",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "2d1f60d9ca331fbc"
+        ],
+        "x": 78,
+        "y": 73,
+        "w": 1434,
+        "h": 1114
+    },
+    {
+        "id": "90e6b6fedc1f623d",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "name": "PAR PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffff7f",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "13ed8190d0427ee1",
+            "1f9425c71c44d0f6"
+        ],
+        "x": 68,
+        "y": 93,
+        "w": 1904,
+        "h": 399
+    },
+    {
+        "id": "45d7aa903fc01ceb",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "name": "AUTHORIZATION PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#c8e7a7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "144ff98c87e076c2",
+            "0afdcbfb0dda622f",
+            "0b3adec60d5471ba"
+        ],
+        "x": 62,
+        "y": 587,
+        "w": 1916,
+        "h": 991
+    },
+    {
+        "id": "0afdcbfb0dda622f",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "g": "45d7aa903fc01ceb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "361d503327fdf076",
+            "2748e72c7d88771b"
+        ],
+        "x": 88,
+        "y": 613,
+        "w": 1864,
+        "h": 359
+    },
+    {
+        "id": "0b3adec60d5471ba",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "g": "45d7aa903fc01ceb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7370bf52b4936e35",
+            "7f8506bb823d2b2e"
+        ],
+        "x": 88,
+        "y": 1273,
+        "w": 1864,
+        "h": 279
+    },
+    {
+        "id": "4237eddcb7aab01a",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "name": "CREDENTIAL PHASE",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ff7f7f",
+            "label": true,
+            "color": "#000000",
+            "label-position": "n"
+        },
+        "nodes": [
+            "gen_pre_notif_group_001",
+            "gen_post_notif_group_001",
+            "b89e8c1fe0477a20",
+            "5cf99e9328eb55e5"
+        ],
+        "x": 58,
+        "y": 1633,
+        "w": 1914,
+        "h": 919
     },
     {
         "id": "d4d34ff748522565",
@@ -1302,7 +1547,7 @@
         "z": "beb74de4721fafb3",
         "g": "2d1f60d9ca331fbc",
         "x": 880,
-        "y": 540,
+        "y": 560,
         "wires": [
             [
                 "b0c424fdc51089b0"
@@ -1315,7 +1560,7 @@
         "z": "beb74de4721fafb3",
         "g": "aba8e6c5f45fc788",
         "x": 2380,
-        "y": 800,
+        "y": 660,
         "wires": [
             [
                 "e6409cbbdc5fcadc"
@@ -1380,7 +1625,7 @@
         "z": "1111a98978c668d9",
         "g": "7370bf52b4936e35",
         "x": 490,
-        "y": 1280,
+        "y": 1500,
         "wires": [
             [
                 "86d873af0b5281bf"
@@ -1393,7 +1638,7 @@
         "z": "1111a98978c668d9",
         "g": "7370bf52b4936e35",
         "x": 630,
-        "y": 1280,
+        "y": 1500,
         "wires": [
             [
                 "64261f407870e853"
@@ -1405,8 +1650,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "7f8506bb823d2b2e",
-        "x": 1410,
-        "y": 1280,
+        "x": 1490,
+        "y": 1500,
         "wires": [
             [
                 "a1dd084da1e775ea"
@@ -1418,8 +1663,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "7f8506bb823d2b2e",
-        "x": 1570,
-        "y": 1280,
+        "x": 1650,
+        "y": 1500,
         "wires": [
             [
                 "1531418d1f4f9d42"
@@ -1457,8 +1702,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "144ff98c87e076c2",
-        "x": 2330,
-        "y": 880,
+        "x": 1160,
+        "y": 1220,
         "wires": [
             [
                 "0ee194deeb7fee76"
@@ -1470,8 +1715,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "144ff98c87e076c2",
-        "x": 2470,
-        "y": 880,
+        "x": 1300,
+        "y": 1220,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -1483,8 +1728,8 @@
         "type": "junction",
         "z": "beb74de4721fafb3",
         "g": "3a0f69ca72c832a2",
-        "x": 3770,
-        "y": 200,
+        "x": 2420,
+        "y": 1000,
         "wires": [
             [
                 "d09f8d57ad7adb7d"
@@ -1509,8 +1754,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "2748e72c7d88771b",
-        "x": 1500,
-        "y": 840,
+        "x": 1620,
+        "y": 820,
         "wires": [
             [
                 "ffcceaece83d9688"
@@ -1522,8 +1767,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "2748e72c7d88771b",
-        "x": 1600,
-        "y": 840,
+        "x": 1720,
+        "y": 820,
         "wires": [
             [
                 "baa16b31772b7f7f"
@@ -1535,8 +1780,8 @@
         "type": "junction",
         "z": "beb74de4721fafb3",
         "g": "assert_notif_group_001",
-        "x": 2410,
-        "y": 1280,
+        "x": 3970,
+        "y": 880,
         "wires": [
             [
                 "assert_notif_change_001"
@@ -1548,8 +1793,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_pre_notif_group_001",
-        "x": 490,
-        "y": 2280,
+        "x": 460,
+        "y": 2500,
         "wires": [
             [
                 "gen_pre_notif_junc2_001"
@@ -1561,8 +1806,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_pre_notif_group_001",
-        "x": 630,
-        "y": 2280,
+        "x": 600,
+        "y": 2500,
         "wires": [
             [
                 "gen_pre_notif_link_out_001"
@@ -1574,8 +1819,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_post_notif_group_001",
-        "x": 1410,
-        "y": 2280,
+        "x": 1380,
+        "y": 2500,
         "wires": [
             [
                 "gen_post_notif_junc2_001"
@@ -1587,8 +1832,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_post_notif_group_001",
-        "x": 1570,
-        "y": 2280,
+        "x": 1540,
+        "y": 2500,
         "wires": [
             [
                 "gen_post_notif_link_out_001"
@@ -1600,8 +1845,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1380,
-        "y": 2000,
+        "x": 1390,
+        "y": 2180,
         "wires": [
             [
                 "40edf8523922fe53"
@@ -1613,8 +1858,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1660,
-        "y": 2000,
+        "x": 1650,
+        "y": 2180,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -4063,7 +4308,7 @@
         "id": "e9df678b3ee57984",
         "type": "comment",
         "z": "f21af705a29aab2f",
-        "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte NONCE",
+        "name": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte TOKEN",
         "info": "Blocchi di nodi per la parte di inizializzazione e finalizzazione degli assert riguardanti la parte PAR",
         "x": 1180,
         "y": 1160,
@@ -4748,7 +4993,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 120,
+        "y": 140,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -4766,7 +5011,7 @@
             "content-type": "application/json"
         },
         "x": 1320,
-        "y": 520,
+        "y": 540,
         "wires": []
     },
     {
@@ -4784,7 +5029,7 @@
         "statusVal": "payload.ok",
         "statusType": "msg",
         "x": 1340,
-        "y": 560,
+        "y": 580,
         "wires": []
     },
     {
@@ -4909,7 +5154,7 @@
         "repair": false,
         "outputs": 22,
         "x": 470,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "86a5d1c8dce8d4cb"
@@ -4993,7 +5238,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 240,
+        "y": 260,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5021,7 +5266,7 @@
         "to": "",
         "reg": false,
         "x": 1060,
-        "y": 540,
+        "y": 560,
         "wires": [
             [
                 "2b6af54b9c9d7b23",
@@ -5037,7 +5282,7 @@
         "name": "test_c015-cI044",
         "links": [],
         "x": 145,
-        "y": 500,
+        "y": 520,
         "wires": [
             [
                 "a3c36f307861cdd6",
@@ -5056,7 +5301,7 @@
             "87b917347d90024f"
         ],
         "x": 655,
-        "y": 1100,
+        "y": 1120,
         "wires": []
     },
     {
@@ -5073,7 +5318,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 400,
+        "y": 420,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5094,7 +5339,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 440,
+        "y": 460,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5115,7 +5360,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 320,
+        "y": 340,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5137,7 +5382,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 320,
-        "y": 440,
+        "y": 460,
         "wires": []
     },
     {
@@ -5154,7 +5399,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 520,
+        "y": 540,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5175,7 +5420,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 600,
+        "y": 620,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5197,7 +5442,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 560,
+        "y": 580,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5218,7 +5463,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 360,
+        "y": 380,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5239,7 +5484,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 160,
+        "y": 180,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5260,7 +5505,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 200,
+        "y": 220,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5282,7 +5527,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 280,
+        "y": 300,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5304,7 +5549,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 480,
+        "y": 500,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5326,7 +5571,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 920,
+        "y": 940,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5347,7 +5592,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 880,
+        "y": 900,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5369,7 +5614,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 840,
+        "y": 860,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5391,7 +5636,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 800,
+        "y": 820,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5413,7 +5658,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 760,
+        "y": 780,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5435,7 +5680,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 720,
+        "y": 740,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5457,7 +5702,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 680,
+        "y": 700,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5479,7 +5724,7 @@
         "finalize": "",
         "libs": [],
         "x": 720,
-        "y": 640,
+        "y": 660,
         "wires": [
             [
                 "d4d34ff748522565"
@@ -5496,8 +5741,8 @@
         "links": [
             "a45767d1b5f66cce"
         ],
-        "x": 3035,
-        "y": 200,
+        "x": 1685,
+        "y": 1000,
         "wires": [
             [
                 "5459ea5c52bb44e6"
@@ -5535,8 +5780,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 3350,
-        "y": 200,
+        "x": 2000,
+        "y": 1000,
         "wires": [
             [
                 "assert_ci_068"
@@ -5572,8 +5817,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 3940,
-        "y": 200,
+        "x": 2590,
+        "y": 1000,
         "wires": [
             [
                 "cbdde2ce1d8b30bb",
@@ -5591,8 +5836,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 4200,
-        "y": 180,
+        "x": 2850,
+        "y": 980,
         "wires": []
     },
     {
@@ -5609,8 +5854,8 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 4220,
-        "y": 220,
+        "x": 2870,
+        "y": 1020,
         "wires": []
     },
     {
@@ -5623,8 +5868,8 @@
         "links": [
             "0d61756d38d37032"
         ],
-        "x": 3545,
-        "y": 320,
+        "x": 2195,
+        "y": 1120,
         "wires": []
     },
     {
@@ -5640,8 +5885,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3620,
-        "y": 140,
+        "x": 2270,
+        "y": 940,
         "wires": [
             [
                 "0acc5acdbf296bab"
@@ -5662,8 +5907,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3620,
-        "y": 200,
+        "x": 2270,
+        "y": 1000,
         "wires": [
             [
                 "0acc5acdbf296bab"
@@ -5684,8 +5929,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3620,
-        "y": 260,
+        "x": 2270,
+        "y": 1060,
         "wires": [
             [
                 "0acc5acdbf296bab"
@@ -5706,7 +5951,7 @@
         "finalize": "",
         "libs": [],
         "x": 2160,
-        "y": 800,
+        "y": 660,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6054,7 +6299,7 @@
         "finalize": "",
         "libs": [],
         "x": 2160,
-        "y": 720,
+        "y": 580,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6076,7 +6321,7 @@
         "finalize": "",
         "libs": [],
         "x": 2160,
-        "y": 840,
+        "y": 700,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6098,7 +6343,7 @@
         "finalize": "",
         "libs": [],
         "x": 2160,
-        "y": 920,
+        "y": 780,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6117,7 +6362,7 @@
             "content-type": "application/json"
         },
         "x": 2800,
-        "y": 800,
+        "y": 660,
         "wires": []
     },
     {
@@ -6135,7 +6380,7 @@
         "statusVal": "payload.ok",
         "statusType": "msg",
         "x": 2840,
-        "y": 740,
+        "y": 600,
         "wires": []
     },
     {
@@ -6159,7 +6404,7 @@
         "to": "",
         "reg": false,
         "x": 2540,
-        "y": 800,
+        "y": 660,
         "wires": [
             [
                 "966f7af055a56a94",
@@ -6176,8 +6421,8 @@
         "links": [
             "5873f83f6f76d491"
         ],
-        "x": 1675,
-        "y": 780,
+        "x": 1685,
+        "y": 640,
         "wires": [
             [
                 "8e81c51c5af59447"
@@ -6189,7 +6434,7 @@
         "type": "switch",
         "z": "beb74de4721fafb3",
         "g": "aba8e6c5f45fc788",
-        "name": "Switch Assert Token Request",
+        "name": "Switch",
         "property": "testId",
         "propertyType": "msg",
         "rules": [
@@ -6235,8 +6480,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 8,
-        "x": 1840,
-        "y": 780,
+        "x": 1770,
+        "y": 640,
         "wires": [
             [
                 "226b4b687c66bab5"
@@ -6275,7 +6520,7 @@
             "e847bba3fb770ea9"
         ],
         "x": 2095,
-        "y": 980,
+        "y": 840,
         "wires": []
     },
     {
@@ -6292,7 +6537,7 @@
         "finalize": "",
         "libs": [],
         "x": 2160,
-        "y": 760,
+        "y": 620,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6319,7 +6564,7 @@
             }
         ],
         "x": 2160,
-        "y": 880,
+        "y": 740,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6341,7 +6586,7 @@
         "finalize": "",
         "libs": [],
         "x": 2160,
-        "y": 680,
+        "y": 540,
         "wires": [
             [
                 "616e067ceb6bba6f"
@@ -6358,8 +6603,8 @@
         "links": [
             "f3a1b2c3d4e5f60d"
         ],
-        "x": 1665,
-        "y": 1280,
+        "x": 3225,
+        "y": 880,
         "wires": [
             [
                 "assert_notif_switch_001"
@@ -6387,8 +6632,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1990,
-        "y": 1280,
+        "x": 3550,
+        "y": 880,
         "wires": [
             [
                 "assert_ci_087_001"
@@ -6411,8 +6656,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2260,
-        "y": 1220,
+        "x": 3820,
+        "y": 820,
         "wires": [
             [
                 "assert_notif_junction_001"
@@ -6440,8 +6685,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 2580,
-        "y": 1280,
+        "x": 4140,
+        "y": 880,
         "wires": [
             [
                 "assert_notif_http_resp_001",
@@ -6459,8 +6704,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 2840,
-        "y": 1260,
+        "x": 4400,
+        "y": 860,
         "wires": []
     },
     {
@@ -6477,8 +6722,8 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 2870,
-        "y": 1300,
+        "x": 4430,
+        "y": 900,
         "wires": []
     },
     {
@@ -6491,8 +6736,8 @@
         "links": [
             "ec88064589be8b91"
         ],
-        "x": 2185,
-        "y": 1400,
+        "x": 3745,
+        "y": 1000,
         "wires": []
     },
     {
@@ -6500,7 +6745,7 @@
         "type": "switch",
         "z": "beb74de4721fafb3",
         "g": "assert_sdjwt_group_001",
-        "name": "Switch Assert SD-JWT CI_120-CI_130",
+        "name": "Switch",
         "property": "testId",
         "propertyType": "msg",
         "rules": [
@@ -6560,14 +6805,19 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "CI_131",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 12,
-        "x": 3570,
-        "y": 880,
+        "outputs": 13,
+        "x": 3360,
+        "y": 360,
         "wires": [
             [
                 "assert_sdjwt_ci120_001"
@@ -6603,6 +6853,9 @@
                 "assert_sdjwt_ci130_001"
             ],
             [
+                "assert_sdjwt_ci131_001"
+            ],
+            [
                 "c5b84c3dc61e16e4"
             ]
         ]
@@ -6620,8 +6873,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 660,
+        "x": 3850,
+        "y": 140,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6642,8 +6895,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 700,
+        "x": 3850,
+        "y": 180,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6664,8 +6917,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 740,
+        "x": 3850,
+        "y": 220,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6686,8 +6939,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 780,
+        "x": 3850,
+        "y": 260,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6708,8 +6961,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 820,
+        "x": 3850,
+        "y": 300,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6730,8 +6983,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 860,
+        "x": 3850,
+        "y": 340,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6752,8 +7005,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 900,
+        "x": 3850,
+        "y": 380,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6774,8 +7027,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 940,
+        "x": 3850,
+        "y": 420,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6796,8 +7049,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 980,
+        "x": 3850,
+        "y": 460,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6818,8 +7071,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 1020,
+        "x": 3850,
+        "y": 500,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -6840,14 +7093,36 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3960,
-        "y": 1060,
+        "x": 3850,
+        "y": 540,
         "wires": [
             [
                 "assert_sdjwt_change_001"
             ]
         ],
         "info": "**CI_130 – SD-JWT Combined Format Disclosure Delivery**\r\n\r\nObjective\r\n\r\nTo verify that the Disclosures are successfully provided to the Holder together with the SD-JWT in the Combined Format for Issuance, formatted as an ordered series of base64url-encoded values with each value properly separated by a single tilde ('~') character.\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT – Section 5.3 (Combined Format for Issuance)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tDeliver the credential in Combined Format: <SD-JWT>~<Disclosure 1>~...~<Disclosure N>~\r\n   •\tEnd the Combined Format string with a tilde (~)\r\n   •\tSeparate each disclosure from the others with a single tilde (~)\r\n   •\tEnsure each disclosure is a valid base64url-encoded value\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_130_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe credential string is verified to follow the Combined Format structure\r\n\r\n   Expected Result:\r\n   •\tThe credential field is a string ending with ~\r\n   •\tThe first part is a valid 3-component JWT\r\n   •\tAll disclosure parts are valid base64url strings\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if the credential is delivered in the correct SD-JWT Combined Format for Issuance."
+    },
+    {
+        "id": "assert_sdjwt_ci131_001",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_131",
+        "func": "/**\n * CI_131 – SD-JWT JOSE Header Parameters\n *\n * Verifies that the JOSE header of the Credential SD-JWT contains the parameters\n * defined in the Credential SD-JWT Parameters Table (SD-JWT-VC spec, Section 4).\n *\n * Required header parameters (per spec Table):\n *   - typ  : MUST be 'vc+sd-jwt'\n *   - alg  : MUST be present and MUST NOT be 'none'\n * Recommended key identification (at least one of):\n *   - kid, x5c, jwk, x5t#S256\n */\nconst ci = global.get('ciCommon');\n\n// Parse SD-JWT Combined Format: <JWT>~<Disclosure1>~...~\nfunction parseSDJWT(raw) {\n    const parts = raw.split('~');\n    const jwt = parts[0];\n    const jp = jwt.split('.');\n    if (jp.length !== 3) throw new Error('Invalid JWT: expected 3 dot-separated components');\n    return {\n        jwt: jwt,\n        header: JSON.parse(Buffer.from(jp[0], 'base64url').toString()),\n        payload: JSON.parse(Buffer.from(jp[1], 'base64url').toString()),\n        disclosures: parts.slice(1).filter(function(d) { return d.length > 0; })\n    };\n}\n\n// Session buffer: collect all split messages before running assertions\nconst contextKey = 'sessionsCi_131';\nlet sessions = context.get(contextKey) || {};\nconst id = msg.innerSplit._id;\n\nif (!msg.innerSplit || !msg.innerSplit.total || msg.innerSplit.total < 1) { delete msg.subTestCase; return msg; }\nif (!sessions[id]) sessions[id] = { buffer: [], startTime: Date.now() };\ncontext.set(contextKey, sessions);\nsessions[id].buffer.push({ statusCode: msg.statusCode, payload: msg.payload, subTestCase: msg.subTestCase });\nif (msg.innerSplit.total !== sessions[id].buffer.length) return null;\n\nsessions[id].buffer.forEach(function(entry) {\n    const body = typeof entry.payload === 'string'\n        ? (function() { try { return JSON.parse(entry.payload); } catch(e) { return {}; } })()\n        : (entry.payload || {});\n    const credential = body.credential;\n\n    if (!credential || typeof credential !== 'string') {\n        ci.addAssert(msg.test, 'SD-JWT credential present in response as a string', false,\n            'No string \"credential\" field in Credential Endpoint response (statusCode=' + entry.statusCode + ')');\n        return;\n    }\n\n    let parsed;\n    try { parsed = parseSDJWT(credential); }\n    catch(e) { ci.addAssert(msg.test, 'SD-JWT credential parseable', false, 'Parse error: ' + e.message); return; }\n\n    const h = parsed.header;\n\n    // --- JOSE Header: typ parameter ---\n    // typ MUST be present (hard check).\n    // SD-JWT-VC spec requires 'vc+sd-jwt', but some profiles use 'JWT'.\n    // The value check is informational: records the actual value without failing the test.\n    ci.addAssert(msg.test, 'JOSE header: typ parameter present', !!h.typ,\n        h.typ ? 'typ=' + h.typ : 'typ MISSING from JOSE header');\n    if (h.typ) {\n        const typConforms = h.typ === 'vc+sd-jwt';\n        ci.addAssert(msg.test, 'JOSE header: typ value (informational – SD-JWT-VC expects vc+sd-jwt)', true,\n            typConforms ? 'typ=vc+sd-jwt (SD-JWT-VC compliant)' : 'typ=' + h.typ + ' (note: SD-JWT-VC spec expects vc+sd-jwt)');\n    }\n\n    // --- JOSE Header: alg parameter ---\n    // alg MUST be present and MUST NOT be 'none'\n    ci.addAssert(msg.test, 'JOSE header: alg parameter present', !!h.alg,\n        h.alg ? 'alg=' + h.alg : 'alg MISSING from JOSE header');\n    if (h.alg) {\n        ci.addAssert(msg.test, 'JOSE header: alg is not \"none\"', h.alg !== 'none',\n            h.alg !== 'none' ? 'alg=' + h.alg + ' (valid signing algorithm)' : 'alg=none is forbidden by the spec');\n    }\n\n    // --- JOSE Header: key identification parameter (SHOULD, informational) ---\n    // At least one of kid, x5c, jwk, x5t#S256 is RECOMMENDED for key identification.\n    // Recorded as informational – does not fail the test (SHOULD, not MUST).\n    const keyIdFound = h.kid ? 'kid=' + h.kid\n        : h.x5c ? 'x5c present (' + (Array.isArray(h.x5c) ? h.x5c.length : 1) + ' cert(s))'\n        : h.jwk ? 'jwk present'\n        : h['x5t#S256'] ? 'x5t#S256 present'\n        : 'none of kid/x5c/jwk/x5t#S256 found (SHOULD be present)';\n    ci.addAssert(msg.test, 'JOSE header: key identification parameter (informational)', true, keyIdFound);\n});\n\nmsg.test.suite = 'CI_131_SUITE';\nmsg.test.name = 'Data Model and lifecycle, Interoperability – SD-JWT JOSE Header Parameters';\nci.buildResponse(msg);\ncontext.set(contextKey, null);\ndelete msg.subTestCase;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3850,
+        "y": 580,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_131 – SD-JWT JOSE Header Parameters**\r\n\r\nObjective\r\n\r\nTo verify that the JOSE header of the Credential SD-JWT contains the parameters defined in the Credential SD-JWT Parameters Table, as required by the SD-JWT-VC specification (Section 4).\r\n\r\nNormative Reference\r\n\r\n   •\tSD-JWT-VC – Section 4 (Credential SD-JWT Parameters Table)\r\n   •\tSD-JWT-VC – Section 4.1 (JOSE Header)\r\n\r\nVerified Requirements\r\n\r\nThe JOSE header MUST contain:\r\n\r\n   •\ttyp – REQUIRED; value MUST be vc+sd-jwt\r\n   •\talg – REQUIRED; MUST NOT be none\r\n\r\nThe JOSE header SHOULD contain at least one key identification parameter:\r\n\r\n   •\tkid – Key identifier (JWK Set URI)\r\n   •\tx5c – X.509 certificate chain\r\n   •\tjwk – JSON Web Key\r\n   •\tx5t#S256 – X.509 certificate SHA-256 thumbprint\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario – CI_131_OK\r\n\r\n   •\tThe full issuance flow is executed and the credential response is received\r\n   •\tThe SD-JWT JWT header is decoded and inspected\r\n   •\tPresence and correctness of required parameters is verified\r\n\r\n   Expected Result:\r\n   •\ttyp is present with value vc+sd-jwt\r\n   •\talg is present and is not none\r\n   •\tAt least one key identification parameter (kid, x5c, jwk, or x5t#S256) is present\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if all required JOSE header parameters are present with correct values as defined in the Credential SD-JWT Parameters Table."
     },
     {
         "id": "assert_sdjwt_change_001",
@@ -6869,8 +7144,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 4410,
-        "y": 880,
+        "x": 4300,
+        "y": 360,
         "wires": [
             [
                 "assert_sdjwt_httpresp_001",
@@ -6888,8 +7163,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 4650,
-        "y": 860,
+        "x": 4540,
+        "y": 340,
         "wires": []
     },
     {
@@ -6906,8 +7181,8 @@
         "targetType": "full",
         "statusVal": "payload.ok",
         "statusType": "msg",
-        "x": 4670,
-        "y": 900,
+        "x": 4560,
+        "y": 380,
         "wires": []
     },
     {
@@ -6919,8 +7194,8 @@
         "links": [
             "027db99a7e30acfe"
         ],
-        "x": 3335,
-        "y": 880,
+        "x": 3225,
+        "y": 360,
         "wires": [
             [
                 "assert_sdjwt_switch_001"
@@ -6937,18 +7212,8 @@
         "links": [
             "gen_pre_notif_link_in_001"
         ],
-        "x": 3885,
-        "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "bbae03ec7339181e",
-        "type": "comment",
-        "z": "1111a98978c668d9",
-        "name": "PAR GENERATION",
-        "info": "",
-        "x": 970,
-        "y": 60,
+        "x": 3775,
+        "y": 620,
         "wires": []
     },
     {
@@ -7059,7 +7324,7 @@
         "g": "13ed8190d0427ee1",
         "name": "set PAR Req pre build",
         "links": [],
-        "x": 165,
+        "x": 135,
         "y": 300,
         "wires": [
             [
@@ -7284,8 +7549,8 @@
         "name": "link out 26",
         "mode": "link",
         "links": [],
-        "x": 1805,
-        "y": 240,
+        "x": 1905,
+        "y": 260,
         "wires": []
     },
     {
@@ -7392,7 +7657,7 @@
             "6f3cf89fb8d0e39d"
         ],
         "x": 155,
-        "y": 1220,
+        "y": 1440,
         "wires": [
             [
                 "f93746bb83f68808",
@@ -7417,7 +7682,7 @@
         "repair": false,
         "outputs": 1,
         "x": 340,
-        "y": 1220,
+        "y": 1440,
         "wires": [
             [
                 "be51a11af1f4a22d"
@@ -7439,7 +7704,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 360,
-        "y": 1120,
+        "y": 1340,
         "wires": []
     },
     {
@@ -7453,7 +7718,7 @@
             "1bca0f031f332d9d"
         ],
         "x": 875,
-        "y": 1180,
+        "y": 1400,
         "wires": []
     },
     {
@@ -7465,8 +7730,8 @@
         "links": [
             "ad356b52771bce86"
         ],
-        "x": 1045,
-        "y": 1180,
+        "x": 1125,
+        "y": 1400,
         "wires": [
             [
                 "cffa8c8409c95bdc",
@@ -7484,8 +7749,8 @@
         "links": [
             "0f2c67d3038b5a13"
         ],
-        "x": 1795,
-        "y": 1200,
+        "x": 1885,
+        "y": 1420,
         "wires": []
     },
     {
@@ -7504,8 +7769,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1220,
-        "y": 1180,
+        "x": 1300,
+        "y": 1400,
         "wires": [
             [
                 "092b7a02fee4be4d"
@@ -7526,8 +7791,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1250,
-        "y": 1120,
+        "x": 1330,
+        "y": 1340,
         "wires": []
     },
     {
@@ -7768,8 +8033,8 @@
         "links": [
             "23ca96ca3bace42f"
         ],
-        "x": 1895,
-        "y": 780,
+        "x": 725,
+        "y": 1120,
         "wires": [
             [
                 "29320c241457c0da"
@@ -7812,8 +8077,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 2060,
-        "y": 780,
+        "x": 890,
+        "y": 1120,
         "wires": [
             [
                 "f062a1b2c3d4e5f6"
@@ -7850,8 +8115,8 @@
                 "module": "jose"
             }
         ],
-        "x": 2400,
-        "y": 740,
+        "x": 1230,
+        "y": 1080,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -7868,8 +8133,8 @@
         "links": [
             "cbda0b01e83f0dfb"
         ],
-        "x": 2635,
-        "y": 800,
+        "x": 1465,
+        "y": 1140,
         "wires": []
     },
     {
@@ -7885,8 +8150,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2400,
-        "y": 700,
+        "x": 1230,
+        "y": 1040,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -7906,8 +8171,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2400,
-        "y": 780,
+        "x": 1230,
+        "y": 1120,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -7927,43 +8192,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2400,
-        "y": 820,
+        "x": 1230,
+        "y": 1160,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
             ]
         ]
-    },
-    {
-        "id": "ec702e84424ea515",
-        "type": "comment",
-        "z": "1111a98978c668d9",
-        "name": "AUTH GENERATION",
-        "info": "",
-        "x": 480,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "453b086f12e10685",
-        "type": "comment",
-        "z": "1111a98978c668d9",
-        "name": "TOKEN GENERATION",
-        "info": "",
-        "x": 1480,
-        "y": 560,
-        "wires": []
-    },
-    {
-        "id": "b92d916bdddb747c",
-        "type": "comment",
-        "z": "1111a98978c668d9",
-        "name": "NONCE GENERATION",
-        "info": "",
-        "x": 960,
-        "y": 1020,
-        "wires": []
     },
     {
         "id": "e80118a27f88f38c",
@@ -7986,8 +8221,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1220,
-        "y": 780,
+        "x": 1340,
+        "y": 760,
         "wires": [
             [
                 "477f4c45aeae51ce"
@@ -8007,8 +8242,8 @@
         "links": [
             "d6c9919a66c55101"
         ],
-        "x": 1765,
-        "y": 780,
+        "x": 1885,
+        "y": 760,
         "wires": []
     },
     {
@@ -8020,8 +8255,8 @@
         "links": [
             "8817dd1037700f47"
         ],
-        "x": 985,
-        "y": 780,
+        "x": 1105,
+        "y": 760,
         "wires": [
             [
                 "e80118a27f88f38c"
@@ -8041,8 +8276,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1550,
-        "y": 740,
+        "x": 1670,
+        "y": 720,
         "wires": [
             [
                 "baa16b31772b7f7f"
@@ -8058,8 +8293,8 @@
         "links": [
             "c5b84c3dc61e16e4"
         ],
-        "x": 155,
-        "y": 2220,
+        "x": 125,
+        "y": 2440,
         "wires": [
             [
                 "gen_pre_notif_switch_001",
@@ -8083,8 +8318,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 340,
-        "y": 2220,
+        "x": 310,
+        "y": 2440,
         "wires": [
             [
                 "gen_pre_notif_junc1_001"
@@ -8105,8 +8340,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 370,
-        "y": 2120,
+        "x": 340,
+        "y": 2340,
         "wires": []
     },
     {
@@ -8119,8 +8354,8 @@
         "links": [
             "f3a1b2c3d4e5f602"
         ],
-        "x": 875,
-        "y": 2180,
+        "x": 845,
+        "y": 2400,
         "wires": []
     },
     {
@@ -8132,8 +8367,8 @@
         "links": [
             "f3a1b2c3d4e5f605"
         ],
-        "x": 1055,
-        "y": 2180,
+        "x": 1025,
+        "y": 2400,
         "wires": [
             [
                 "gen_post_notif_switch_001",
@@ -8162,8 +8397,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1230,
-        "y": 2200,
+        "x": 1200,
+        "y": 2420,
         "wires": [
             [
                 "gen_set_ci_087_001"
@@ -8187,8 +8422,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1270,
-        "y": 2120,
+        "x": 1240,
+        "y": 2340,
         "wires": []
     },
     {
@@ -8204,8 +8439,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1450,
-        "y": 2160,
+        "x": 1420,
+        "y": 2380,
         "wires": [
             [
                 "gen_post_notif_link_out_001"
@@ -8223,18 +8458,8 @@
         "links": [
             "f3a1b2c3d4e5f608"
         ],
-        "x": 1795,
-        "y": 2200,
-        "wires": []
-    },
-    {
-        "id": "gen_notif_comment_001",
-        "type": "comment",
-        "z": "1111a98978c668d9",
-        "name": "NOTIFICATION GENERATION",
-        "info": "",
-        "x": 970,
-        "y": 2040,
+        "x": 1765,
+        "y": 2420,
         "wires": []
     },
     {
@@ -8247,8 +8472,8 @@
         "links": [
             "663e3c033a8063f0"
         ],
-        "x": 835,
-        "y": 1540,
+        "x": 785,
+        "y": 1740,
         "wires": []
     },
     {
@@ -8260,8 +8485,8 @@
         "links": [
             "16fa76fef84ee37d"
         ],
-        "x": 185,
-        "y": 1540,
+        "x": 135,
+        "y": 1740,
         "wires": [
             [
                 "e62bfc81e3efab18"
@@ -8284,8 +8509,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 710,
-        "y": 1540,
+        "x": 660,
+        "y": 1740,
         "wires": [
             [
                 "839c1b1457e95a97"
@@ -8302,8 +8527,8 @@
         "links": [
             "184988ac31193b07"
         ],
-        "x": 1915,
-        "y": 1700,
+        "x": 1905,
+        "y": 1880,
         "wires": []
     },
     {
@@ -8315,8 +8540,8 @@
         "links": [
             "cb183192e173e83b"
         ],
-        "x": 1045,
-        "y": 1720,
+        "x": 1035,
+        "y": 1880,
         "wires": [
             [
                 "2f0f133fb016e61a"
@@ -8388,14 +8613,19 @@
                 "vt": "str"
             },
             {
+                "t": "eq",
+                "v": "CI_131",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 12,
-        "x": 1140,
-        "y": 1720,
+        "outputs": 13,
+        "x": 1130,
+        "y": 1880,
         "wires": [
             [
                 "gen_sdjwt_set_ci120_001"
@@ -8431,19 +8661,12 @@
                 "gen_sdjwt_set_ci130_001"
             ],
             [
+                "gen_sdjwt_set_ci131_001"
+            ],
+            [
                 "b73d6c5292d8a01f"
             ]
         ]
-    },
-    {
-        "id": "d2c7b319149753e0",
-        "type": "comment",
-        "z": "1111a98978c668d9",
-        "name": "CREDENTIAL GENERATION",
-        "info": "",
-        "x": 980,
-        "y": 1420,
-        "wires": []
     },
     {
         "id": "gen_sdjwt_set_ci120_001",
@@ -8458,8 +8681,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1540,
+        "x": 1500,
+        "y": 1700,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8479,8 +8702,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1580,
+        "x": 1500,
+        "y": 1740,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8500,8 +8723,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1620,
+        "x": 1500,
+        "y": 1780,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8521,8 +8744,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1660,
+        "x": 1500,
+        "y": 1820,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8542,8 +8765,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1700,
+        "x": 1500,
+        "y": 1860,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8563,8 +8786,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1740,
+        "x": 1500,
+        "y": 1900,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8584,8 +8807,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1780,
+        "x": 1500,
+        "y": 1940,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8605,8 +8828,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1820,
+        "x": 1500,
+        "y": 1980,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8626,8 +8849,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1860,
+        "x": 1500,
+        "y": 2020,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8647,8 +8870,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1900,
+        "x": 1500,
+        "y": 2060,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8668,8 +8891,29 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1510,
-        "y": 1940,
+        "x": 1500,
+        "y": 2100,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "gen_sdjwt_set_ci131_001",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_131",
+        "func": "/**\n * CI_131 – SD-JWT JOSE Header Parameters\n * Forwards the credential response to Assert CI_131 to verify that the JOSE header\n * contains the parameters listed in the Credential SD-JWT Parameters Table.\n * Single variant: the credential is inspected as received from the Credential Endpoint.\n */\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 1 };\nmsg.subTestCase = '131verify';\nnode.send(msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 2140,
         "wires": [
             [
                 "fd669d8614d0c9eb"
