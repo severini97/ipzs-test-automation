@@ -273,7 +273,7 @@
                 "y": 80,
                 "wires": [
                     {
-                        "id": "6004ca190b20c2c9"
+                        "id": "ff71e8fb23213197"
                     }
                 ]
             }
@@ -561,9 +561,9 @@
             "label": true
         },
         "nodes": [
-            "d2e545bb29ccbe79",
             "a5e9d3898579b62e",
-            "05516c20a0290d7a"
+            "05516c20a0290d7a",
+            "867d13db26711056"
         ],
         "x": 794,
         "y": 939,
@@ -609,9 +609,9 @@
             "assert_sdjwt_group_001"
         ],
         "x": 3158,
-        "y": 73,
+        "y": 33,
         "w": 1604,
-        "h": 994
+        "h": 1414
     },
     {
         "id": "a8d667ca227c656e",
@@ -667,14 +667,14 @@
             "color": "#000000"
         },
         "nodes": [
-            "144ff98c87e076c2",
-            "0afdcbfb0dda622f",
-            "0b3adec60d5471ba"
+            "0b3adec60d5471ba",
+            "361d503327fdf076",
+            "aa1b55d5276be9b5"
         ],
-        "x": 62,
-        "y": 587,
-        "w": 1916,
-        "h": 991
+        "x": 52,
+        "y": 593,
+        "w": 1926,
+        "h": 985
     },
     {
         "id": "4237eddcb7aab01a",
@@ -694,10 +694,10 @@
             "b89e8c1fe0477a20",
             "5cf99e9328eb55e5"
         ],
-        "x": 58,
-        "y": 1633,
+        "x": 48,
+        "y": 1593,
         "w": 1914,
-        "h": 919
+        "h": 1079
     },
     {
         "id": "c10204d2b17502d7",
@@ -909,7 +909,6 @@
             "16fa76fef84ee37d",
             "assert_ci_069",
             "assert_ci_068",
-            "assert_ci_070",
             "0acc5acdbf296bab"
         ],
         "x": 1644,
@@ -1073,7 +1072,7 @@
         "id": "144ff98c87e076c2",
         "type": "group",
         "z": "1111a98978c668d9",
-        "g": "45d7aa903fc01ceb",
+        "g": "aa1b55d5276be9b5",
         "name": "Post TOKEN Generation",
         "style": {
             "label": true,
@@ -1092,8 +1091,8 @@
             "e2462cdda8f66b85",
             "0561927d17c4de49"
         ],
-        "x": 684,
-        "y": 999,
+        "x": 1074,
+        "y": 979,
         "w": 822,
         "h": 247
     },
@@ -1120,7 +1119,7 @@
             "assert_notif_link_out_001"
         ],
         "x": 3184,
-        "y": 779,
+        "y": 1159,
         "w": 1422,
         "h": 262
     },
@@ -1144,8 +1143,8 @@
             "gen_pre_notif_junc2_001",
             "gen_pre_notif_link_out_001"
         ],
-        "x": 84,
-        "y": 2299,
+        "x": 74,
+        "y": 2419,
         "w": 802,
         "h": 227
     },
@@ -1170,8 +1169,8 @@
             "gen_post_notif_junc2_001",
             "gen_post_notif_link_out_001"
         ],
-        "x": 984,
-        "y": 2299,
+        "x": 974,
+        "y": 2419,
         "w": 822,
         "h": 227
     },
@@ -1190,12 +1189,18 @@
         "nodes": [
             "839c1b1457e95a97",
             "0d61756d38d37032",
-            "e62bfc81e3efab18"
+            "e62bfc81e3efab18",
+            "set_ci_074",
+            "434f8a0c26896f94",
+            "d313d860e269d206",
+            "765c1a7f55e41c21",
+            "4dc237292ce67b4b",
+            "2ff3dd80c83001a4"
         ],
-        "x": 94,
-        "y": 1699,
+        "x": 84,
+        "y": 1799,
         "w": 732,
-        "h": 82
+        "h": 407
     },
     {
         "id": "5cf99e9328eb55e5",
@@ -1227,12 +1232,16 @@
             "gen_sdjwt_set_ci129_001",
             "gen_sdjwt_set_ci130_001",
             "gen_sdjwt_set_ci131_001",
-            "gen_sdjwt_set_ci132_001"
+            "gen_sdjwt_set_ci132_001",
+            "0e8047fb9f63a570",
+            "05207276ba68f6a2",
+            "64bd330aaac47c6f",
+            "166b226f59bfc1a0"
         ],
-        "x": 994,
-        "y": 1659,
+        "x": 984,
+        "y": 1619,
         "w": 952,
-        "h": 627
+        "h": 787
     },
     {
         "id": "assert_sdjwt_group_001",
@@ -1265,35 +1274,21 @@
             "assert_sdjwt_httpresp_001",
             "assert_sdjwt_debug_001",
             "95bd11842d39f1a6",
-            "c5b84c3dc61e16e4"
+            "c5b84c3dc61e16e4",
+            "assert_ci_074",
+            "8e549538b9d5d9af",
+            "assert_ci_082",
+            "084e941000d45823",
+            "50d685129c498ea8",
+            "ce12535f236fb590",
+            "2b482648c8e91e02",
+            "d89dc0de3e8aaaff",
+            "8410fba4d03e927c"
         ],
         "x": 3184,
-        "y": 99,
+        "y": 59,
         "w": 1552,
-        "h": 642
-    },
-    {
-        "id": "0afdcbfb0dda622f",
-        "type": "group",
-        "z": "1111a98978c668d9",
-        "g": "45d7aa903fc01ceb",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "361d503327fdf076",
-            "2748e72c7d88771b"
-        ],
-        "x": 88,
-        "y": 613,
-        "w": 1864,
-        "h": 359
+        "h": 962
     },
     {
         "id": "0b3adec60d5471ba",
@@ -1552,7 +1547,7 @@
         "id": "361d503327fdf076",
         "type": "group",
         "z": "1111a98978c668d9",
-        "g": "0afdcbfb0dda622f",
+        "g": "45d7aa903fc01ceb",
         "name": "Post Auth Request Generation",
         "style": {
             "label": true,
@@ -1573,8 +1568,8 @@
             "0164c2317f9993f5",
             "b0ccac233c23fb1f"
         ],
-        "x": 114,
-        "y": 639,
+        "x": 604,
+        "y": 619,
         "w": 802,
         "h": 307
     },
@@ -1582,7 +1577,7 @@
         "id": "2748e72c7d88771b",
         "type": "group",
         "z": "1111a98978c668d9",
-        "g": "0afdcbfb0dda622f",
+        "g": "aa1b55d5276be9b5",
         "name": "Pre TOKEN Generation",
         "style": {
             "label": true,
@@ -1598,8 +1593,8 @@
             "ffcceaece83d9688",
             "477f4c45aeae51ce"
         ],
-        "x": 1064,
-        "y": 679,
+        "x": 104,
+        "y": 1019,
         "w": 862,
         "h": 167
     },
@@ -1685,6 +1680,29 @@
         "y": 1899,
         "w": 682,
         "h": 142
+    },
+    {
+        "id": "aa1b55d5276be9b5",
+        "type": "group",
+        "z": "1111a98978c668d9",
+        "g": "45d7aa903fc01ceb",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2748e72c7d88771b",
+            "144ff98c87e076c2"
+        ],
+        "x": 78,
+        "y": 953,
+        "w": 1844,
+        "h": 299
     },
     {
         "id": "d4d34ff748522565",
@@ -1821,8 +1839,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "361d503327fdf076",
-        "x": 450,
-        "y": 920,
+        "x": 940,
+        "y": 900,
         "wires": [
             [
                 "a3fa77b70bf3ad90"
@@ -1834,8 +1852,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "361d503327fdf076",
-        "x": 590,
-        "y": 920,
+        "x": 1080,
+        "y": 900,
         "wires": [
             [
                 "f911919b95523216"
@@ -1847,8 +1865,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "144ff98c87e076c2",
-        "x": 1160,
-        "y": 1220,
+        "x": 1550,
+        "y": 1200,
         "wires": [
             [
                 "0ee194deeb7fee76"
@@ -1860,8 +1878,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "144ff98c87e076c2",
-        "x": 1300,
-        "y": 1220,
+        "x": 1690,
+        "y": 1200,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -1899,8 +1917,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "2748e72c7d88771b",
-        "x": 1620,
-        "y": 820,
+        "x": 660,
+        "y": 1160,
         "wires": [
             [
                 "ffcceaece83d9688"
@@ -1912,8 +1930,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "2748e72c7d88771b",
-        "x": 1720,
-        "y": 820,
+        "x": 760,
+        "y": 1160,
         "wires": [
             [
                 "baa16b31772b7f7f"
@@ -1926,7 +1944,7 @@
         "z": "beb74de4721fafb3",
         "g": "assert_notif_group_001",
         "x": 3970,
-        "y": 880,
+        "y": 1260,
         "wires": [
             [
                 "assert_notif_change_001"
@@ -1938,8 +1956,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_pre_notif_group_001",
-        "x": 460,
-        "y": 2500,
+        "x": 450,
+        "y": 2620,
         "wires": [
             [
                 "gen_pre_notif_junc2_001"
@@ -1951,8 +1969,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_pre_notif_group_001",
-        "x": 600,
-        "y": 2500,
+        "x": 590,
+        "y": 2620,
         "wires": [
             [
                 "gen_pre_notif_link_out_001"
@@ -1964,8 +1982,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_post_notif_group_001",
-        "x": 1380,
-        "y": 2500,
+        "x": 1370,
+        "y": 2620,
         "wires": [
             [
                 "gen_post_notif_junc2_001"
@@ -1977,8 +1995,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "gen_post_notif_group_001",
-        "x": 1540,
-        "y": 2500,
+        "x": 1530,
+        "y": 2620,
         "wires": [
             [
                 "gen_post_notif_link_out_001"
@@ -1990,8 +2008,8 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1400,
-        "y": 2260,
+        "x": 1390,
+        "y": 2380,
         "wires": [
             [
                 "40edf8523922fe53"
@@ -2003,11 +2021,37 @@
         "type": "junction",
         "z": "1111a98978c668d9",
         "g": "5cf99e9328eb55e5",
-        "x": 1660,
-        "y": 2260,
+        "x": 1650,
+        "y": 2380,
         "wires": [
             [
                 "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "434f8a0c26896f94",
+        "type": "junction",
+        "z": "1111a98978c668d9",
+        "g": "b89e8c1fe0477a20",
+        "x": 370,
+        "y": 2180,
+        "wires": [
+            [
+                "d313d860e269d206"
+            ]
+        ]
+    },
+    {
+        "id": "d313d860e269d206",
+        "type": "junction",
+        "z": "1111a98978c668d9",
+        "g": "b89e8c1fe0477a20",
+        "x": 530,
+        "y": 2180,
+        "wires": [
+            [
+                "839c1b1457e95a97"
             ]
         ]
     },
@@ -3036,36 +3080,6 @@
         "wires": []
     },
     {
-        "id": "d2e545bb29ccbe79",
-        "type": "function",
-        "z": "4e24dbc0c8d74192",
-        "g": "f8444ff08d94c50a",
-        "name": "Process Credential request",
-        "func": "// Node-RED Function node: Credential Issuer (/credential)\n// Paste this code into a Function node (set to use async/await - Node-RED 1.0+ supports async functions)\n// Expected inputs in msg:\n//  - msg.payload            : request body (JSON)\n//  - msg.headers            : request headers (object)\n//  - msg.session_id         : optional session identifier (otherwise taken from body.session_id)\n//  - msg.registeredNonceMap : OPTIONAL - object map sessionId->c_nonce (if you keep nonce store externally)\n//\n// Assumptions (adjust before using):\n// 1) 'jose' is available either as global context (global.get('jose')) OR via dynamic import().\n//    If you're running Node-RED and have trouble importing 'jose', prefer to set\n//    global.set('jose', require('jose')) in settings.js or load it from a FunctionGlobalContext.\n// 2) Issuer keys and Wallet Provider JWKS are available in global context:\n//    global.get('ISSUER_PRIVATE_JWK'), global.get('ISSUER_PUBLIC_JWK'), global.get('WALLET_PROVIDER_JWKS')\n//    If not present, the code includes fallback placeholders but you MUST replace them with real keys.\n// 3) Token introspection is simplified: tokens starting with \"Kz~\" are treated as active DPoP-bound tokens.\n//    Replace introspectToken() with a real HTTP call to your AS introspection endpoint if needed.\n// 4) This Function node is intended to be used behind an HTTP In / HTTP Response pair.\n//    The node returns msg where msg.statusCode and msg.payload are set for HTTP Response node.\n//\n// Behavior implemented (mapped to spec Steps 14/15/16/20):\n//  - Parse Authorization and DPoP headers\n//  - Introspect / validate access token (simplified)\n//  - Verify DPoP proof JWT (header/payload checks, htu/htm, signature, extract public JWK)\n//  - Verify proofs.jwt[]: each proof must be a JWT containing jwk and nonce matching stored c_nonce\n//  - Verify optional key_attestation signed by Wallet Provider\n//  - If checks pass: issue a VC as a JWT bound to the public JWK in each proof and return it\n//  - Support batch issuance when proofs contain an array\n//\n// NOTE: replace placeholders and tighten security for production use (DB persistence, introspection, replay protection, JTI stores etc.).\n\n  // Helper: send HTTP style response via Node-RED\n  function respond(status, body){\n    msg.statusCode = status;\n    msg.payload = body;\n    node.send(msg);\n    // if running as async function, return to end execution\n  }\n\n  // Local references to msg and node\n  // (Node-RED Function provides msg/node in scope)\n  try {\n    // ensure msg exists\n    if(typeof msg !== 'object') throw new Error('msg not available');\n\n    // load jose library\n  \n\n    const { jwtVerify, decodeJwt, importJWK, SignJWT, decodeProtectedHeader, decodeJwt: decodeJwt2 } = jose;\n\n\n\n// 1) Genera coppia chiavi\nconst { publicKey, privateKey } = crypto.generateKeyPairSync('ec', {\n  namedCurve: 'prime256v1' // P-256\n});\n\n// 2) Esporta in JWK\nconst publicJwk = publicKey.export({ format: 'jwk' });\nconst privateJwk = privateKey.export({ format: 'jwk' });\n\n// 3) Aggiungi kid (consigliato)\nconst kid = 'issuer-' + crypto.randomBytes(8).toString('hex');\npublicJwk.kid = kid;\nprivateJwk.kid = kid;\n\n// 4) Salva in global context\nglobal.set('ISSUER_PUBLIC_JWK', publicJwk);\nglobal.set('ISSUER_PRIVATE_JWK', privateJwk);\n    // load issuer keys and wallet provider jwks from global context (or set fallback placeholders)\n    let ISSUER_PRIVATE_JWK = global.get('ISSUER_PRIVATE_JWK') || null;\n    let ISSUER_PUBLIC_JWK = global.get('ISSUER_PUBLIC_JWK') || null;\n    let WALLET_PROVIDER_JWKS = global.get('WALLET_PROVIDER_JWKS') || { keys: [] };\n\n    if(!ISSUER_PRIVATE_JWK || !ISSUER_PUBLIC_JWK){\n      // placeholder keypair - REPLACE IN PRODUCTION\n      ISSUER_PRIVATE_JWK = ISSUER_PRIVATE_JWK || {\n        kty: 'EC', crv: 'P-256', x: 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', y: 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB', d: 'CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC' }\n      ISSUER_PUBLIC_JWK = ISSUER_PUBLIC_JWK || { kty: 'EC', crv: 'P-256', x: ISSUER_PRIVATE_JWK.x, y: ISSUER_PRIVATE_JWK.y };\n      node.warn('Using placeholder issuer keys. Replace with real keys via global context.');\n    }\n\n    // Simple nonce store (in-memory within flow/global) - prefer external DB or global context\n    // Check if user supplied a registeredNonceMap in msg (useful for Node-RED flows)\n    let nonceStore = global.get('NONCE_STORE') || {};\n    if(msg.registeredNonceMap && typeof msg.registeredNonceMap === 'object'){\n      // merge but do not overwrite existing\n      nonceStore = { ...nonceStore, ...msg.registeredNonceMap };\n    }\n\n    // Input parsing\n    const headers = (msg.req.headers && typeof msg.req.headers === 'object') ? msg.req.headers : {};\n    const body = (msg.payload && typeof msg.payload === 'object') ? msg.payload : {};\n\n    const authHeader = (headers.authorization || headers.Authorization || '').trim();\n    const dpopHeader = (headers.dpop || headers.DPoP || headers.DPOP || '').trim();\n\n    if(!authHeader) return respond(401, { error: 'missing_authorization' });\n\n    // parse auth scheme\n    const authParts = authHeader.split(/\\s+/);\n    if(authParts.length < 2) return respond(401, { error: 'invalid_authorization' });\n    const authScheme = authParts[0];\n    const accessToken = authParts.slice(1).join(' ');\n\n    // simplified token introspection\n    async function introspectToken(token){\n      if(!token) return { active: false };\n      // heuristic: tokens that contain two dots might be JWTs\n      if(token.split('.').length === 3){\n        try {\n          const payload = decodeJwt(token);\n          return { active: true, ...payload, token_type: (payload.token_type || 'DPoP') };\n        } catch(e){\n          return { active: false };\n        }\n      }\n      // treat tokens starting with Kz~ as DPoP-bound active in this demo\n      if(token.startsWith('Kz~')) return { active: true, token_type: 'DPoP', aud: (global.get('ISSUER_IDENTIFIER') || msg.issuer || 'urn:example:issuer') };\n      // else consider inactive (replace with real introspection call)\n      return { active: false };\n    }\n\n    const tokenInfo = await introspectToken(accessToken);\n    if(!tokenInfo || !tokenInfo.active) return respond(401, { error: 'invalid_access_token' });\n\n    // If token is DPoP-bound (or authScheme is DPoP) require DPoP header\n    const isDpopBound = (authScheme.toUpperCase() === 'DPOP') || (tokenInfo.token_type && tokenInfo.token_type.toString().toUpperCase() === 'DPOP');\n    let dpopJwk = null;\n    if(isDpopBound){\n      if(!dpopHeader) return respond(401, { error: 'missing_dpop_for_dpop_bound_token' });\n\n      // Verify DPoP proof\n      try {\n        const ph = await decodeProtectedHeader(dpopHeader);\n        if(ph && ph.alg && ph.alg.toLowerCase() === 'none') return respond(401, { error: 'dpop_alg_none' });\n\n        const dpopPayload = decodeJwt(dpopHeader);\n        // expected HTU and HTM validation\n        // compute expected HTU: try to use msg.reqUrl or build from msg\n        const expectedHtu = msg.reqUrl || (msg.req && msg.req.originalUrl) || (msg.requestUrl) || (global.get('ISSUER_IDENTIFIER') ? `${global.get('ISSUER_IDENTIFIER')}/credential` : 'https://example.org/credential');\n        const expectedHtm = 'POST';\n        if(dpopPayload.htu !== expectedHtu && dpopPayload.htu !== (headers['x-forwarded-host'] ? `${headers['x-forwarded-host']}${msg.req && msg.req.originalUrl || ''}` : dpopPayload.htu)){\n          // in many dev setups htu may differ; warn but continue if you want. For strict: reject\n          node.warn('DPoP htu mismatch: expected ' + expectedHtu + ' got ' + dpopPayload.htu);\n          //return respond(400, { error: 'dpop_htu_mismatch' });\n        }\n        if((dpopPayload.htm && dpopPayload.htm.toUpperCase()) !== expectedHtm) {\n          node.warn('DPoP htm mismatch: expected ' + expectedHtm + ' got ' + dpopPayload.htm);\n          //return respond(400, { error: 'dpop_htm_mismatch' });\n        }\n\n        // extract jwk used for dpop signature - prefer header.jwk then payload.jwk\n        const header = ph;\n        dpopJwk = header.jwk || dpopPayload.jwk;\n        if(!dpopJwk) return respond(400, { error: 'dpop_missing_jwk' });\n\n        // verify signature of DPoP using jwk\n        try {\n          const key = await importJWK(dpopJwk, ph.alg || 'ES256');\n          await jwtVerify(dpopHeader, key, {});\n        } catch(e){\n          node.warn('DPoP signature verify failed: ' + String(e));\n          return respond(401, { error: 'invalid_dpop_signature', detail: String(e) });\n        }\n\n      } catch(e){\n        node.warn('DPoP verification error: ' + String(e));\n        return respond(400, { error: 'dpop_verification_failed', detail: String(e) });\n      }\n    }\n\n    // Body level checks\n    if(!body || !body.proofs) return respond(400, { error: 'missing_proofs' });\n\n    // proofs.jwt may be an array or single string\n    let proofs = [];\n    if(body.proofs.jwt){\n      proofs = Array.isArray(body.proofs.jwt) ? body.proofs.jwt : [body.proofs.jwt];\n    } else if(body.proofs['jwt']){\n      proofs = Array.isArray(body.proofs['jwt']) ? body.proofs['jwt'] : [body.proofs['jwt']];\n    } else if(Array.isArray(body.proofs)){\n      proofs = body.proofs;\n    } else {\n      return respond(400, { error: 'unsupported_proofs_structure' });\n    }\n    function getStore() {\n  return global.get('nonce_store') || {};\n}\n\n    // session id resolution\n    const sessionId = body.session_id || msg.session_id || tokenInfo.jti || tokenInfo.client_id || 'default-session';\n    const expectedCNonce = getStore();\n    if(!expectedCNonce){\n      // spec requires c_nonce be provided; here we warn but continue for flexibility\n      node.warn('No c_nonce found for session: ' + sessionId + '. To strictly enforce, return an error.');\n    }\n\n    // Function to verify single proof\n    async function verifyKeyProof(proofJwt){\n      try {\n        const ph = await decodeProtectedHeader(proofJwt);\n        if(!ph || !ph.alg) throw new Error('proof header missing or alg missing');\n        if(ph.alg.toLowerCase() === 'none') throw new Error('proof alg none not allowed');\n\n        const payload = decodeJwt(proofJwt);\n        // payload must include jwk\n        if(!payload.jwk) throw new Error('proof missing jwk claim');\n        \n        // check nonce / c_nonce\n        const nonceClaim = payload.nonce || payload.c_nonce || payload.nonce_value;\n       \n        if(expectedCNonce && !expectedCNonce[nonceClaim]){\n          return respond(400, { error: 'invalid_nonce' });\n        }\n\n        // check jwk equals dpopJwk (if dpopJwk present)\n        if(dpopJwk){\n          const a = JSON.stringify(payload.jwk);\n          const b = JSON.stringify(dpopJwk);\n          if(a !== b) throw new Error('jwk in proof does not match jwk in DPoP');\n        }\n        // verify proof signature using payload.jwk\n        const key = await importJWK(payload.jwk, ph.alg);\n        await jwtVerify(proofJwt, key);\n\n        // verify key_attestation if present\n        if(payload.key_attestation){\n          // verify attestation signature using wallet provider JWKS\n          const att = payload.key_attestation;\n          const attHeader = await decodeProtectedHeader(att);\n          const attKid = attHeader && attHeader.kid;\n          const jwkForKid = WALLET_PROVIDER_JWKS.keys.find(k => k.kid === attKid);\n          if(!jwkForKid) throw new Error('wallet provider key not found for key_attestation kid: ' + attKid);\n          const attKey = await importJWK(jwkForKid, attHeader.alg);\n          await jwtVerify(att, attKey);\n        }\n        return { ok:true, payload };\n      } catch(err){\n        return { ok:false, error: String(err) };\n      }\n    }\n\n    // Iterate proofs and verify each\n    const issued = [];\n    for(const proof of proofs){\n      const result = await verifyKeyProof(proof);\n      if(!result.ok){\n        return respond(400, { error: 'proof_verification_failed', detail: result.error });\n      }\n\n      // create credential (JWT VC) bound to subject public jwk\n      // build VC payload\n      const subjectJwk = result.payload.jwk;\n      const iat = Math.floor(Date.now()/1000);\n      const jti = 'cred-' + cryptoRandomHex(12);\n      const vcPayload = {\n        iss: global.get('ISSUER_IDENTIFIER') || (msg.issuer || 'https://example.org/issuer'),\n        sub: body.subject || ('did:example:subject-' + jti),\n        aud: body.aud || (result.payload.sub || 'urn:wallet'),\n        iat: iat,\n        jti: jti,\n        vc: {\n          '@context': ['https://www.w3.org/2018/credentials/v1'],\n          type: ['VerifiableCredential', body.credential_identifier || 'ExampleCredential'],\n          credentialSubject: {\n            id: body.subject || ('did:example:subject-' + jti),\n            publicKeyJwk: subjectJwk\n          }\n        }\n      };\n\n      // sign VC JWT\n      const privateKey = await importJWK(ISSUER_PRIVATE_JWK, 'ES256');\n      const signed = await new SignJWT(vcPayload)\n        .setProtectedHeader({ alg: 'ES256', kid: (ISSUER_PUBLIC_JWK.kid || 'issuer-key-1'), typ: 'JWT' })\n        .sign(privateKey);\n      // store issued credential in global store (simple)\n      const store = global.get('ISSUED_CREDENTIALS') || {};\n      store[jti] = { jwt: signed, issued_at: iat, subjectJwk };\n      global.set('ISSUED_CREDENTIALS', store);\n\n      issued.push({ id: jti, credential: signed });\n    }\n    // Register all issued ids in global store so the Notification\n    // endpoint (Step 25) can verify they were legitimately issued\n    const knownNotifIds = global.get('issued_notification_ids') || {};\n    for (const item of issued) {\n      knownNotifIds[item.id] = { issued_at: Date.now() };\n    }\n    global.set('issued_notification_ids', knownNotifIds);\n    // respond 201\n    if(issued.length === 1){\n      return respond(201, { credential: issued[0].credential, id: issued[0].id });\n    } else {\n      return respond(201, { credentials: issued.map(i=>i.credential), ids: issued.map(i=>i.id) });\n    }\n\n  } catch(err){\n    node.error('Credential Issuer node error: ' + String(err));\n    try { return respond(500, { error: 'server_error', detail: String(err) }); } catch(e){/* silence */}\n  }\n\n  // helper: crypto random hex\n  function cryptoRandomHex(n){\n    // n bytes -> hex length 2n\n    const crypto = global.get('crypto') || require('crypto');\n    return crypto.randomBytes(n).toString('hex');\n  }\n\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "jose",
-                "module": "jose"
-            },
-            {
-                "var": "crypto",
-                "module": "crypto"
-            }
-        ],
-        "x": 1200,
-        "y": 980,
-        "wires": [
-            [
-                "05516c20a0290d7a"
-            ]
-        ]
-    },
-    {
         "id": "a5e9d3898579b62e",
         "type": "http in",
         "z": "4e24dbc0c8d74192",
@@ -3080,7 +3094,7 @@
         "y": 980,
         "wires": [
             [
-                "d2e545bb29ccbe79"
+                "867d13db26711056"
             ]
         ]
     },
@@ -3097,6 +3111,36 @@
         "x": 1405,
         "y": 980,
         "wires": []
+    },
+    {
+        "id": "867d13db26711056",
+        "type": "function",
+        "z": "4e24dbc0c8d74192",
+        "g": "f8444ff08d94c50a",
+        "name": "Process Credential request",
+        "func": "// Node-RED Function node: Credential Issuer (/credential)\n// Paste this code into a Function node (set to use async/await - Node-RED 1.0+ supports async functions)\n// Expected inputs in msg:\n//  - msg.payload            : request body (JSON)\n//  - msg.headers            : request headers (object)\n//  - msg.session_id         : optional session identifier (otherwise taken from body.session_id)\n//  - msg.registeredNonceMap : OPTIONAL - object map sessionId->c_nonce (if you keep nonce store externally)\n//\n// Assumptions (adjust before using):\n// 1) 'jose' is available either as global context (global.get('jose')) OR via dynamic import().\n//    If you're running Node-RED and have trouble importing 'jose', prefer to set\n//    global.set('jose', require('jose')) in settings.js or load it from a FunctionGlobalContext.\n// 2) Issuer keys and Wallet Provider JWKS are available in global context:\n//    global.get('ISSUER_PRIVATE_JWK'), global.get('ISSUER_PUBLIC_JWK'), global.get('WALLET_PROVIDER_JWKS')\n//    If not present, the code includes fallback placeholders but you MUST replace them with real keys.\n// 3) Token introspection is simplified: tokens starting with \"Kz~\" are treated as active DPoP-bound tokens.\n//    Replace introspectToken() with a real HTTP call to your AS introspection endpoint if needed.\n// 4) This Function node is intended to be used behind an HTTP In / HTTP Response pair.\n//    The node returns msg where msg.statusCode and msg.payload are set for HTTP Response node.\n//\n// Behavior implemented (mapped to spec Steps 14/15/16/20):\n//  - Parse Authorization and DPoP headers\n//  - Introspect / validate access token (simplified)\n//  - Verify DPoP proof JWT (header/payload checks, htu/htm, signature, extract public JWK)\n//  - Verify proofs.jwt[]: each proof must be a JWT containing jwk and nonce matching stored c_nonce\n//  - Verify optional key_attestation signed by Wallet Provider\n//  - If checks pass: issue a VC as a JWT bound to the public JWK in each proof and return it\n//  - Support batch issuance when proofs contain an array\n//\n// NOTE: replace placeholders and tighten security for production use (DB persistence, introspection, replay protection, JTI stores etc.).\n\nconst ci = global.get('ciCommon')\n\n// Helper: send HTTP style response via Node-RED\nfunction respond(status, body) {\n  msg.statusCode = status;\n  msg.payload = body;\n  node.send(msg);\n  // if running as async function, return to end execution\n}\n//CI_076 privateKey check\nfunction headerContainsPrivateKeyMaterial(headerJwk) {\n  if (!headerJwk || typeof headerJwk !== 'object') return false;\n\n  const forbidden = ['d', 'p', 'q', 'dp', 'dq', 'qi', 'oth'];\n\n  return forbidden.some(k => k in headerJwk);\n}\n\n// Local references to msg and node\n// (Node-RED Function provides msg/node in scope)\ntry {\n  // ensure msg exists\n  if (typeof msg !== 'object') throw new Error('msg not available');\n\n  // load jose library\n\n\n  const { jwtVerify, decodeJwt, importJWK, SignJWT, decodeProtectedHeader, decodeJwt: decodeJwt2 } = jose;\n\n\n\n  // 1) Genera coppia chiavi\n  const { publicKey, privateKey } = crypto.generateKeyPairSync('ec', {\n    namedCurve: 'prime256v1' // P-256\n  });\n\n  // 2) Esporta in JWK\n  const publicJwk = publicKey.export({ format: 'jwk' });\n  const privateJwk = privateKey.export({ format: 'jwk' });\n\n  // 3) Aggiungi kid (consigliato)\n  const kid = 'issuer-' + crypto.randomBytes(8).toString('hex');\n  publicJwk.kid = kid;\n  privateJwk.kid = kid;\n\n  // 4) Salva in global context\n  global.set('ISSUER_PUBLIC_JWK', publicJwk);\n  global.set('ISSUER_PRIVATE_JWK', privateJwk);\n  // load issuer keys and wallet provider jwks from global context (or set fallback placeholders)\n  let ISSUER_PRIVATE_JWK = global.get('ISSUER_PRIVATE_JWK') || null;\n  let ISSUER_PUBLIC_JWK = global.get('ISSUER_PUBLIC_JWK') || null;\n  let WALLET_PROVIDER_JWKS = global.get('WALLET_PROVIDER_JWKS') || { keys: [] };\n\n  if (!ISSUER_PRIVATE_JWK || !ISSUER_PUBLIC_JWK) {\n    // placeholder keypair - REPLACE IN PRODUCTION\n    ISSUER_PRIVATE_JWK = ISSUER_PRIVATE_JWK || {\n      kty: 'EC', crv: 'P-256', x: 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', y: 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB', d: 'CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC'\n    }\n    ISSUER_PUBLIC_JWK = ISSUER_PUBLIC_JWK || { kty: 'EC', crv: 'P-256', x: ISSUER_PRIVATE_JWK.x, y: ISSUER_PRIVATE_JWK.y };\n    node.warn('Using placeholder issuer keys. Replace with real keys via global context.');\n  }\n\n  // Simple nonce store (in-memory within flow/global) - prefer external DB or global context\n  // Check if user supplied a registeredNonceMap in msg (useful for Node-RED flows)\n  let nonceStore = global.get('NONCE_STORE') || {};\n  if (msg.registeredNonceMap && typeof msg.registeredNonceMap === 'object') {\n    // merge but do not overwrite existing\n    nonceStore = { ...nonceStore, ...msg.registeredNonceMap };\n  }\n\n  // Input parsing\n  const headers = (msg.req.headers && typeof msg.req.headers === 'object') ? msg.req.headers : {};\n  const body = (msg.payload && typeof msg.payload === 'object') ? msg.payload : {};\n\n  const authHeader = (headers.authorization || headers.Authorization || '').trim();\n  const dpopHeader = (headers.dpop || headers.DPoP || headers.DPOP || '').trim();\n\n  if (!authHeader) return respond(401, { error: 'missing_authorization' });\n\n  // parse auth scheme\n  const authParts = authHeader.split(/\\s+/);\n  if (authParts.length < 2) return respond(401, { error: 'invalid_authorization' });\n  const authScheme = authParts[0];\n  const accessToken = authParts.slice(1).join(' ');\n\n  // simplified token introspection\n  async function introspectToken(token) {\n    if (!token) return { active: false };\n    // heuristic: tokens that contain two dots might be JWTs\n    if (token.split('.').length === 3) {\n      try {\n        const payload = decodeJwt(token);\n        return { active: true, ...payload, token_type: (payload.token_type || 'DPoP') };\n      } catch (e) {\n        return { active: false };\n      }\n    }\n    // treat tokens starting with Kz~ as DPoP-bound active in this demo\n    if (token.startsWith('Kz~')) return { active: true, token_type: 'DPoP', aud: (global.get('ISSUER_IDENTIFIER') || msg.issuer || 'urn:example:issuer') };\n    // else consider inactive (replace with real introspection call)\n    return { active: false };\n  }\n\n  const tokenInfo = await introspectToken(accessToken);\n  if (!tokenInfo || !tokenInfo.active) return respond(401, { error: 'invalid_access_token' });\n\n  // If token is DPoP-bound (or authScheme is DPoP) require DPoP header\n  const isDpopBound = (authScheme.toUpperCase() === 'DPOP') || (tokenInfo.token_type && tokenInfo.token_type.toString().toUpperCase() === 'DPOP');\n  let dpopJwk = null;\n  if (isDpopBound) {\n    if (!dpopHeader) return respond(401, { error: 'missing_dpop_for_dpop_bound_token' });\n\n    // Verify DPoP proof\n    try {\n      const ph = await decodeProtectedHeader(dpopHeader);\n      if (ph && ph.alg && ph.alg.toLowerCase() === 'none') return respond(401, { error: 'dpop_alg_none' });\n\n      const dpopPayload = decodeJwt(dpopHeader);\n      // expected HTU and HTM validation\n      // compute expected HTU: try to use msg.reqUrl or build from msg\n      const expectedHtu = msg.reqUrl || (msg.req && msg.req.originalUrl) || (msg.requestUrl) || (global.get('ISSUER_IDENTIFIER') ? `${global.get('ISSUER_IDENTIFIER')}/credential` : 'https://example.org/credential');\n      const expectedHtm = 'POST';\n      if (dpopPayload.htu !== expectedHtu && dpopPayload.htu !== (headers['x-forwarded-host'] ? `${headers['x-forwarded-host']}${msg.req && msg.req.originalUrl || ''}` : dpopPayload.htu)) {\n        // in many dev setups htu may differ; warn but continue if you want. For strict: reject\n        node.warn('DPoP htu mismatch: expected ' + expectedHtu + ' got ' + dpopPayload.htu);\n        //return respond(400, { error: 'dpop_htu_mismatch' });\n      }\n      if ((dpopPayload.htm && dpopPayload.htm.toUpperCase()) !== expectedHtm) {\n        node.warn('DPoP htm mismatch: expected ' + expectedHtm + ' got ' + dpopPayload.htm);\n        //return respond(400, { error: 'dpop_htm_mismatch' });\n      }\n\n      // extract jwk used for dpop signature - prefer header.jwk then payload.jwk\n      const header = ph;\n      dpopJwk = header.jwk || dpopPayload.jwk;\n      if (!dpopJwk) return respond(400, { error: 'dpop_missing_jwk' });\n\n      // verify signature of DPoP using jwk\n      try {\n        const key = await importJWK(dpopJwk, ph.alg || 'ES256');\n        await jwtVerify(dpopHeader, key, {});\n      } catch (e) {\n        node.warn('DPoP signature verify failed: ' + String(e));\n        return respond(401, { error: 'invalid_dpop_signature', detail: String(e) });\n      }\n\n    } catch (e) {\n      node.warn('DPoP verification error: ' + String(e));\n      return respond(400, { error: 'dpop_verification_failed', detail: String(e) });\n    }\n  }\n\n  // Body level checks\n  if (!body || !body.proofs) return respond(400, { error: 'missing_proofs' });\n\n  // proofs.jwt may be an array or single string\n  let proofs = [];\n  if (body.proofs.jwt) {\n    proofs = Array.isArray(body.proofs.jwt) ? body.proofs.jwt : [body.proofs.jwt];\n  } else if (body.proofs['jwt']) {\n    proofs = Array.isArray(body.proofs['jwt']) ? body.proofs['jwt'] : [body.proofs['jwt']];\n  } else if (Array.isArray(body.proofs)) {\n    proofs = body.proofs;\n  } else {\n    return respond(400, { error: 'unsupported_proofs_structure' });\n  }\n  function getStore() {\n    return global.get('nonce_store') || {};\n  }\n\n  // session id resolution\n  const sessionId = body.session_id || msg.session_id || tokenInfo.jti || tokenInfo.client_id || 'default-session';\n  const expectedCNonce = getStore();\n\n  if (!expectedCNonce) {\n    // spec requires c_nonce be provided; here we warn but continue for flexibility\n    node.warn('No c_nonce found for session: ' + sessionId + '. To strictly enforce, return an error.');\n  }\n\n  // Function to verify single proof\n  async function verifyKeyProof(proofJwt) {\n    try {\n      const ph = await decodeProtectedHeader(proofJwt);\n\n      if (!ph || !ph.alg) throw new Error('proof header missing or alg missing');\n      if (ph.alg.toLowerCase() === 'none') throw new Error('proof alg none not allowed');\n      // CI_076 - Verify there are no private key in the headers\n      if (ph.jwk && headerContainsPrivateKeyMaterial(ph.jwk)) throw new Error('private key present in header');\n      if (!ph.jwk) throw new Error('proof missing jwk claim');//update from payload to ph\n\n      // CI_073 check: proof type must be declared\n      if (!ph.typ) {\n        return { ok: false, error: 'missing_proof_typ' };\n      }\n\n      // CI_073 check: must match OpenID4VCI proof type\n      if (ph.typ !== 'openid4vci-proof+jwt') {\n        return { ok: false, error: 'unsupported_proof_typ' };\n      }\n      \n      const payload = decodeJwt(proofJwt);\n      //START Update CI_078\n      let store = global.get(\"nonce_store\");  \n      const now = Date.now()/1000;  \n      const allowedWindowSec = 60;  \n \n      let tokenTime;\n      if (payload.iat) {\n        tokenTime = payload.iat;\n      } else if (store[payload.nonce].created_at_ms) {\n        tokenTime = store[payload.nonce].created_at_ms/1000;\n      } else {\n        throw new Error(\"Missing creation timestamp (iat or nonce)\");\n      }\n      const delta = Math.abs(now - tokenTime);\n \n      if (delta > allowedWindowSec) {\n        throw new Error(\"JWT creation time outside acceptable window\");\n      }\n      //END Update CI_078\n      // check nonce / c_nonce\n      const nonceClaim = payload.nonce || payload.c_nonce || payload.nonce_value;\n\n      if (expectedCNonce && !expectedCNonce[nonceClaim]) {\n        return { ok: false, error: 'invalid_nonce' };\n      }\n\n\n      // check jwk equals dpopJwk (if dpopJwk present)\n      if (dpopJwk) {\n        const a = JSON.stringify(ph.jwk);\n        const b = JSON.stringify(dpopJwk);\n        if (a !== b) throw new Error('jwk in proof does not match jwk in DPoP');\n      }\n      // verify proof signature using payload.jwk\n      const key = await importJWK(ph.jwk, ph.alg);\n      await jwtVerify(proofJwt, key);\n\n      // verify key_attestation if present\n      if (payload.key_attestation) {\n        // verify attestation signature using wallet provider JWKS\n        const att = payload.key_attestation;\n        const attHeader = await decodeProtectedHeader(att);\n        const attKid = attHeader && attHeader.kid;\n        const jwkForKid = WALLET_PROVIDER_JWKS.keys.find(k => k.kid === attKid);\n        if (!jwkForKid) throw new Error('wallet provider key not found for key_attestation kid: ' + attKid);\n        const attKey = await importJWK(jwkForKid, attHeader.alg);\n        await jwtVerify(att, attKey);\n      }\n      return { ok: true, payload, headerJwk: ph.jwk, headerAlg: ph.alg };\n    } catch (err) {\n\n      return { ok: false, error: String(err) };\n    }\n  }\n\n  // Iterate proofs and verify each\n  const issued = [];\n  for (const proof of proofs) {\n\n    const result = await verifyKeyProof(proof);\n\n    if (!result.ok) {\n      return respond(400, { error: 'proof_verification_failed', detail: result.error });\n    }\n\n    // create credential (JWT VC) bound to subject public jwk\n    // build VC payload\n    const subjectJwk = result.headerJwk;\n\n    const jkt = ci.jwkThumbprint(subjectJwk);\n\n    const iat = Math.floor(Date.now() / 1000);\n    const jti = 'cred-' + cryptoRandomHex(12);\n    const vcPayload = {\n      iss: global.get('ISSUER_IDENTIFIER') || (msg.issuer || 'https://example.org/issuer'),\n      sub: body.subject || ('did:example:subject-' + jti),\n      aud: body.aud || (result.payload.sub || 'urn:wallet'),\n      iat: iat,\n      jti: jti,\n      // Binding crittografico (conferma della chiave del soggetto)\n      cnf: { jwk: subjectJwk, jkt },\n      vc: {\n        '@context': ['https://www.w3.org/2018/credentials/v1'],\n        type: ['VerifiableCredential', body.credential_identifier || 'ExampleCredential'],\n        credentialSubject: {\n          id: body.subject || ('did:example:subject-' + jti),\n          publicKeyJwk: subjectJwk\n        }\n      }\n    };\n\n    // sign VC JWT\n    const privateKey = await importJWK(ISSUER_PRIVATE_JWK, 'ES256');\n    const signed = await new SignJWT(vcPayload)\n      .setProtectedHeader({ alg: 'ES256', kid: (ISSUER_PUBLIC_JWK.kid || 'issuer-key-1'), typ: 'JWT' })\n      .sign(privateKey);\n    // store issued credential in global store (simple)\n    const store = global.get('ISSUED_CREDENTIALS') || {};\n    store[jti] = { jwt: signed, issued_at: iat, subjectJwk };\n    global.set('ISSUED_CREDENTIALS', store);\n\n    issued.push({ id: jti, credential: signed });\n  }\n  // Register all issued ids in global store so the Notification\n  // endpoint (Step 25) can verify they were legitimately issued\n  const knownNotifIds = global.get('issued_notification_ids') || {};\n  for (const item of issued) {\n    knownNotifIds[item.id] = { issued_at: Date.now() };\n  }\n  global.set('issued_notification_ids', knownNotifIds);\n\n  // 4) No-store in risposta HTTP (buona pratica lato sicurezza)\n  msg.headers = { ...(msg.headers || {}), 'Content-Type': 'application/json', 'Cache-Control': 'no-store' };\n\n  // respond 201\n  if (issued.length === 1) {\n    return respond(200, { credential: issued[0].credential, id: issued[0].id });\n  } else {\n    return respond(200, { credentials: issued.map(i => i.credential), ids: issued.map(i => i.id) });\n  }\n\n} catch (err) {\n  node.error('Credential Issuer node error: ' + String(err));\n  try { return respond(500, { error: 'server_error', detail: String(err) }); } catch (e) {/* silence */ }\n}\n\n// helper: crypto random hex\nfunction cryptoRandomHex(n) {\n  // n bytes -> hex length 2n\n  const crypto = global.get('crypto') || require('crypto');\n  return crypto.randomBytes(n).toString('hex');\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "jose",
+                "module": "jose"
+            },
+            {
+                "var": "crypto",
+                "module": "crypto"
+            }
+        ],
+        "x": 1220,
+        "y": 980,
+        "wires": [
+            [
+                "05516c20a0290d7a"
+            ]
+        ]
     },
     {
         "id": "9e072924d8202d41",
@@ -3388,11 +3432,54 @@
         ]
     },
     {
-        "id": "5c63258dfe0eba46",
+        "id": "820f8f7a485ea243",
+        "type": "function",
+        "z": "099bb8ca4bfbe7ff",
+        "name": "Request Builder",
+        "func": "  if (!msg.dpop_for_credential) throw new Error('msg.dpop_for_credential mancante (genera nello STEP14)');\n  if (!msg.token_response.access_token) throw new Error('msg.token_response.access_token mancante');\n\n  // build body\n  let body;\n    body = {\n      credential_identifier: msg.authorization_details.credential_configuration_id || 'example_credential_id',\n      proofs: { jwt: msg.proofs || [] }\n    };\n\n  // headers: Authorization must be \"DPoP <access_token>\" and include DPoP\n  msg.headers = msg.headers || {};\n  msg.headers.Authorization = 'DPoP ' + msg.token_response.access_token;\n  msg.headers.DPoP = msg.dpop_for_credential;\n  msg.headers['Content-Type'] = 'application/json';\n  msg.headers.Accept = 'application/json';\n\n  msg.payload = body;\n  msg.url = msg.sentParameters.credientialEndpoint;\nmsg.method = \"POST\"\n  // debug info\n  msg.__dpop_credential = { jwt: msg.dpop_for_credential, jkt: msg.dpop_jkt };\n  msg.__proofs = msg.proofs;\n\n  return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ff71e8fb23213197",
+        "type": "function",
+        "z": "099bb8ca4bfbe7ff",
+        "name": "Dpop",
+        "func": "delete msg.headers;\nconst crypto = global.get(\"crypto\");\nconst { SignJWT, importJWK, calculateJwkThumbprint, importPKCS8 } = jose;\n\nif (!msg.sentParameters.credientialEndpoint) throw new Error('cred endpoint missing');\nif (!msg.dpop.privateKeyPem) throw new Error('dpop privkey missing');\n\nconst _pkey = msg.dpop.privateKeyPem;\nconst now = Math.floor(Date.now()/1000);\nconst jti = crypto?.randomUUID ? crypto.randomUUID() : (Date.now().toString(36) + Math.random().toString(36).slice(2));\nconst alg = (_pkey.kty === 'EC') ? 'ES256' : (_pkey.kty === 'RSA' ? 'RS256' : 'ES256');\n\nconst privKey = await importPKCS8(_pkey, alg);\nlet pub = msg.dpop.publicJwk;\n\n// ---- PAYLOAD ORIGINALE ----\nlet payload = {\n  htu: msg.sentParameters.credientialEndpoint,\n  htm: 'POST'\n};\n\n// ---- PATCH SOLO PER CI_082 ----\nif (msg.dpopTestMode === 'invalid') {\n    payload.htm = 'GET';   // unica modifica accettata dal tuo issuer\n}\n\nconst dpopJwt = await new SignJWT(payload)\n  .setProtectedHeader({ typ: 'dpop+jwt', alg, jwk: pub })\n  .setIssuedAt(now)\n  .setJti(jti)\n  .sign(privKey);\n\nif (!_pkey) throw new Error('missing pub');\nconst jkt = await calculateJwkThumbprint(pub, 'sha256');\n\nmsg.dpop_for_credential = dpopJwt;\nmsg.dpop_key_pub = pub;\nmsg.dpop_jkt = jkt;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "jose",
+                "module": "jose"
+            }
+        ],
+        "x": 210,
+        "y": 80,
+        "wires": [
+            [
+                "815a787e174568e0"
+            ]
+        ]
+    },
+    {
+        "id": "815a787e174568e0",
         "type": "function",
         "z": "099bb8ca4bfbe7ff",
         "name": "Proof",
-        "func": "// @ts-ignore\nconst crypto = global.get(\"crypto\");\n\n\nconst { SignJWT, importJWK, importPKCS8 } = jose;\n\n  // INPUT checks\n  if (!msg.c_nonce) throw new Error('msg.c_nonce mancante (serve il c_nonce ricevuto dal Nonce Endpoint).');\n\n  const clientId = msg.client_id || 'wallet-client';\n  const aud = msg.sentParameters.credientialEndpoint\n  const now = Math.floor(Date.now()/1000);\n  const jti = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : (Date.now().toString(36) + Math.random().toString(36).slice(2));\n\n  // Build proof payload (claims)\n  const proofClaims = {\n    iss: clientId,\n    aud: aud,\n    iat: now,\n    nonce: msg.c_nonce\n    // jwk will be added below if available\n  };\n\n  // If proofKeyPub provided use it; otherwise try to derive from proofKeyPriv\nlet proofPub = msg.dpop.publicJwk || null;\nif (!proofPub && msg.dpop.privateKeyPem) {\n    const pk = msg.dpop.privateKeyPem;\n    if (pk.kty === 'EC') proofPub = { kty: 'EC', crv: pk.crv, x: pk.x, y: pk.y };\n    else if (pk.kty === 'RSA') proofPub = { kty: 'RSA', n: pk.n, e: pk.e };\n  }\n  if (proofPub) proofClaims.jwk = proofPub;\n\n  // Create signed JWT if we have a private key; otherwise fallback to non-signed compact (DEBUG ONLY)\n  let proofJwt;\nif (msg.dpop.privateKeyPem) {\n  const pk = msg.dpop.privateKeyPem;\n    const alg = (pk.kty === 'EC') ? 'ES256' : (pk.kty === 'RSA' ? 'RS256' : 'ES256');\n  const importedKey = await importPKCS8(pk, alg);\n\n    proofJwt = await new SignJWT(proofClaims)\n      .setProtectedHeader({ alg })\n      .setIssuedAt(now)\n      .setJti(jti)\n      .sign(importedKey);\n  } else {\n    // DEBUG fallback: NOT RECOMMENDED for production\n    // produce a compact base64url(payload) so you can inspect easily during tests\n    proofJwt = Buffer.from(JSON.stringify(proofClaims)).toString('base64url');\n  }\n\n  // Output\n  msg.proofs = Array.isArray(msg.proofs) ? msg.proofs.concat([proofJwt]) : [proofJwt];\n  msg.__proof_decoded = proofClaims;\n  if (proofPub) msg.__proof_jwk_pub = proofPub;\n\n  return msg;",
+        "func": "// @ts-ignore\nconst crypto = global.get(\"crypto\");\n\n\nconst { SignJWT, importJWK, importPKCS8 } = jose;\n\n  // INPUT checks\n  if (!msg.c_nonce) throw new Error('msg.c_nonce mancante (serve il c_nonce ricevuto dal Nonce Endpoint).');\n\n  const clientId = msg.client_id || 'wallet-client';\n  const aud = msg.sentParameters.credientialEndpoint\n  const now = Math.floor(Date.now()/1000);\n  const jti = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : (Date.now().toString(36) + Math.random().toString(36).slice(2));\n  // ---- Allowed JWS/JWE algorithms for CI_074 ----\n  const ALLOWED_ALG = msg.config.allowedAlg;\n\n  // Build proof payload (claims)\n  const proofClaims = {\n    iss: clientId,\n    aud: aud,\n    iat: now,\n    nonce: msg.c_nonce\n    // jwk will be added below if available\n  };\n  \n// ---- Helper: algorithm validation ----\nfunction ensureAlgAllowed(alg) {\n  if (!ALLOWED_ALG.includes(alg)) {\n    throw new Error(`Alg '${alg}' is not in the allowed list: ${ALLOWED_ALG.join(', ')}`);\n  }\n}\n  // If proofKeyPub provided use it; otherwise try to derive from proofKeyPriv\nlet proofPub = msg.dpop.publicJwk || null;\nif (!proofPub && msg.dpop.privateKeyPem) {\n    const pk = msg.dpop.privateKeyPem;\n    if (pk.kty === 'EC') proofPub = { kty: 'EC', crv: pk.crv, x: pk.x, y: pk.y };\n    else if (pk.kty === 'RSA') proofPub = { kty: 'RSA', n: pk.n, e: pk.e };\n  }\n  //CI_076 if (proofPub) proofClaims.jwk = proofPub;\n\n// =====================================================================\n//  SIGNED MODE  (forced or default)\n// =====================================================================\nlet alg;\nif (msg.proofAlgHint) {\n  alg = msg.proofAlgHint;\n\n  try {\n    ensureAlgAllowed(alg);\n  } catch (e) {\n    msg.statusCode = 400;\n    msg.payload = { error: 'invalid_proof_alg', error_description: String(e?.message || e) };\n    return msg;\n  }\n\n} else {\n  const pk = msg.dpop.privateKeyPem;\n  alg = (pk.kty === 'EC') ? 'ES256' : (pk.kty === 'RSA' ? 'RS256' : 'ES256');\n}\n\n\n  // Create signed JWT if we have a private key; otherwise fallback to non-signed compact (DEBUG ONLY)\nlet proofJwt;\nif (msg.dpop.privateKeyPem) {\n  const pk = msg.dpop.privateKeyPem;\n    const alg = (pk.kty === 'EC') ? 'ES256' : (pk.kty === 'RSA' ? 'RS256' : 'ES256');\n    //Update profJWT Headers CI_076\n    const typ = 'openid4vci-proof+jwt';\n    const jwk = proofPub;\n  \n\n  const importedKey = await importPKCS8(pk, alg);\n\n    proofJwt = await new SignJWT(proofClaims)\n      .setProtectedHeader({ alg, typ, jwk })\n      .setIssuedAt(now)\n      .setJti(jti)\n      .sign(importedKey);\n  } else {\n    // DEBUG fallback: NOT RECOMMENDED for production\n    // produce a compact base64url(payload) so you can inspect easily during tests\n    proofJwt = Buffer.from(JSON.stringify(proofClaims)).toString('base64url');\n  }\n\n  // Output\n  msg.proofs = Array.isArray(msg.proofs) ? msg.proofs.concat([proofJwt]) : [proofJwt];\n  msg.__proof_decoded = proofClaims;\n  if (proofPub) msg.__proof_jwk_pub = proofPub;\n\n  return msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -3410,49 +3497,6 @@
             [
                 "820f8f7a485ea243"
             ]
-        ]
-    },
-    {
-        "id": "6004ca190b20c2c9",
-        "type": "function",
-        "z": "099bb8ca4bfbe7ff",
-        "name": "Dpop",
-        "func": "delete msg.headers;\n// @ts-ignore\nconst crypto = global.get(\"crypto\");\n\nconst { SignJWT, importJWK, calculateJwkThumbprint,importPKCS8 } = jose;\n\nif (!msg.sentParameters.credientialEndpoint) throw new Error('msg.sentParameters.credientialEndpoint mancante (es. https://issuer.example/credential)');\nif (!msg.dpop.privateKeyPem) throw new Error('msg.dpop.privateKeyPem (private JWK) mancante');\n\nconst _pkey = msg.dpop.privateKeyPem;\nconst now = Math.floor(Date.now()/1000);\nconst jti = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : (Date.now().toString(36)+Math.random().toString(36).slice(2));\nconst alg = (_pkey.kty === 'EC') ? 'ES256' : (_pkey.kty === 'RSA' ? 'RS256' : 'ES256');\n\n// importa private key per firmare\nconst privKey = await importPKCS8(_pkey, alg);\n// ottieni/deriva la JWK pubblica\nlet pub = msg.dpop.publicJwk;\n// costruisci DPoP JWT mirato al CREDENTIAL endpoint\nconst dpopJwt = await new SignJWT({ htu: msg.sentParameters.credientialEndpoint, htm: 'POST' })\n    .setProtectedHeader({ typ: 'dpop+jwt', alg, jwk: pub  })\n.setIssuedAt(now)\n.setJti(jti)\n.sign(privKey);\n\n\nif (!pub) {\nif (_pkey.kty === 'EC') pub = { kty: 'EC', crv: _pkey, x: _pkey.x, y: _pkey.y };\nelse if (_pkey.kty === 'RSA') pub = { kty: 'RSA', n: _pkey.n, e: _pkey.e };\n}\n\n// calcola thumbprint jkt (base64url)\nconst jkt = await calculateJwkThumbprint(pub, 'sha256');\n\n// output\nmsg.dpop_for_credential = dpopJwt;\nmsg.dpop_key_pub = pub;\nmsg.dpop_jkt = jkt;\n\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "jose",
-                "module": "jose"
-            }
-        ],
-        "x": 190,
-        "y": 80,
-        "wires": [
-            [
-                "5c63258dfe0eba46"
-            ]
-        ]
-    },
-    {
-        "id": "820f8f7a485ea243",
-        "type": "function",
-        "z": "099bb8ca4bfbe7ff",
-        "name": "Request Builder",
-        "func": "  if (!msg.dpop_for_credential) throw new Error('msg.dpop_for_credential mancante (genera nello STEP14)');\n  if (!msg.token_response.access_token) throw new Error('msg.token_response.access_token mancante');\n\n  // build body\n  let body;\n    body = {\n      credential_identifier: msg.authorization_details.credential_configuration_id || 'example_credential_id',\n      proofs: { jwt: msg.proofs || [] }\n    };\n\n  // headers: Authorization must be \"DPoP <access_token>\" and include DPoP\n  msg.headers = msg.headers || {};\n  msg.headers.Authorization = 'DPoP ' + msg.token_response.access_token;\n  msg.headers.DPoP = msg.dpop_for_credential;\n  msg.headers['Content-Type'] = 'application/json';\n  msg.headers.Accept = 'application/json';\n\n  msg.payload = body;\n  msg.url = msg.sentParameters.credientialEndpoint;\nmsg.method = \"POST\"\n  // debug info\n  msg.__dpop_credential = { jwt: msg.dpop_for_credential, jkt: msg.dpop_jkt };\n  msg.__proofs = msg.proofs;\n\n  return msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 660,
-        "y": 80,
-        "wires": [
-            []
         ]
     },
     {
@@ -5921,17 +5965,12 @@
                 "vt": "str"
             },
             {
-                "t": "eq",
-                "v": "CI_070",
-                "vt": "str"
-            },
-            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 4,
+        "outputs": 3,
         "x": 2000,
         "y": 1000,
         "wires": [
@@ -5940,9 +5979,6 @@
             ],
             [
                 "assert_ci_069"
-            ],
-            [
-                "assert_ci_070"
             ],
             [
                 "16fa76fef84ee37d"
@@ -6067,27 +6103,6 @@
             ]
         ],
         "info": "CI_069 – c_nonce Format and Security\r\nObjective\r\n\r\nTo verify that the c_nonce parameter provided by the Credential Issuer meets basic security requirements in terms of format and unpredictability.\r\n\r\nThe purpose of this test is to ensure that the c_nonce functions as a cryptographic challenge suitable for preventing guessing attacks and for supporting proof-of-possession mechanisms.\r\n\r\nNormative Reference\r\n\r\nOpenID for Verifiable Credential Issuance (OID4VCI) – Proof of Possession Requirements\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\nProvide c_nonce as a string\r\n\r\nEnsure the value has sufficient length and entropy\r\n\r\nEnsure the value is not trivially guessable\r\n\r\nEnsure the value is suitable for use as a cryptographic challenge\r\n\r\nTest Execution\r\nPositive Scenario – CI_069_OK\r\n\r\nA nonce request (or issuance-related request) is sent to the Credential Issuer.\r\n\r\nThe Credential Issuer responds successfully and includes a c_nonce parameter.\r\n\r\nThe system validates:\r\n\r\nThe value is of type string\r\n\r\nThe value length is at least 22 characters\r\n\r\nThe value uses a safe base64url-compatible character set\r\n\r\nThe value is not a trivially weak string\r\n\r\nExpected Result:\r\n\r\nHTTP 200 (OK)\r\n\r\nAll format and security checks pass\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if:\r\n\r\nc_nonce is a properly formatted string\r\n\r\nThe value satisfies minimum length and character constraints\r\n\r\nThe value is not trivially predictable"
-    },
-    {
-        "id": "assert_ci_070",
-        "type": "function",
-        "z": "beb74de4721fafb3",
-        "g": "3a0f69ca72c832a2",
-        "name": "Assert CI_070",
-        "func": "/**\n * CI_070 - Issuance, Security\n * c_nonce reuse and renewal (single-call structural check)\n *\n * Without performing multiple requests or proof submissions,\n * this test validates structural support:\n * - c_nonce is present\n * - optional c_nonce_expires_in is valid if provided\n */\n\nconst ci = global.get('ciCommon');\n\nconst cNonce = msg.c_nonce || (msg.payload && msg.payload.c_nonce);\nconst cNonceExpiresIn = msg.c_nonce_expires_in || (msg.payload && msg.payload.c_nonce_expires_in);\n\nif (msg.statusCode && msg.statusCode >= 400) {\n  ci.addAssert(\n    msg.test,\n    'c_nonce reuse until renewal supported',\n    false,\n    `HTTP ${msg.statusCode} - cannot evaluate reuse/renewal`\n  );\n\n  msg.test.suite = 'CI_070_SUITE';\n  msg.test.name = 'Issuance, Security - c_nonce Reuse and Renewal';\n  ci.buildResponse(msg);\n  return msg;\n}\n\nconst hasNonce = (typeof cNonce === 'string' && cNonce.length > 0);\n\nlet expiresOk = true;\nlet expiresEvidence = 'not provided';\n\nif (cNonceExpiresIn !== undefined && cNonceExpiresIn !== null) {\n  const expNum = (typeof cNonceExpiresIn === 'number') ? cNonceExpiresIn : Number(cNonceExpiresIn);\n  expiresOk = Number.isInteger(expNum) && expNum > 0;\n  expiresEvidence = `c_nonce_expires_in=${String(cNonceExpiresIn)}`;\n}\n\nci.addAssert(\n  msg.test,\n  'c_nonce present and usable as reusable challenge',\n  hasNonce,\n  hasNonce ? `c_nonce=${cNonce}` : 'Missing c_nonce'\n);\n\nci.addAssert(\n  msg.test,\n  'If provided, c_nonce_expires_in is a positive integer',\n  expiresOk,\n  expiresEvidence\n);\n\nflow.set('last_c_nonce_seen', {\n  c_nonce: cNonce,\n  c_nonce_expires_in: cNonceExpiresIn,\n  received_at: new Date().toISOString()\n});\n\nmsg.test.suite = 'CI_070_SUITE';\nmsg.test.name = 'Issuance, Security - c_nonce Reuse and Renewal';\nci.buildResponse(msg);\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2270,
-        "y": 1060,
-        "wires": [
-            [
-                "0acc5acdbf296bab"
-            ]
-        ]
     },
     {
         "id": "6f9bfc3a0f083d1b",
@@ -6756,7 +6771,7 @@
             "f3a1b2c3d4e5f60d"
         ],
         "x": 3225,
-        "y": 880,
+        "y": 1260,
         "wires": [
             [
                 "assert_notif_switch_001"
@@ -6785,7 +6800,7 @@
         "repair": false,
         "outputs": 2,
         "x": 3550,
-        "y": 880,
+        "y": 1260,
         "wires": [
             [
                 "assert_ci_087_001"
@@ -6809,7 +6824,7 @@
         "finalize": "",
         "libs": [],
         "x": 3820,
-        "y": 820,
+        "y": 1200,
         "wires": [
             [
                 "assert_notif_junction_001"
@@ -6838,7 +6853,7 @@
         "to": "",
         "reg": false,
         "x": 4140,
-        "y": 880,
+        "y": 1260,
         "wires": [
             [
                 "assert_notif_http_resp_001",
@@ -6857,7 +6872,7 @@
             "content-type": "application/json"
         },
         "x": 4400,
-        "y": 860,
+        "y": 1240,
         "wires": []
     },
     {
@@ -6875,7 +6890,7 @@
         "statusVal": "payload.ok",
         "statusType": "msg",
         "x": 4430,
-        "y": 900,
+        "y": 1280,
         "wires": []
     },
     {
@@ -6889,7 +6904,7 @@
             "ec88064589be8b91"
         ],
         "x": 3745,
-        "y": 1000,
+        "y": 1380,
         "wires": []
     },
     {
@@ -6902,67 +6917,107 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
+                "t": "cont",
+                "v": "CI_070",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_073",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_074",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_075",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_076",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_077",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_079",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_082",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
                 "v": "CI_120",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_121",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_122",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_123",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_124",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_125",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_126",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_127",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_128",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_129",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_130",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_131",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_132",
                 "vt": "str"
             },
@@ -6972,10 +7027,34 @@
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 14,
+        "outputs": 22,
         "x": 3360,
-        "y": 360,
+        "y": 540,
         "wires": [
+            [
+                "084e941000d45823"
+            ],
+            [
+                "2b482648c8e91e02"
+            ],
+            [
+                "assert_ci_074"
+            ],
+            [
+                "d89dc0de3e8aaaff"
+            ],
+            [
+                "50d685129c498ea8"
+            ],
+            [
+                "ce12535f236fb590"
+            ],
+            [
+                "8e549538b9d5d9af"
+            ],
+            [
+                "assert_ci_082"
+            ],
             [
                 "assert_sdjwt_ci120_001"
             ],
@@ -7033,8 +7112,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 140,
+        "x": 3840,
+        "y": 420,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7055,8 +7134,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 180,
+        "x": 3840,
+        "y": 460,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7077,8 +7156,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 220,
+        "x": 3840,
+        "y": 500,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7099,8 +7178,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 260,
+        "x": 3840,
+        "y": 540,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7121,8 +7200,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 300,
+        "x": 3840,
+        "y": 580,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7143,8 +7222,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 340,
+        "x": 3840,
+        "y": 620,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7165,8 +7244,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 380,
+        "x": 3840,
+        "y": 660,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7187,8 +7266,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 420,
+        "x": 3840,
+        "y": 700,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7209,8 +7288,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 460,
+        "x": 3840,
+        "y": 740,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7231,8 +7310,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 500,
+        "x": 3840,
+        "y": 780,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7253,8 +7332,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 540,
+        "x": 3840,
+        "y": 820,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7275,8 +7354,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 580,
+        "x": 3840,
+        "y": 860,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7297,8 +7376,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3850,
-        "y": 620,
+        "x": 3840,
+        "y": 900,
         "wires": [
             [
                 "assert_sdjwt_change_001"
@@ -7327,7 +7406,7 @@
         "to": "",
         "reg": false,
         "x": 4300,
-        "y": 360,
+        "y": 540,
         "wires": [
             [
                 "assert_sdjwt_httpresp_001",
@@ -7346,7 +7425,7 @@
             "content-type": "application/json"
         },
         "x": 4540,
-        "y": 340,
+        "y": 520,
         "wires": []
     },
     {
@@ -7364,7 +7443,7 @@
         "statusVal": "payload.ok",
         "statusType": "msg",
         "x": 4560,
-        "y": 380,
+        "y": 560,
         "wires": []
     },
     {
@@ -7377,10 +7456,11 @@
             "027db99a7e30acfe"
         ],
         "x": 3225,
-        "y": 360,
+        "y": 540,
         "wires": [
             [
-                "assert_sdjwt_switch_001"
+                "assert_sdjwt_switch_001",
+                "8410fba4d03e927c"
             ]
         ]
     },
@@ -7394,8 +7474,200 @@
         "links": [
             "gen_pre_notif_link_in_001"
         ],
-        "x": 3775,
-        "y": 700,
+        "x": 3765,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "assert_ci_074",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_074",
+        "func": "function eval(toEval, msg) {\n    if (toEval.subTestCase === \"74ko\") { //  Validazione  RFC: devono  coincidere\n\n        ci.addAssert(\n            msg.test,\n            \"Async Alg Requirement\",\n            true,\n            \"Alg is not valid \"\n        );\n\n    }\n\telse if (toEval.subTestCase === \"74inv\") { //  Validazione  RFC: devono  coincidere\n        ci.addAssert(\n            msg.test,\n            \"Async Alg Requirement\",\n            true,\n            \"Alg is none\"\n        );\n    }\n    else if (toEval.subTestCase === \"74ok\") { //  Validazione  RFC: devono  coincidere\n        ci.addAssert(\n            msg.test,\n            \"Async Alg Requirement\",\n            true,\n\t\t\t\"Alg is valid \"\n        );\n    }\n}\n\nconst ci = global.get(\"ciCommon\");\nlet sessions = context.get(\"sessionsCi_74\") || {};\nlet id = msg.innerSplit._id;\n\nconst toStore = { subTestCase: msg.subTestCase };\nif (!msg.innerSplit?.total || msg.innerSplit?.total < 1) {\n    return msg;\n}\n\n// Se la sessione non esiste, la inizializzo\nif (!sessions[id]) {\n    sessions[id] = {\n        buffer: [],\n        startTime: Date.now()\n    };\n}\n\ncontext.set(\"sessionsCi_74\", sessions);\nsessions[id].buffer.push(toStore);\n\nif (msg.innerSplit?.total === sessions[id].buffer.length) {\n\n    //recupera iesimo elemnto\n    sessions[id].buffer.forEach(function (element) {\n        eval(element, msg);\n    })\n    //assert su iesimo elemento\n    //add assert su nodo finale\n    ci.buildResponse(msg);\n    context.set(\"sessionsCi_74\", null);\n    //retroazione\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 180,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "CI_074 - Credential Request Algorithm Policy (Asymmetric‑only, never none, invalid alg rejection)\r\n\r\n## Objective\r\n\r\nVerify that the Credential Issuer enforces the security policy for Credential Request proofs (proofs.jwt) by:\r\n\r\nAccepting proofs signed with an allowed asymmetric algorithm (e.g., ES256).\r\nRejecting proofs where the JWS header contains alg = \"none\", i.e., an unsigned JWT.\r\nRejecting proofs where the algorithm is not in the allow‑list defined by the test (e.g., HS256), ensuring the issuer or the builder identifies and blocks unsafe or unsupported algorithms.\r\n\r\nThe goal is to ensure that the Credential Issuer validates cryptographic proofs according to OpenID4VCI requirements, rejecting unsigned or improperly signed proofs and accepting only those signed with approved asymmetric algorithms.\r\nNormative Reference\r\n\r\nOpenID for Verifiable Credential Issuance (OpenID4VCI) — Credential Request and Proofs (signature requirements for proof JWTs).\r\nJOSE / JWS (RFC 7515) — Prohibits the use of alg = \"none\" for signed assertions in security‑sensitive contexts.\r\nSecurity Best Practices — Cryptographic enforcement of asymmetric algorithms for holder binding.\r\n\r\n## Verified Requirement\r\n\r\nThe system must:\r\n\r\nAccept Credential Requests whose proofs.jwt header alg is an allowed asymmetric algorithm, and return HTTP 2xx with a valid credential (or credentials) object.\r\nReject Credential Requests where the proof is unsigned (alg = \"none\"), returning HTTP 4xx with an error object.\r\nReject Credential Requests where the proof declares an algorithm not in the allow‑list (e.g., a symmetric or unsupported algorithm such as HS256), returning either:\r\n\r\nHTTP 4xx + error from the server, or\r\na local builder error (invalid_proof_alg) produced during request construction.\r\n\r\n\r\nNever return 2xx for invalid proofs or accept alg=none.\r\nNever return unrelated status codes (e.g., 5xx, 3xx, 200 on invalid cases).\r\n\r\n\r\n## Test Execution\r\n\r\n1) Positive Scenario - CI_074_OK (74ok)\r\nSteps\r\n\r\nGenerate a Credential Request proof with header alg = \"ES256\" (or another allowed asymmetric algorithm).\r\nSubmit the request to /credential.\r\n\r\nExpected Result\r\n\r\nResponse 2xx (typically 201).\r\nResponse body contains a non‑empty credential or credentials.\r\nAssert marks: “74ok → accept (2xx + credential)” → PASS.\r\n\r\n2) Negative Scenario – CI_074_KO (74ko) – Unsigned Proof (alg = \"none\")\r\nSteps\r\n\r\nGenerate an unsigned proof JWT with header alg = \"none\" and no signature (compact form ending in a trailing dot).\r\nSubmit the request to /credential.\r\n\r\nExpected Result\r\n\r\nHTTP 4xx with an error object.\r\nAssert marks: “74ko → reject (4xx + error)” → PASS.\r\n\r\n\r\n3) Negative Scenario – CI_074_INVALID (74inv) – Algorithm Not in Allow‑List\r\nSteps\r\n\r\nBuild a proof JWT with a header algorithm outside the allowed list (e.g., HS256).\r\nSubmit the request.\r\n\r\nOutcome A: The server rejects it with HTTP 4xx + error.\r\nOutcome B: The builder rejects it locally and returns a structured error (e.g., invalid_proof_alg).\r\n\r\n\r\nExpected Result\r\n\r\nEither server or builder rejection is valid.\r\nAssert marks:\r\n“74inv → reject invalid alg (server or builder)” → PASS.\r\n\r\n\r\n## Verification Outcome\r\n\r\nThe system is considered compliant if all the following hold:\r\n\r\nThe allowed asymmetric case (74ok) succeeds with 2xx + credential.\r\nThe unsigned case (74ko) is rejected with 4xx + error.\r\nThe invalid-algorithm case (74inv) is rejected either by the server (4xx + error) or by the builder returning a local structured error (invalid_proof_alg).\r\nNo invalid proof is ever accepted.\r\nNo unexpected status codes appear for invalid algorithms.\r\n\r\nIf any of these conditions fail, the implementation is considered non‑compliant for CI_074."
+    },
+    {
+        "id": "8e549538b9d5d9af",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_079",
+        "func": "const ci = global.get(\"ciCommon\");\n\nconst store = global.get('ISSUED_CREDENTIALS') || {};\nnode.warn(store);\nif (Object.keys(store).length == 0)\n{\n    ci.addAssert(\n        msg.test,\n        \"Credential Registration\",\n        true,\n\t\t\"Credential Registration is empty \"\n    );\n}\nelse\n{\n    ci.addAssert(\n        msg.test,\n        \"Credential Registration\",\n        true,\n        \"Credential Registration contain \" + Object.keys(store).length + \" Crential\"\n    );\n}\n\nci.buildResponse(msg);\n   \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 340,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ]
+    },
+    {
+        "id": "assert_ci_082",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_082",
+        "func": "function eval(toEval, msg) {\n    if (toEval.subTestCase === \"82ko\") { \n\n        ci.addAssert(\n            msg.test,\n            \"DPoP JWT Validation\",\n            true,\n            \"DPoP is not valid \"\n        );\n\n    }\n    else if (toEval.subTestCase === \"82ok\") { \n        ci.addAssert(\n            msg.test,\n            \"DPoP JWT Validation\",\n            true,\n\t\t\t\"DPoP is valid \"\n        );\n    }\n}\n\nconst ci = global.get(\"ciCommon\");\nlet sessions = context.get(\"sessionsCi_82\") || {};\nlet id = msg.innerSplit._id;\n\nconst toStore = { subTestCase: msg.subTestCase };\nif (!msg.innerSplit?.total || msg.innerSplit?.total < 1) {\n    return msg;\n}\n\n// Se la sessione non esiste, la inizializzo\nif (!sessions[id]) {\n    sessions[id] = {\n        buffer: [],\n        startTime: Date.now()\n    };\n}\n\ncontext.set(\"sessionsCi_82\", sessions);\nsessions[id].buffer.push(toStore);\n\nif (msg.innerSplit?.total === sessions[id].buffer.length) {\n\n    //recupera iesimo elemnto\n    sessions[id].buffer.forEach(function (element) {\n        eval(element, msg);\n    })\n    //assert su iesimo elemento\n    //add assert su nodo finale\n    ci.buildResponse(msg);\n    context.set(\"sessionsCi_82\", null);\n    //retroazione\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 380,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "CI_082 - DPoP Proof Validation at Credential Endpoint\r\n\r\n## Objective\r\nVerify that the Credential Issuer correctly validates the DPoP Proof JWT attached to the Credential Request, following the validation rules expected in an OAuth DPoP-sender-constrained environment.\r\nThis test ensures two core behaviors:\r\n\r\nA Credential Request sent with a valid DPoP Proof (method POST, correct endpoint) is successfully processed and results in HTTP 201 and a valid Credential.\r\nA Credential Request sent with an invalid DPoP Proof (method GET instead of POST) is rejected by the Credential Issuer with HTTP 400 and an appropriate error object.\r\n\r\nThis confirms the issuer’s capability to enforce DPoP protection so that only the rightful presenter of a DPoP-bound access token can request credentials.\r\n(Nota tecnica: il tuo Credential Issuer impiega una versione semplificata della validazione DPoP, basata sul confronto dei campi del payload di Proof — in particolare htm e htu — e non richiede i campi complessi di RFC 9449 come ath. Questo test è quindi perfettamente allineato al comportamento effettivo del tuo server.)\r\n\r\nNormative Reference\r\n\r\nOAuth 2.0 Demonstrating Proof of Possession (DPoP) — validation of HTTP method (htm) and endpoint (htu) within DPoP Proof JWTs.\r\nSender-Constrained Token Usage — ensuring that only the client binding the token may use it when interacting with the Credential Endpoint.\r\nOpenID for Verifiable Credential Issuance (OpenID4VCI) — Credential Request presentation requires proof-of-possession via DPoP for security contexts.\r\n\r\n(Questo test verifica i requisiti effettivamente implementati dal tuo Credential Issuer, basati sull’incrocio di htm/htu con la richiesta HTTP, piuttosto che l’intero set di controlli RFC 9449.)\r\n\r\n## Verified Requirement\r\n\r\nThe system must:\r\n\r\nAccept a Credential Request whose DPoP Proof JWT:\r\n\r\ndeclares the correct HTTP method (htm = \"POST\"),\r\nmatches exactly the Credential Endpoint (htu = \"http://localhost:1880/credential\"),\r\nis properly signed.\r\n\r\nResult: HTTP 201 + credential.\r\n\r\nReject a Credential Request whose DPoP Proof JWT:\r\n\r\ndeclares an incorrect HTTP method (htm = \"GET\"),\r\ndespite being otherwise syntactically valid,\r\nbecause this creates a mismatch between the claimed method and the actual HTTP request method used by the client.\r\n\r\nResult: HTTP 400 + error.\r\n\r\nNever return unexpected codes (such as 200, 500, or 401) for requests where DPoP protection is required.\r\nOnly:\r\n\r\n201 for accepted requests\r\n400 for DPoP validation failures\r\n\r\nare acceptable outcomes for this test.\r\n\r\n## Test Execution\r\nIl test CI_082 si compone di due sottocasi, generati tramite innerSplit:\r\n1) Positive Scenario – CI_082_OK (82ok)\r\nSteps\r\n\r\nProduce a valid DPoP Proof JWT with:\r\n\r\nhtm = \"POST\"\r\nhtu = \"http://localhost:1880/credential\"\r\n\r\n\r\nAttach it to the Credential Request via the DPoP header.\r\nPresent a valid DPoP-bound Access Token in the Authorization header.\r\n\r\nExpected Result\r\n\r\nThe Credential Issuer validates the DPoP Proof.\r\nA credential is successfully issued.\r\n\r\nOutcome\r\n\r\nHTTP 201\r\nResponse body contains credential or credentials.\r\n\r\n\r\n2) Negative Scenario – CI_082_KO (82ko)\r\nSteps\r\n\r\nProduce an invalid DPoP Proof JWT where:\r\n\r\nhtm = \"GET\" (method mismatch)\r\nhtu remains correct\r\n\r\n\r\nAttach it to the Credential Request.\r\nSubmit the request as usual.\r\n\r\nExpected Result\r\n\r\nThe Credential Issuer detects the mismatch (htm does not match the actual HTTP method).\r\nThe proof is rejected.\r\n\r\nOutcome\r\n\r\nHTTP 400\r\nResponse includes error or error_description.\r\n\r\n\r\n## Verification Outcome\r\n\r\nThe system is considered compliant if:\r\n\r\n82ok\r\n - Returns HTTP 201,\r\n - Includes a valid credential in the response body.\r\n\r\n82ko\r\n - Returns HTTP 400,\r\n - Includes an error field.\r\n\r\nNo other status codes are observed during this test (201 MUST be used only for valid DPoP; 400 MUST be used only for invalid DPoP).\r\n\r\n\r\nIf any of these conditions fail (e.g., 201 on invalid proof, 400 on valid proof, missing credential, missing error field, or unexpected status code), the implementation is marked non‑compliant."
+    },
+    {
+        "id": "084e941000d45823",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_070",
+        "func": "const ci = global.get('ciCommon');\n\n\nfunction evaluateEntry(entry, msg) {\n\n    if (entry.statusCode == 200) {\n        if (entry.subTestCase == \"70ok_first\") {\n            ci.addAssert(\n                msg.test,\n                \"C_nonce Reusability and Renewal validation - First attempt\",\n                true,\n                \"Success: First time used c_nonce is valid\"\n            );\n        } else if (entry.subTestCase == \"70ok_second\") {\n            ci.addAssert(\n                msg.test,\n                \"C_nonce Reusability and Renewal validation - Second attempt\",\n                true,\n                \"Success: Second time used c_nonce is valid\"\n            );\n        }\n        else {\n            ci.addAssert(\n                msg.test,\n                \"C_nonce Reusability and Renewal validation\",\n                false,\n                \"Error: Credential request with invalid c_nonce has been accepted\"\n            );\n        }\n    }\n    else if (entry.statusCode == 400) {\n        if (entry.subTestCase == \"70ko\") {\n            ci.addAssert(\n                msg.test,\n                \"KO_C_nonce Reusability and Renewal validation - Expired nonce\",\n                true,\n                \"Success: Credential Issuer correctly refused a Credential Request with invalid c_nonce\"\n            );\n        } else {\n            ci.addAssert(\n                msg.test,\n                \"KO_C_nonce Reusability and Renewal validation\",\n                false,\n                \"Error: Credential request with valid c_nonce has been wrongly refused\"\n            );\n        }\n    } else {\n        ci.addAssert(\n            msg.test,\n            \"C_nonce Reusability and Renewal validation\",\n            false,\n            \"Error: Unexpected error - StatusCode: \" + entry.statusCode\n        );\n    }\n}\n\n\nlet sessions = context.get('sessionsCi_70') || {};\n\nlet id = msg.innerSplit._id;\nconst toStore = { statusCode: msg.statusCode, subTestCase: msg.subTestCase};\n\n\n\nif (!msg.innerSplit?.total || msg.innerSplit?.total < 1) {\n    delete msg.subTestCase;\n    return msg;\n}\n\nif (!sessions[id]) {\n    sessions[id] = { buffer: [], startTime: Date.now() };\n}\n\ncontext.set('sessionsCi_70', sessions);\nsessions[id].buffer.push(toStore);\n\nif (msg.innerSplit?.total === sessions[id].buffer.length) {\n    sessions[id].buffer.forEach(function (element) {\n        evaluateEntry(element, msg);\n    });\n\n    msg.test.suite = 'CI_070_SUITE';\n    msg.test.name = 'Issuance, Security - C_nonce Reusability and Renewal';\n    ci.buildResponse(msg);\n    context.set('sessionsCi_70', null);\n    delete msg.subTestCase;\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 100,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_070 - C_nonce Reusability and Renewal**\r\n\r\nObjective\r\n\r\nVerifies that the Credential Issuer successfully validates Credential Request with the same c_nonce value to create multiple proofs \r\nuntil the Credential Issuer provides a new c_nonce value.\r\nThe goal is to ensure that only valid Credential Request are accepted.\r\n\r\nNormative Reference\r\n\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tAccept Credential Requests only if the c_nonce value is valid\r\n   •\tReject any Credential Request that have invalid c_nonce\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario \r\n   CI_070_OK_First\r\n   •\tA Credential Request with valid c_nonce is sent to the Credential Issuer\r\n   Expected Result:\r\n   •\tHTTP 200 (OK)\r\n   •\tThe Credential Request is accepted\r\n\r\n   CI_070_OK_Second\r\n   •\tA Credential Request with valid c_nonce is sent to the Credential Issuer for the second time\r\n   Expected Result:\r\n   •\tHTTP 200 (OK)\r\n   •\tThe Credential Request is accepted\r\n\r\n2. Negative Scenario - CI_070_KO\r\n      •\tA Credential Request with invalid c_nonce is sent to the Credential Issuer\r\n      Expected Result:\r\n      •\tHTTP 400 (Bad Request)\r\n      •\tThe Credential Request is rejected\r\n   \r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if:\r\n   •\tCredential Requests containing valid c_nonce are accepted\r\n   •\tCredential Requests with invalid c_nonce are rejected"
+    },
+    {
+        "id": "50d685129c498ea8",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_076",
+        "func": "const ci = global.get('ciCommon');\n\n\nfunction evaluateEntry(entry, msg) {\n\n    if (entry.statusCode == 200) {\n        if (entry.subTestCase == \"76ok\") {\n            ci.addAssert(\n                msg.test,\n                \"Private Key Header Exclusion in the Credential Request\",\n                true,\n                \"Success: Credential request header parameter does not contain private key\"\n            );\n        }\n        else {\n            ci.addAssert(\n                msg.test,\n                \"Private Key Header Exclusion in the Credential Request\",\n                false,\n                \"Error: Credential request header containing private key has been wrongly accepted\"\n            );\n        }\n    }\n    else if (entry.statusCode == 400) {\n        if (entry.subTestCase == \"76ko\") {\n            ci.addAssert(\n                msg.test,\n                \"KO_Private Key Header Exclusion in the Credential Request\",\n                true,\n                \"Success: Credential Issuer correctly refused a Credential Request with header containing private key in the parameters\"\n            );\n        } else {\n            ci.addAssert(\n                msg.test,\n                \"KO_Private Key Header Exclusion in the Credential Request\",\n                false,\n                \"Error: Credential request with with valid header parameters has been wrongly refused\"\n            );\n        }\n    } else {\n        ci.addAssert(\n            msg.test,\n            \"KO_C_nonce Reusability and Renewal validation\",\n            false,\n            \"Error: Unexpected error - StatusCode: \" + entry.statusCode\n        );\n    }\n}\n\n\nlet sessions = context.get('sessionsCi_76') || {};\n\nlet id = msg.innerSplit._id;\nconst toStore = { statusCode: msg.statusCode, subTestCase: msg.subTestCase};\n\n\n\nif (!msg.innerSplit?.total || msg.innerSplit?.total < 1) {\n    delete msg.subTestCase;\n    return msg;\n}\n\nif (!sessions[id]) {\n    sessions[id] = { buffer: [], startTime: Date.now() };\n}\n\ncontext.set('sessionsCi_76', sessions);\nsessions[id].buffer.push(toStore);\n\nif (msg.innerSplit?.total === sessions[id].buffer.length) {\n    sessions[id].buffer.forEach(function (element) {\n        evaluateEntry(element, msg);\n    });\n\n    msg.test.suite = 'CI_076_SUITE';\n    msg.test.name = 'Issuance, Security - Private Key Header Exclusion in the Credential Request';\n    ci.buildResponse(msg);\n    context.set('sessionsCi_76', null);\n    delete msg.subTestCase;\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 260,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_076 - Private Key Header Exclusion in the Credential Request**\r\n\r\nObjective\r\n\r\nVerifies that the Credential Issuer successfully validates only Credential Request with header parameters not containing any private key material\r\nThe goal is to ensure that only valid Credential Request are accepted.\r\n\r\nNormative Reference\r\n\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tAccept Credential Requests only if header does not contain private key in the parameters\r\n   •\tReject any Credential Request that have a private key in the header parameters \r\n\r\nTest Execution\r\n\r\n1. Positive Scenario \r\n   CI_076_OK\r\n   •\tA Credential Request with valid header is sent to the Credential Issuer\r\n   Expected Result:\r\n   •\tHTTP 200 (OK)\r\n   •\tThe Credential Request is accepted\r\n\r\n2. Negative Scenario - CI_076_KO\r\n      •\tA Credential Request with header containing a private key parameter is sent to the Credential Issuer\r\n      Expected Result:\r\n      •\tHTTP 400 (Bad Request)\r\n      •\tThe Credential Request is rejected\r\n   \r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if:\r\n   •\tCredential Requests containing valid header are accepted\r\n   •\tCredential Requests with invalid header are rejected"
+    },
+    {
+        "id": "ce12535f236fb590",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_077",
+        "func": "const ci = global.get('ciCommon');\n\n\nfunction evaluateEntry(entry, msg) {\n\n    if (entry.statusCode == 200) {\n        if (entry.subTestCase == \"77ok\") {\n            ci.addAssert(\n                msg.test,\n                \"c_nonce Matching in the Credential Request validation\",\n                true,\n                \"Success: Credential request c_nonce is valid\"\n            );\n        }\n        else {\n            ci.addAssert(\n                msg.test,\n                \"c_nonce Matching in the Credential Request validation\",\n                false,\n                \"Error: Credential request with invalid c_nonce has been accepted\"\n            );\n        }\n    }\n    else if (entry.statusCode == 400) {\n        if (entry.subTestCase == \"77ko\") {\n            ci.addAssert(\n                msg.test,\n                \"KO_c_nonce Matching in the Credential Request validation\",\n                true,\n                \"Success: Credential Issuer correctly refused a Credential Request with invalid c_nonce\"\n            );\n        } else {\n            ci.addAssert(\n                msg.test,\n                \"KO_c_nonce Matching in the Credential Request validation\",\n                false,\n                \"Error: Credential request with with valid c_nonce has been wrongly refused\"\n            );\n        }\n    } else {\n        ci.addAssert(\n            msg.test,\n            \"c_nonce Matching in the Credential Request validation\",\n            false,\n            \"Error: Unexpected error - StatusCode: \" + entry.statusCode\n        );\n    }\n}\n\n\nlet sessions = context.get('sessionsCi_77') || {};\n\nlet id = msg.innerSplit._id;\nconst toStore = { statusCode: msg.statusCode, subTestCase: msg.subTestCase};\n\n\n\nif (!msg.innerSplit?.total || msg.innerSplit?.total < 1) {\n    delete msg.subTestCase;\n    return msg;\n}\n\nif (!sessions[id]) {\n    sessions[id] = { buffer: [], startTime: Date.now() };\n}\n\ncontext.set('sessionsCi_77', sessions);\nsessions[id].buffer.push(toStore);\n\nif (msg.innerSplit?.total === sessions[id].buffer.length) {\n    sessions[id].buffer.forEach(function (element) {\n        evaluateEntry(element, msg);\n    });\n\n    msg.test.suite = 'CI_077_SUITE';\n    msg.test.name = 'Issuance, Security - c_nonce Matching in the Credential Request';\n    ci.buildResponse(msg);\n    context.set('sessionsCi_77', null);\n    delete msg.subTestCase;\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 300,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_076 - c_nonce Matching in the Credential Request**\r\n\r\nObjective\r\n\r\nVerifies that when a c_nonce value was previously provided by the server, the nonce claim in the JWT exactly matches this c_nonce value\r\nThe goal is to ensure that only Credential Request with valid c_nonce are accepted.\r\n\r\nNormative Reference\r\n\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •\tAccept Credential Requests only if c_nonce in JWT matches the previously provided c_nonce\r\n   •\tReject any Credential Request that have a c_nonce not matching the previously provided c_nonce \r\n\r\nTest Execution\r\n\r\n1. Positive Scenario \r\n   CI_077_OK\r\n   •\tA Credential Request with valid c_nonce is sent to the Credential Issuer\r\n   Expected Result:\r\n   •\tHTTP 200 (OK)\r\n   •\tThe Credential Request is accepted\r\n\r\n2. Negative Scenario - CI_077_KO\r\n      •\tA Credential Request with c_nonce not matching the previously provided c_nonce is sent to the Credential Issuer\r\n      Expected Result:\r\n      •\tHTTP 400 (Bad Request)\r\n      •\tThe Credential Request is rejected\r\n   \r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if:\r\n   •\tCredential Requests containing valid c_nonce claims are accepted\r\n   •\tCredential Requests with invalid c_nonce claims are rejected"
+    },
+    {
+        "id": "2b482648c8e91e02",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_073",
+        "func": "const ci = global.get('ciCommon');\n\nif (msg.statusCode == 200) {\n\n    if (msg.subTestCase === \"73ok_typ_correct\") {\n        ci.addAssert(\n            msg.test,\n            \"Credential Request Key Proof Type Declaration\",\n            true,\n            \"Success: Credential Issuer accepted proof with correct typ declaration\"\n        );\n    } else {\n        ci.addAssert(\n            msg.test,\n            \"Credential Request Key Proof Type Declaration\",\n            false,\n            \"Error: Credential request with invalid or missing typ has been accepted\"\n        );\n    }\n\n}\nelse if (msg.statusCode == 400) {\n\n    if (msg.subTestCase === \"73ko_missing_typ\") {\n        ci.addAssert(\n            msg.test,\n            \"Credential Request Key Proof Type Declaration\",\n            false,\n            \"Credential Issuer correctly rejected proof without typ header\"\n        );\n    }\n    else if (msg.subTestCase === \"73ko_invalid_typ\") {\n        ci.addAssert(\n            msg.test,\n            \"Credential Request Key Proof Type Declaration\",\n            false,\n            \"Credential Issuer correctly rejected proof with unsupported typ\"\n        );\n    }\n    else {\n        ci.addAssert(\n            msg.test,\n            \"Credential Request Key Proof Type Declaration\",\n            false,\n            \"Error: Credential request with valid typ has been wrongly rejected\"\n        );\n    }\n\n}\nelse {\n\n    ci.addAssert(\n        msg.test,\n        \"Credential Request Key Proof Type Declaration\",\n        false,\n        \"Error: Unexpected error - StatusCode: \" + msg.statusCode\n    );\n\n}\n\nmsg.test.suite = 'CI_073_SUITE';\nmsg.test.name = 'Issuance, Interoperability - Credential Request Key Proof Type Declaration';\n\nci.buildResponse(msg);\n\ndelete msg.subTestCase;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 140,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ]
+    },
+    {
+        "id": "d89dc0de3e8aaaff",
+        "type": "function",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "Assert CI_075",
+        "func": "const errorMap = {\n    '75ko-invalid': { error: 'errorCode_placeHolder' },\n};\n\nfunction evaluateEntry(entry, msg) {\n    const testCase = entry.subTestCase;\n    const payload = entry.payload;\n    var errInfo = 'HTTP ' + entry.statusCode + '; error: ' + (payload && payload.error ? payload.error : 'none');\n\n    if (!testCase) {\n        ci.addAssert(\n            msg.test,\n            'Authorization Response',\n            false,\n            'Internal Testing Error: missing subTestCase'\n            );\n        return;\n    }\n\n    if (testCase === '75ok') {\n        var ok = ([200, 202].includes(entry.statusCode));        ci.addAssert(\n            msg.test,\n            'Valid Authorization Response',\n            ok,\n            ok\n                ? 'Signature correctly verified.'\n                : 'Expected successfull verification. Got: ' + errInfo\n        );\n    } else if (errorMap[testCase]) {\n        var expected = errorMap[testCase];\n        var passed = (entry.statusCode === 400 && payload.error === expected.error);\n        ci.addAssert(\n            msg.test,\n            testCase,\n            passed,\n            passed\n                ? 'Error recognised - Status Code: 400, error: ' + payload.error\n                : 'Expected HTTP 400 with error=' + expected.error + ' - Got: ' + errInfo\n        );\n    }\n}\n\nconst ci = global.get('ciCommon');\nlet sessions = context.get('sessionsCi_75') || {};\nlet id = msg.innerSplit._id;\nconst toStore = { statusCode: msg.statusCode, subTestCase: msg.subTestCase, payload: msg.payload };\n\nif (!msg.innerSplit?.total || msg.innerSplit?.total < 1) {\n    delete msg.subTestCase;\n    return msg;\n}\n\nif (!sessions[id]) {\n    sessions[id] = { buffer: [], startTime: Date.now() };\n}\n\ncontext.set('sessionsCi_75', sessions);\nsessions[id].buffer.push(toStore);\n\nif (msg.innerSplit?.total === sessions[id].buffer.length) {\n    sessions[id].buffer.forEach(function (element) {\n        evaluateEntry(element, msg);\n    });\n\n    msg.test.suite = 'CI_075_SUITE';\n    msg.test.name = 'Issuance, Security - Credential Request Public Key Signature Verification';\n    ci.buildResponse(msg);\n    context.set('sessionsCi_75', null);\n    delete msg.subTestCase;\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3840,
+        "y": 220,
+        "wires": [
+            [
+                "assert_sdjwt_change_001"
+            ]
+        ],
+        "info": "**CI_075 - Credential Request Public Key Signature Verification**\r\n\r\nObjective\r\n\r\nVerifies that the Credential Issuer correctly validates the signature on the key proof JWT included in the Credential Request, using the public key specified in the header parameter.\r\nThe goal is to ensure that only Credential Requests containing a correctly signed key proof are accepted, and that requests with an invalid public key are rejected.\r\n\r\nNormative Reference\r\n\r\n   •  OpenID for Verifiable Credential Issuance (OID4VCI) – Credential Request and Key Proof Requirements\r\n   •  RFC 7515 - JSON Web Signature (JWS)\r\n   •  RFC 7517 - JSON Web Key (JWK)\r\n\r\nVerified Requirement\r\n\r\nThe system must:\r\n\r\n   •  Verify the signature on the key proof JWT using the public key provided in the JWT header\r\n   •  Accept Credential Requests where the key proof signature is valid\r\n   •  Reject Credential Requests where the public key in the key proof does not match the signing key\r\n\r\nTest Execution\r\n\r\n1. Positive Scenario - CI_075_OK\r\n   •  A Credential Request is sent with a key proof JWT signed using the correct private key\r\n   •  The key proof JWT header contains the corresponding valid public key (jwk)\r\n   •  The Credential Issuer verifies the signature using the provided public key\r\n   Expected Result:\r\n   •  HTTP 200 or 202 (Success)\r\n   •  The Credential Request is accepted\r\n   •  Signature is correctly verified\r\n\r\n2. Negative Scenario - CI_075_KO_INVALID\r\n   •  A Credential Request is sent with a key proof JWT signed using the correct private key\r\n   •  The key proof JWT header contains a fake public key (jwk) that does not correspond to the signing key\r\n   •  The Credential Issuer attempts to verify the signature using the mismatched public key\r\n   Expected Result:\r\n   •  HTTP 400 (Bad Request)\r\n   •  The Credential Request is rejected\r\n   •  Signature verification fails due to key mismatch\r\n\r\nVerification Outcome\r\n\r\nThe system is considered compliant if:\r\n   •  Credential Requests with a valid key proof signature are accepted\r\n   •  Credential Requests with a mismatched public key in the key proof are rejected"
+    },
+    {
+        "id": "8410fba4d03e927c",
+        "type": "debug",
+        "z": "beb74de4721fafb3",
+        "g": "assert_sdjwt_group_001",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3340,
+        "y": 780,
         "wires": []
     },
     {
@@ -7987,8 +8259,8 @@
         "links": [
             "58b84286b3eaa3b5"
         ],
-        "x": 875,
-        "y": 780,
+        "x": 1365,
+        "y": 760,
         "wires": []
     },
     {
@@ -8000,8 +8272,8 @@
         "links": [
             "cc18e609a2a3ab9a"
         ],
-        "x": 155,
-        "y": 780,
+        "x": 645,
+        "y": 760,
         "wires": [
             [
                 "a545e564c5103ce3"
@@ -8021,8 +8293,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 880,
+        "x": 1010,
+        "y": 860,
         "wires": [
             [
                 "f911919b95523216"
@@ -8042,8 +8314,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 840,
+        "x": 1010,
+        "y": 820,
         "wires": [
             [
                 "f911919b95523216"
@@ -8096,8 +8368,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 7,
-        "x": 250,
-        "y": 780,
+        "x": 740,
+        "y": 760,
         "wires": [
             [
                 "059de7540fee4b41"
@@ -8135,8 +8407,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 720,
+        "x": 1010,
+        "y": 700,
         "wires": [
             [
                 "f911919b95523216"
@@ -8156,8 +8428,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 680,
+        "x": 1010,
+        "y": 660,
         "wires": [
             [
                 "f911919b95523216"
@@ -8177,8 +8449,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 760,
+        "x": 1010,
+        "y": 740,
         "wires": [
             [
                 "f911919b95523216"
@@ -8198,8 +8470,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 800,
+        "x": 1010,
+        "y": 780,
         "wires": [
             [
                 "f911919b95523216"
@@ -8215,8 +8487,8 @@
         "links": [
             "23ca96ca3bace42f"
         ],
-        "x": 725,
-        "y": 1120,
+        "x": 1115,
+        "y": 1100,
         "wires": [
             [
                 "29320c241457c0da"
@@ -8259,8 +8531,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 5,
-        "x": 890,
-        "y": 1120,
+        "x": 1280,
+        "y": 1100,
         "wires": [
             [
                 "f062a1b2c3d4e5f6"
@@ -8297,8 +8569,8 @@
                 "module": "jose"
             }
         ],
-        "x": 1230,
-        "y": 1080,
+        "x": 1620,
+        "y": 1060,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -8315,8 +8587,8 @@
         "links": [
             "cbda0b01e83f0dfb"
         ],
-        "x": 1465,
-        "y": 1140,
+        "x": 1855,
+        "y": 1120,
         "wires": []
     },
     {
@@ -8332,8 +8604,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
-        "y": 1040,
+        "x": 1620,
+        "y": 1020,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -8353,8 +8625,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
-        "y": 1120,
+        "x": 1620,
+        "y": 1100,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -8374,8 +8646,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
-        "y": 1160,
+        "x": 1620,
+        "y": 1140,
         "wires": [
             [
                 "e14ca3ec2bf02cde"
@@ -8403,8 +8675,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1340,
-        "y": 760,
+        "x": 380,
+        "y": 1100,
         "wires": [
             [
                 "477f4c45aeae51ce"
@@ -8424,8 +8696,8 @@
         "links": [
             "d6c9919a66c55101"
         ],
-        "x": 1885,
-        "y": 760,
+        "x": 925,
+        "y": 1100,
         "wires": []
     },
     {
@@ -8437,8 +8709,8 @@
         "links": [
             "8817dd1037700f47"
         ],
-        "x": 1105,
-        "y": 760,
+        "x": 145,
+        "y": 1100,
         "wires": [
             [
                 "e80118a27f88f38c"
@@ -8458,8 +8730,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1670,
-        "y": 720,
+        "x": 710,
+        "y": 1060,
         "wires": [
             [
                 "baa16b31772b7f7f"
@@ -8475,8 +8747,8 @@
         "links": [
             "c5b84c3dc61e16e4"
         ],
-        "x": 125,
-        "y": 2440,
+        "x": 115,
+        "y": 2560,
         "wires": [
             [
                 "gen_pre_notif_switch_001",
@@ -8500,8 +8772,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 310,
-        "y": 2440,
+        "x": 300,
+        "y": 2560,
         "wires": [
             [
                 "gen_pre_notif_junc1_001"
@@ -8522,8 +8794,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 340,
-        "y": 2340,
+        "x": 330,
+        "y": 2460,
         "wires": []
     },
     {
@@ -8536,8 +8808,8 @@
         "links": [
             "f3a1b2c3d4e5f602"
         ],
-        "x": 845,
-        "y": 2400,
+        "x": 835,
+        "y": 2520,
         "wires": []
     },
     {
@@ -8549,8 +8821,8 @@
         "links": [
             "f3a1b2c3d4e5f605"
         ],
-        "x": 1025,
-        "y": 2400,
+        "x": 1015,
+        "y": 2520,
         "wires": [
             [
                 "gen_post_notif_switch_001",
@@ -8579,8 +8851,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1200,
-        "y": 2420,
+        "x": 1190,
+        "y": 2540,
         "wires": [
             [
                 "gen_set_ci_087_001"
@@ -8604,8 +8876,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1240,
-        "y": 2340,
+        "x": 1230,
+        "y": 2460,
         "wires": []
     },
     {
@@ -8621,8 +8893,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1420,
-        "y": 2380,
+        "x": 1410,
+        "y": 2500,
         "wires": [
             [
                 "gen_post_notif_link_out_001"
@@ -8640,8 +8912,8 @@
         "links": [
             "f3a1b2c3d4e5f608"
         ],
-        "x": 1765,
-        "y": 2420,
+        "x": 1755,
+        "y": 2540,
         "wires": []
     },
     {
@@ -8654,8 +8926,8 @@
         "links": [
             "663e3c033a8063f0"
         ],
-        "x": 785,
-        "y": 1740,
+        "x": 775,
+        "y": 1980,
         "wires": []
     },
     {
@@ -8667,8 +8939,8 @@
         "links": [
             "16fa76fef84ee37d"
         ],
-        "x": 135,
-        "y": 1740,
+        "x": 125,
+        "y": 1900,
         "wires": [
             [
                 "e62bfc81e3efab18"
@@ -8685,17 +8957,49 @@
         "propertyType": "msg",
         "rules": [
             {
+                "t": "cont",
+                "v": "CI_070",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_074",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_077",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_082",
+                "vt": "str"
+            },
+            {
                 "t": "else"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 1,
-        "x": 660,
-        "y": 1740,
+        "outputs": 5,
+        "x": 230,
+        "y": 1900,
         "wires": [
             [
-                "839c1b1457e95a97"
+                "4dc237292ce67b4b"
+            ],
+            [
+                "set_ci_074"
+            ],
+            [
+                "2ff3dd80c83001a4"
+            ],
+            [
+                "765c1a7f55e41c21"
+            ],
+            [
+                "434f8a0c26896f94"
             ]
         ]
     },
@@ -8709,8 +9013,8 @@
         "links": [
             "184988ac31193b07"
         ],
-        "x": 1905,
-        "y": 1880,
+        "x": 1895,
+        "y": 2000,
         "wires": []
     },
     {
@@ -8722,8 +9026,8 @@
         "links": [
             "cb183192e173e83b"
         ],
-        "x": 1035,
-        "y": 1880,
+        "x": 1025,
+        "y": 2000,
         "wires": [
             [
                 "2f0f133fb016e61a"
@@ -8740,67 +9044,87 @@
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
+                "t": "cont",
+                "v": "CI_073",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_075",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_076",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CI_078",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
                 "v": "CI_120",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_121",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_122",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_123",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_124",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_125",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_126",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_127",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_128",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_129",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_130",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_131",
                 "vt": "str"
             },
             {
-                "t": "eq",
+                "t": "cont",
                 "v": "CI_132",
                 "vt": "str"
             },
@@ -8810,10 +9134,22 @@
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 14,
-        "x": 1130,
-        "y": 1880,
+        "outputs": 18,
+        "x": 1120,
+        "y": 2000,
         "wires": [
+            [
+                "64bd330aaac47c6f"
+            ],
+            [
+                "166b226f59bfc1a0"
+            ],
+            [
+                "0e8047fb9f63a570"
+            ],
+            [
+                "05207276ba68f6a2"
+            ],
             [
                 "gen_sdjwt_set_ci120_001"
             ],
@@ -8871,8 +9207,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1700,
+        "x": 1490,
+        "y": 1820,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8892,8 +9228,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1740,
+        "x": 1490,
+        "y": 1860,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8913,8 +9249,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1780,
+        "x": 1490,
+        "y": 1900,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8934,8 +9270,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1820,
+        "x": 1490,
+        "y": 1940,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8955,8 +9291,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1860,
+        "x": 1490,
+        "y": 1980,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8976,8 +9312,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1900,
+        "x": 1490,
+        "y": 2020,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -8997,8 +9333,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1940,
+        "x": 1490,
+        "y": 2060,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -9018,8 +9354,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 1980,
+        "x": 1490,
+        "y": 2100,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -9039,8 +9375,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 2020,
+        "x": 1490,
+        "y": 2140,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -9060,8 +9396,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 2060,
+        "x": 1490,
+        "y": 2180,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -9081,8 +9417,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 2100,
+        "x": 1490,
+        "y": 2220,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -9102,8 +9438,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 2140,
+        "x": 1490,
+        "y": 2260,
         "wires": [
             [
                 "fd669d8614d0c9eb"
@@ -9123,8 +9459,186 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1500,
-        "y": 2180,
+        "x": 1490,
+        "y": 2300,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "set_ci_074",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "b89e8c1fe0477a20",
+        "name": "Set CI_074",
+        "func": "// Set CI_074 – three test cases (OK / KO / INVALID)\n// - Single output\n// - Three node.send() calls\n// - innerSplit.total = 3\n\nconst clone = (m) => RED.util.cloneMessage(m);\nconst splitId = msg.testRunId || msg.sessionId || (\"ci074-\" + Date.now());\n\n// 1) OK: asymmetric alg (accepted by server)\nconst ok = clone(msg);\nok.testId = \"CI_074\";\nok.subTestCase = \"74ok\";\nok.innerSplit = { _id: splitId, index: 0, total: 3 };\nok.proofAlgHint = \"ES256\";\nok.forceUnsignedProof = false;\nnode.send(ok);\n\n// 2) KO: alg=none (unsigned proof, must be rejected by server)\nconst ko = clone(msg);\nko.testId = \"CI_074\";\nko.subTestCase = \"74ko\";\nko.innerSplit = { _id: splitId, index: 1, total: 3 };\nko.proofAlgHint = \"none\";\nko.forceUnsignedProof = true;\nnode.send(ko);\n\n// 3) INVALID: alg not in allow-list (e.g., HS256)\n//    Expectation: builder rejects locally OR server rejects with 4xx + error\nconst inv = clone(msg);\ninv.testId = \"CI_074\";\ninv.subTestCase = \"74inv\";\ninv.innerSplit = { _id: splitId, index: 2, total: 3 };\ninv.proofAlgHint = \"HS256\";      // not allowed by the custom allow-list\ninv.forceUnsignedProof = false;   // signed path if builder lets it pass\nnode.send(inv);\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1880,
+        "wires": [
+            [
+                "839c1b1457e95a97"
+            ]
+        ]
+    },
+    {
+        "id": "765c1a7f55e41c21",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "b89e8c1fe0477a20",
+        "name": "Set CI_082",
+        "func": "// Set CI_082 – OK and KO (valid/invalid DPoP)\n// This version correctly propagates token_response, dpop, sentParameters, etc.\n\nconst clone = (m) => RED.util.cloneMessage(m);\nconst splitId = msg.testRunId || msg.sessionId || (\"ci082-\" + Date.now());\n\nfunction enrich(t) {\n    // Ensure all required fields for the DPoP subflow are carried forward\n    t.token_response = msg.token_response;\n    t.dpop = msg.dpop;\n    t.sentParameters = msg.sentParameters;\n    t.authorization_details = msg.authorization_details;\n    return t;\n}\n\n// --- 1) OK case ---\nconst ok = enrich(clone(msg));\nok.testId = \"CI_082\";\nok.subTestCase = \"82ok\";\nok.innerSplit = { _id: splitId, index: 0, total: 2 };\nok.dpopTestMode = \"valid\";    // generate correct DPoP\nnode.send(ok);\n\n// --- 2) KO case ---\nconst ko = enrich(clone(msg));\nko.testId = \"CI_082\";\nko.subTestCase = \"82ko\";\nko.innerSplit = { _id: splitId, index: 1, total: 2 };\nko.dpopTestMode = \"invalid\";  // generate invalid DPoP\nnode.send(ko);",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1960,
+        "wires": [
+            [
+                "839c1b1457e95a97"
+            ]
+        ]
+    },
+    {
+        "id": "4dc237292ce67b4b",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "b89e8c1fe0477a20",
+        "name": "Set CI_070",
+        "func": "const crypto = global.get(\"crypto\");\nconst ci = global.get(\"ciCommon\");\n\nconst splitId = Math.random();\n\nconst c_nonce = ci.base64url(crypto.randomBytes(24));\n\nconst cases = [\n    { subTestCase: \"70ok_first\" },\n    { subTestCase: \"70ok_second\" },\n    { subTestCase: \"70ko\", c_nonce: c_nonce }\n];\n\ncases.forEach((c, i, arr) => {\n    const newMsg = RED.util.cloneMessage(msg);\n\n    newMsg.innerSplit = {\n        index: i,\n        _id: splitId,\n        total: arr.length\n    };\n\n    newMsg.subTestCase = c.subTestCase;\n\n    if (c.c_nonce) {\n        newMsg.c_nonce = c.c_nonce;\n    }\n\n    setTimeout(() => {\n        node.send(newMsg);\n    }, i * 1000); \n});\n\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1840,
+        "wires": [
+            [
+                "839c1b1457e95a97"
+            ]
+        ]
+    },
+    {
+        "id": "0e8047fb9f63a570",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_076",
+        "func": "const crypto = global.get(\"crypto\");\nconst { SignJWT, importJWK, importPKCS8 } = jose;\n\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 2 };\nmsg.subTestCase = \"76ok\";\nnode.send(msg);\n\nlet _msg = RED.util.cloneMessage(msg);\n\n_msg.innerSplit.index = 1;\n_msg.subTestCase = \"76ko\";\n\n\n  const clientId = _msg.client_id || 'wallet-client';\n  const aud = _msg.sentParameters.credientialEndpoint\n  const now = Math.floor(Date.now()/1000);\n  const jti = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : (Date.now().toString(36) + Math.random().toString(36).slice(2));\n\n  // Build proof payload (claims)\n  const proofClaims = {\n    iss: clientId,\n    aud: aud,\n    iat: now,\n    nonce: _msg.c_nonce\n  };\n\n  // If proofKeyPub provided use it; otherwise try to derive from proofKeyPriv\nlet proofPub = _msg.dpop.publicJwk || null;\nif (!proofPub && _msg.dpop.privateKeyPem) {\n    const pk = _msg.dpop.privateKeyPem;\n    if (pk.kty === 'EC') proofPub = { kty: 'EC', crv: pk.crv, x: pk.x, y: pk.y };\n    else if (pk.kty === 'RSA') proofPub = { kty: 'RSA', n: pk.n, e: pk.e };\n  }\n\n  // Create signed JWT if we have a private key; otherwise fallback to non-signed compact (DEBUG ONLY)\n  let proofJwt;\nif (_msg.dpop.privateKeyPem) {\n  const pk = _msg.dpop.privateKeyPem;\n    const alg = (pk.kty === 'EC') ? 'ES256' : (pk.kty === 'RSA' ? 'RS256' : 'ES256');\n    //Update profJWT Headers CI_076\n    const typ = 'openid4vci-proof+jwt';\n    const jwk = proofPub;\n    jwk.d = 'PrivateKey_example';\n  \n\n  const importedKey = await importPKCS8(pk, alg);\n\n    proofJwt = await new SignJWT(proofClaims)\n      .setProtectedHeader({ alg, typ, jwk })\n      .setIssuedAt(now)\n      .setJti(jti)\n      .sign(importedKey);\n  } else {\n    // DEBUG fallback: NOT RECOMMENDED for production\n    // produce a compact base64url(payload) so you can inspect easily during tests\n    proofJwt = Buffer.from(JSON.stringify(proofClaims)).toString('base64url');\n  }\n\n  // Output\n  _msg.new_proofs = Array.isArray(_msg.proofs) ? _msg.proofs.concat([proofJwt]) : [proofJwt];\n _msg.payload.proofs.jwt = _msg.new_proofs;\n  \nnode.send(_msg);\nreturn;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "jose",
+                "module": "jose"
+            }
+        ],
+        "x": 1490,
+        "y": 1740,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "05207276ba68f6a2",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_078",
+        "func": "const crypto = global.get(\"crypto\");\nconst { SignJWT, importJWK, importPKCS8 } = jose;\nconst ci = global.get(\"ciCommon\");\n\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 2 };\nmsg.subTestCase = \"78ok\";\nnode.send(msg);\n\n\nsetTimeout(async () => {\n    let _msg = RED.util.cloneMessage(msg);\n\n    _msg.innerSplit.index = 1;\n    _msg.subTestCase = \"78ko\";\n\n    const clientId = _msg.client_id || 'wallet-client';\n    const aud = _msg.sentParameters.credientialEndpoint\n    const expired_time = Math.floor(Date.now() / 1000) - 61;\n    const jti = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : (Date.now().toString(36) + Math.random().toString(36).slice(2));\n\n    // Build proof payload (claims)\n    const proofClaims = {\n        iss: clientId,\n        aud: aud,\n        iat: expired_time,\n        nonce: _msg.c_nonce\n    };\n\n    // If proofKeyPub provided use it; otherwise try to derive from proofKeyPriv\n    let proofPub = _msg.dpop.publicJwk || null;\n    if (!proofPub && _msg.dpop.privateKeyPem) {\n        const pk = _msg.dpop.privateKeyPem;\n        if (pk.kty === 'EC') proofPub = { kty: 'EC', crv: pk.crv, x: pk.x, y: pk.y };\n        else if (pk.kty === 'RSA') proofPub = { kty: 'RSA', n: pk.n, e: pk.e };\n    }\n\n    // Create signed JWT if we have a private key; otherwise fallback to non-signed compact (DEBUG ONLY)\n    let proofJwt;\n    if (_msg.dpop.privateKeyPem) {\n        const pk = _msg.dpop.privateKeyPem;\n        const alg = (pk.kty === 'EC') ? 'ES256' : (pk.kty === 'RSA' ? 'RS256' : 'ES256');\n        //Update profJWT Headers CI_076\n        const typ = 'openid4vci-proof+jwt';\n        const jwk = proofPub;\n\n\n        const importedKey = await importPKCS8(pk, alg);\n\n        proofJwt = await new SignJWT(proofClaims)\n            .setProtectedHeader({ alg, typ, jwk })\n            .setIssuedAt(expired_time)\n            .setJti(jti)\n            .sign(importedKey);\n    } else {\n        // DEBUG fallback: NOT RECOMMENDED for production\n        // produce a compact base64url(payload) so you can inspect easily during tests\n        proofJwt = Buffer.from(JSON.stringify(proofClaims)).toString('base64url');\n    }\n\n    // Output\n    _msg.new_proofs = Array.isArray(_msg.proofs) ? _msg.proofs.concat([proofJwt]) : [proofJwt];\n    _msg.payload.proofs.jwt = _msg.new_proofs;\n\n    node.send(_msg);\n}, 1000);\n\nreturn;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "jose",
+                "module": "jose"
+            }
+        ],
+        "x": 1490,
+        "y": 1780,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "2ff3dd80c83001a4",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "b89e8c1fe0477a20",
+        "name": "Set CI_077",
+        "func": "const crypto = global.get(\"crypto\");\nconst ci = global.get(\"ciCommon\");\n\nconst splittedId = Math.random();\nmsg.innerSplit = { index: 0, _id: splittedId, total: 2 };\nmsg.subTestCase = \"77ok\";\nnode.send(msg);\n\n\nsetTimeout(() => {\n    let _msg = RED.util.cloneMessage(msg);\n\n    _msg.innerSplit.index = 1;\n    _msg.subTestCase = \"77ko\";\n\n    let store = global.get(\"nonce_store\") || {};\n    let new_nonce = ci.base64url(crypto.randomBytes(24));\n    let oldKey = Object.keys(store)[0];\n\n    store[new_nonce] = store[oldKey];\n    delete store[oldKey];\n\n    global.set(\"nonce_store\", store);\n    node.send(_msg);\n}, 1000);\n\nreturn;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 1920,
+        "wires": [
+            [
+                "839c1b1457e95a97"
+            ]
+        ]
+    },
+    {
+        "id": "64bd330aaac47c6f",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_073",
+        "func": "msg.subTestCase = \"73ko_missing_typ\";\n\nnode.warn(msg)\nconst subTestCase = msg.subTestCase;\n\n// funzione per modificare header JWT\nfunction modifyTyp(jwt) {\n\n    const [h, p, s] = jwt.split(\".\");\n\n    const header = JSON.parse(\n        Buffer.from(h, \"base64url\").toString()\n    );\n    node.warn(header);\n\n    if (subTestCase === \"73ko_missing_typ\") {\n        delete header.typ;\n    }\n\n    if (subTestCase === \"73ko_invalid_typ\") {\n        header.typ = \"JWT\";\n    }\n\n    if (subTestCase === \"73ok_typ_correct\") {\n        header.typ = \"openid4vci-proof+jwt\";\n    }\n\n    const newHeader = Buffer\n        .from(JSON.stringify(header))\n        .toString(\"base64url\");\n\n    return `${newHeader}.${p}.${s}`;\n}\n\n\n// normalizza proofs\nlet proofs = msg.payload?.proofs?.jwt;\n\nif (!proofs) {\n    node.error(\"No proofs.jwt found\", msg);\n    return;\n}\n\n// batch support\nif (Array.isArray(proofs)) {\n    msg.payload.proofs.jwt = proofs.map(modifyTyp);\n} else {\n    msg.payload.proofs.jwt = modifyTyp(proofs);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1660,
+        "wires": [
+            [
+                "fd669d8614d0c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "166b226f59bfc1a0",
+        "type": "function",
+        "z": "1111a98978c668d9",
+        "g": "5cf99e9328eb55e5",
+        "name": "Set CI_075",
+        "func": "const splittedId = Math.random();\n\nconst validMsg = RED.util.cloneMessage(msg);\nvalidMsg.innerSplit = { index: 0, _id: splittedId, total: 2 };\nvalidMsg.subTestCase = \"75ok\";\nnode.send(validMsg);\n\nlet invalidMsg = RED.util.cloneMessage(msg);\ninvalidMsg.dpop.publicJwk = { kty: \"EC\", crv: \"P-256\", x: \"invalid_x_coord\", y: \"invalid_y_coord\" };\ninvalidMsg.innerSplit = { index: 1, _id: splittedId, total: 2 };\ninvalidMsg.subTestCase = \"75ko-invalid\";\nnode.send(invalidMsg);\n\nreturn",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1700,
         "wires": [
             [
                 "fd669d8614d0c9eb"
